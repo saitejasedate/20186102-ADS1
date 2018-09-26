@@ -15,19 +15,17 @@ public class Solution{
 				j++;
 			}
 		}
-			if (i == arr1.length){
-				while (j < arr2.length){
+			if (i == arr1.length) {
+				while (j < arr2.length) {
 					sortedarr[k++] = arr2[j];
 					j++;
 				}
+			} else {
+				while(i < arr1.length) {
+				sortedarr[k++] = arr1[i];
+				i++;
 			}
-			else {
-					while(i < arr1.length) {
-					sortedarr[k++] = arr1[i];
-					i++;
-
-				}
-			}
+		}
 		int x;
 		for (x = 0; x < sortedarr.length-1; x++) {
 			System.out.print(sortedarr[x]+ ",");
@@ -46,12 +44,12 @@ public class Solution{
 		int[] arr1 = new int[sizeOfarr1];
 		int[] arr2 = new int[sizeOfarr2];
 		String[] elements;
-		if (sizeOfarr1 != 0){
+		if (sizeOfarr1 != 0) {
 		 elements = sc.nextLine().split(",");
 		for (int i = 0; i < elements.length; i++) {
 			arr1[i] = Integer.parseInt(elements[i]);
 		}
-	} else{
+	} else {
 		sc.nextLine();
 	}
 	    if (sizeOfarr2 != 0) {
