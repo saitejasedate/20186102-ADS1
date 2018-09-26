@@ -1,6 +1,12 @@
 import java.util.Scanner;
-public class Solution {
-    public void mergeArrays(final int[] arr1,final int[] arr2) {
+public final class Solution {
+    /**
+     * { function_description }.
+     *
+     * @param      arr1  The arr 1
+     * @param      arr2  The arr 2
+     */
+    public void mergeArrays(final int[] arr1, final int[] arr2) {
         int i = 0;
         int j = 0;
         int k = 0;
@@ -20,7 +26,7 @@ public class Solution {
                     j++;
                 }
             } else {
-                while(i < arr1.length) {
+                while (i < arr1.length) {
                 sortedarr[k++] = arr1[i];
                 i++;
             }
