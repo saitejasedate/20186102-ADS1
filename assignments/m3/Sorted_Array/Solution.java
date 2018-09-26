@@ -51,8 +51,8 @@ public class Solution{
 		for (int i = 0; i < elements.length; i++) {
 			arr1[i] = Integer.parseInt(elements[i]);
 		}
-		} else{
-			sc.nextLine();
+	} else{
+		sc.nextLine();
 	}
 	    if (sizeOfarr2 != 0) {
 		elements = sc.nextLine().split(",");
