@@ -41,8 +41,8 @@ public class Solution{
 	 */
 	public static void main(final String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int sizeOfarr1 = sc.nextInt();
-		int sizeOfarr2 = sc.nextInt();
+		int sizeOfarr1 = Integer.parseInt(sc.nextLine());
+		int sizeOfarr2 = Integer.parseInt(sc.nextLine());
 		int[] arr1 = new int[sizeOfarr1];
 		int[] arr2 = new int[sizeOfarr2];
 		String[] elements;
