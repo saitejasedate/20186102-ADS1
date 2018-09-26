@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.Arrays;
 public class Solution{
 	public void mergeArrays(final int[] arr1,final int[] arr2){
 		int i = 0;
