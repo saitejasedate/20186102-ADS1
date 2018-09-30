@@ -105,12 +105,12 @@ public final class Solution {
      *
      * @param  s  String of the input data.
      *
-     * @return     It returns the boolean value whether the chr is present in data
+     * @return It returns the boolean value whether the chr is present in data
      * or not.
      */
     public static boolean theparantheses(final String s) {
         /**
-         * It is the function,which checks whether the char is present in the 
+         * It is the function,which checks whether the char is present in the
          * String or not.
          */
         LinkedList l = new LinkedList();
