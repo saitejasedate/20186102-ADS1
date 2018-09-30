@@ -245,6 +245,4 @@ class LinkedList<E>{
         return current.data;
 
     }
-
-
 }
