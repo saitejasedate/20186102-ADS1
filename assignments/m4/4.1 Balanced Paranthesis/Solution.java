@@ -1,7 +1,7 @@
 import java.util.Scanner;
 /**.
- * List.
- */
+* List.
+*/
 class LinkedList {
     /**.
      * Node class.
@@ -58,7 +58,7 @@ class LinkedList {
         return  head == null;
     }
     /**.
-     * 
+     *
      *
      * @return   description
      */
@@ -69,8 +69,8 @@ class LinkedList {
 
 }
 /**
- Solution class.
- */
+Solution class.
+*/
 public final class Solution {
     /**.
      * Constructs the object.
@@ -81,7 +81,7 @@ public final class Solution {
      */
     }
     /**.
-     * 
+     *
      *
      * @param args arguments
      */
@@ -101,7 +101,7 @@ public final class Solution {
         }
     }
     /**.
-     * 
+     *
      *
      * @param  s  String of the input data.
      *
