@@ -1,0 +1,14 @@
+For example, 
+Consider 1, 2, 3, 4, 5
+stack.push(q.dequeue(1)) - 1
+stack.push(q.dequeue(2)) - 1 2
+stack.push(q.dequeue(3)) - 1 2 3
+stack.push(q.dequeue(4)) - 1 2 3 4 
+stack.push(q.dequeue(5)) - 1 2 3 4 5
+
+q.enqueue(stack.pop(5)) - 5
+q.enqueue(stack.pop(4)) - 5 4 
+q.enqueue(stack.pop(3)) - 5 4 3
+q.enqueue(stack.pop(2)) - 5 4 3 2 
+q.enqueue(stack.pop(1)) - 5 4 3 2 1(final output of the program).
+

@@ -1,0 +1,62 @@
+(a) 0 1 2 3 4 5 6 7 8 9
+enqueue		
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+dequeue
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+	
+This sequence could possibly occur.
+		
+
+(b) 4 6 8 7 5 3 2 9 0 1 
+enqueue		
+0
+1
+2
+3
+4
+dequeque
+0
+
+This sequence is not possible because without removing first element, other element cannot be removed.
+
+
+(c) 2 5 6 7 4 8 9 3 1 0
+enqueue		
+0
+1
+dequeque
+0
+
+This sequence is not possible because without removing first element, other element cannot be removed.
+
+
+(d) 4 3 2 1 0 5 6 7 8 9
+enqueque	
+0
+1
+2
+3
+4
+dequeque
+0
+
+This sequence is not possible because without removing first element, other element cannot be removed.
+
