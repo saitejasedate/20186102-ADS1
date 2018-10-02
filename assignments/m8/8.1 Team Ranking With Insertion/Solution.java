@@ -92,7 +92,7 @@ class Solution {
 		Selection_sort.sort(teams);
 		for (Team team : teams) {
 			String output = team + ",";
-			System.out.println(output);
+			System.out.print(output);
 		}
 	}	
 }
