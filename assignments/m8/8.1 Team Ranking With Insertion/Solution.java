@@ -91,7 +91,7 @@ class Solution {
 		} 
 		Selection_sort.sort(teams);
 		for (Team team : teams) {
-			System.out.println(team);
+			System.out.println(team+",");
 		}
 	}	
 }
