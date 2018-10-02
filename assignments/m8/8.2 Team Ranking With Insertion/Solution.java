@@ -17,6 +17,8 @@ final class Solution {
      *
      * @param      args  The arguments
      */
+    /**main method converts the given input data into 
+    array objects and pass as parameters to the sorting class.**/
     public static void main(final String[] args) {
         final int three = 3;
         Scanner sc = new Scanner(System.in);

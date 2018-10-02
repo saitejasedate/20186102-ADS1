@@ -1,8 +1,18 @@
 class Team implements Comparable<Team> {
+	/**The Team class also implements the interface
+	of the Comparable class.**/
 	private String country;
 	private int wins;
 	private int loses;
 	private int draws;
+	/**
+	 * Constructs the object.
+	 *
+	 * @param      country  The country
+	 * @param      wins     The wins
+	 * @param      loses    The loses
+	 * @param      draws    The draws
+	 */
 	Team (String country, int wins, int loses, int draws) {
 		this.country = country;
 		this.wins = wins;
