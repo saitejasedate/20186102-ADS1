@@ -1,9 +1,11 @@
 import java.util.Scanner;
+/**
+ * @author : saitejasedate.
+ */
 final class Solution {
     /**
      * Solution class for Selection sort program.
      *
-     * @param      args  The arguments
      */
     private Solution() {
         /**
