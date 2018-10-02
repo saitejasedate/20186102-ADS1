@@ -87,6 +87,7 @@ class Solution {
 			Integer.parseInt(tokens[3]));
 			teams[i++] = team;
 		} 
+		Selection_sort.sort(teams);
 		for (Team team : teams) {
 			System.out.println(team);
 		}
