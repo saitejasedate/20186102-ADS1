@@ -91,9 +91,9 @@ class Solution {
 		} 
 		Selection_sort.sort(teams);
 		for (Team team : teams) {
-			String output = team + ",";
-			output.replaceAll(", $", ""); 
+			String output = team + ","; 
 			System.out.print(output);
+			System.out.print("/b");
 		}
 	}	
 }
