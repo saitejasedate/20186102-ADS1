@@ -1,5 +1,5 @@
-import java.util.*;
-class Solution {
+import java.util.Scanner;
+final class Solution {
     /**
      * Solution class for Selection sort program.
      *
@@ -10,7 +10,12 @@ class Solution {
          * { item_description }.
          */
     }
-    public static void main(String[] args) {
+    /**
+     * Main function to take inputs.
+     *
+     * @param      args  The arguments
+     */
+    public static void main(final String[] args) {
         final int three = 3;
         Scanner sc = new Scanner(System.in);
         StringBuffer sb = new StringBuffer();
