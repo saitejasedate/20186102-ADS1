@@ -38,12 +38,12 @@ import java.util.*;
 	}
 	public int compareTo(Team that) {
 		Team a = this;
-		if (a.wins < that.wins) return -1;
-		if (a.wins > that.wins) return +1;
-		if (a.loses < that.loses) return -1;
-		if (a.loses > that.loses) return +1;
-		if (a.draws < that.draws) return -1;
-		if (a.draws > that.draws) return +1; 
+		if (a.wins > that.wins) return -1;
+		if (a.wins < that.wins) return +1;
+		if (a.loses > that.loses) return -1;
+		if (a.loses < that.loses) return +1;
+		if (a.draws > that.draws) return -1;
+		if (a.draws < that.draws) return +1; 
 		return 0;
 	}
 }
