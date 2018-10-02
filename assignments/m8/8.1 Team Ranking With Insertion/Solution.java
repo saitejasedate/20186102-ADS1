@@ -93,6 +93,6 @@ class Solution {
 		for (Team team : teams) {
 			String output = team + ",";
 			System.out.print(output);
-			System.out.println(/b);	
+		}
 	}	
 }
