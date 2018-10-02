@@ -1,4 +1,9 @@
 class Selection {
+	/**
+	 * { function_description }.
+	 *
+	 * @param      arr   The arr
+	 */
 	public static void sort(Comparable[] arr) {
 		int arr_length = arr.length;
 		for (int i = 0; i < arr_length; i++) {
@@ -10,6 +15,7 @@ class Selection {
 			}
 			exch (arr, i, min);
 		}
+		/**Time complexity of the above method is O(N^2log(N)).**/
 	}
 	private static boolean less(Comparable v, Comparable w) {
 		return (v.compareTo(w) < 0);

@@ -18,6 +18,11 @@ final class Solution {
      * @param      args  The arguments
      */
     public static void main(final String[] args) {
+    	/**
+    	 * In main method the given input is split into tokens and 
+    	 * these tokens are passed as parameters to the selection
+    	 * sort class.
+    	 */
         final int three = 3;
         Scanner sc = new Scanner(System.in);
         StringBuffer sb = new StringBuffer();
