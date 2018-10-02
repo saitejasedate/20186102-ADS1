@@ -90,10 +90,10 @@ class Solution {
 			teams[i++] = team;
 		} 
 		Selection_sort.sort(teams);
+		String output = "";
 		for (Team team : teams) {
-			String output = team + ","; 
-			System.out.print(output);
+			output += team + ","; 
 		}
-		System.out.print(/b);
+		System.out.print(output.substring(0,output.length() - 1));
 	}	
 }
