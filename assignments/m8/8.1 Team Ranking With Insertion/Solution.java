@@ -35,7 +35,7 @@ import java.util.*;
 	}
 
 	public String toString() {
-		return this.country;
+		return this.country;		
 	}
 
 	public int compareTo(Team that) {
