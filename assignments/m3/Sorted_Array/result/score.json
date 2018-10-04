@@ -1,1 +1,1 @@
-{"problem_id": "ads1_sorted_array", "user_id": "saitejasedate", "score": "3/3", "check_style_score": "1/1"}
+{"version": "1", "message": "ERROR: Hidden Testcases server unreachable.", "problem_id": "ads1_sorted_array", "user_id": "saitejasedate", "score": {"sample": {"0": {"execution_time": 0.3696017265319824, "passed": true}, "1": {"execution_time": 0.37224268913269043, "passed": true}, "2": {"execution_time": 0.37943315505981445, "passed": true}}}, "check_style_score": "0/1"}

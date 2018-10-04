@@ -10,7 +10,7 @@ import java.util.Scanner;
  */
 public final class Solution {
     /**
-     * pass the two input arrays as arguments to the 
+     * pass the two input arrays as arguments to the
      * function mergeArrays.
      *
      * @param      arr1  The arr 1
