@@ -28,8 +28,10 @@ final class Solution {
         StringBuffer sb = new StringBuffer();
         while (sc.hasNext()) {
             sb.append(sc.nextLine() + "::");
+            // System.out.println(sb);
         }
         String[] lines = sb.toString().split("::");
+        // System.out.println(sb.toString().split("::"));
         int i = 0;
         Team[] teams = new Team[lines.length];
         for (String line : lines) {
