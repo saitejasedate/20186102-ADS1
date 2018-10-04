@@ -1,10 +1,17 @@
+/**
+ * @author: saitejasedate.
+ */
+/**
+ * import Scanner class.
+ */
 import java.util.Scanner;
 /**
  * { item_description }.
  */
 public final class Solution {
     /**
-     * { function_description }.
+     * pass the two input arrays as arguments to the 
+     * function mergeArrays.
      *
      * @param      arr1  The arr 1
      * @param      arr2  The arr 2
@@ -13,7 +20,10 @@ public final class Solution {
         int i = 0;
         int j = 0;
         int k = 0;
+        /**Create a new array of length of two arrays**/
         int[] sortedarr = new int[arr1.length + arr2.length];
+        /**Check if initial length of two arrays is not equals zero
+        and then sort the elements accordingly.**/
         while (i < arr1.length && j < arr2.length) {
             if (arr1[i] < arr2[j]) {
                 sortedarr[k++] = arr1[i];
@@ -41,7 +51,8 @@ public final class Solution {
         System.out.println(sortedarr[x]);
     }
     /**.
-     * { function_description }
+     * main function to take input arrays and pass them to the
+     * merge function.
      *
      * @param      args  The arguments
      */
