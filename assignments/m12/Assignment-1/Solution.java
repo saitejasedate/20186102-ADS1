@@ -49,8 +49,7 @@ final class Solution {
         Insertion.sort(students);
         String output = "";
         for (Student student : students) {
-            output += student + "/n";
+            System.out.println(student);
         }
-        System.out.print(output.substring(0, output.length() - 1));
     }
 }
