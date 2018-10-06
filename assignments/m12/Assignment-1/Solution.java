@@ -32,7 +32,7 @@ final class Solution {
         int sct_vacancies = sc.nextInt();
         StringBuffer sb = new StringBuffer();
         while (sc.hasNext()) {
-            sb.append(sc.nextLine() + "::");
+            sb.append(sc.next() + "::");
         }
         String[] lines = sb.toString().split("::");
         int i = 0;
