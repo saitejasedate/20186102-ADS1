@@ -11,7 +11,7 @@ class Team implements Comparable<Team> {
 	/**
 	 * Constructs the object.
 	 *
-	 * @param      country  The country
+	 * @param      country  The countryT
 	 * @param      wins     The wins
 	 * @param      loses    The loses
 	 * @param      draws    The draws
