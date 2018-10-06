@@ -5,17 +5,21 @@ class Student implements Comparable<Student> {
 	/**The Student class also implements the interface
 	of the Comparable class.**/
 	private String name;
-	private String dateOfbirth; 
+	private String date; 
+	private String month; 
+	private String year; 
 	private int subject1;
 	private int subject2;
 	private int subject3;
 	private int totalmarks;
 	private String reservation;
 
-	Student (String name, String dateOfbirth, int subject1, int subject2, int subject3,
+	Student (String name, String date, String month, String year, int subject1, int subject2, int subject3,
 		int totalmarks, String reservation) {
 		this.name = name;
-		this.dateOfbirth = dateOfbirth;
+		this.date = date;
+		this.month = month;
+		this.year = year;
 		this.subject1 = subject1;
 		this.subject2 = subject2;
 		this.subject3 = subject3;
@@ -43,17 +47,33 @@ class Student implements Comparable<Student> {
 	 *
 	 * @return     dateOfbirth.
 	 */
-	public String getdateOfbirth(){
-		return dateOfbirth;
+	public String getdate(){
+		return date;
 	}
 	/**
 	 * Set dateOfbirth.
 	 *
 	 * @param      dateOfbirth  The dateOfbirth.
 	 */
-	public void setdateOfbirth(String dateOfbirth){
-	  	this.dateOfbirth = dateOfbirth;
+	public void setdate(String date){
+	  	this.date = date;
 	}
+
+	 public String getmonth(){
+	  return year;
+	 }
+	 
+	 public void setmonth(String year){
+	  this.year = year;
+	 }
+
+	  public String getyear(){
+	   return year;
+	  }
+	  
+	  public void setyear(String year){
+	   this.year = year;
+	  }
 	/**
 	 * Get subject1.
 	 *
