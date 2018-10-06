@@ -39,10 +39,10 @@ final class Solution {
         Student[] students = new Student[lines.length];
         for (String line : lines) {
             String[] tokens = line.split(",");
-            Student student = new Student(tokens[6], tokens[7],
-                Integer.parseInt(tokens[8]), Integer.parseInt(tokens[9]),
-                Integer.parseInt(tokens[10]), Integer.parseInt(tokens[11]), 
-                tokens[12]);
+            Student student = new Student(tokens[0], tokens[1],
+                Integer.parseInt(tokens[2]), Integer.parseInt(tokens[3]),
+                Integer.parseInt(tokens[4]), Integer.parseInt(tokens[5]), 
+                tokens[6]);
             students[i++] = student;
         }
         Insertion.sort(students);
