@@ -140,7 +140,7 @@ class Student implements Comparable<Student> {
 	 * @return     String representation of the object.
 	 */
 	public String toString() {
-		return this.name+","+this.totalmarks+","+this.reservation;		
+		return this.name;		
 	}
 
 	/**

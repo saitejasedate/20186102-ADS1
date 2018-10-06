@@ -43,15 +43,6 @@ Starting audit...
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:134:36: Parameter reservation should be final. [FinalParameters]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:134:43: 'reservation' hides a field. [HiddenField]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:143: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:143: Line is longer than 80 characters (found 88). [LineLength]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:143:33: '+' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:143:34: '+' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:143:37: '+' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:143:38: '+' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:143:53: '+' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:143:54: '+' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:143:57: '+' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:143:58: '+' is not followed by whitespace. [WhitespaceAround]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:151: Line has trailing spaces. [RegexpSingleline]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:153: Expected @return tag. [JavadocMethod]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:153:30: Parameter that should be final. [FinalParameters]
@@ -63,4 +54,4 @@ Starting audit...
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:160: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:160: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 63 errors.
+Checkstyle ends with 54 errors.
