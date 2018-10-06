@@ -68,6 +68,14 @@ Starting audit...
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:154:36: Parameter reservation should be final. [FinalParameters]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:154:43: 'reservation' hides a field. [HiddenField]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:163: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:163: Line is longer than 80 characters (found 88). [LineLength]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:163:35: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:163:38: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:163:39: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:163:54: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:163:55: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:163:58: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:163:59: '+' is not followed by whitespace. [WhitespaceAround]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:171: Line has trailing spaces. [RegexpSingleline]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:173: Expected @return tag. [JavadocMethod]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:173:30: Parameter that should be final. [FinalParameters]
@@ -79,4 +87,4 @@ Starting audit...
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:180: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:180: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 79 errors.
+Checkstyle ends with 87 errors.

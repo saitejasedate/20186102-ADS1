@@ -31,7 +31,7 @@ tanvi,90,BC
 Aditya,80,ST
 priya,72,SC
 Your Output: 
-divya99ST,Deepak98Open,Ira93ST,tanvi90BC,Raj87BC,riya83Open,Aditya80ST,Ajay76Open,Arjun75Open,rahul73Open,priya72SC,shyam71ST,Priyanka70Open,varsha66BC,yash61BC,Abhishek60BC,Ankit58BC,vani50Open,Aishwarya48Open,Manoj39SC,Anjali38SC,Aryan32ST,Shreya23SC
+divya,99,ST/nDeepak,98,Open/nIra,93,ST/ntanvi,90,BC/nRaj,87,BC/nriya,83,Open/nAditya,80,ST/nAjay,76,Open/nArjun,75,Open/nrahul,73,Open/npriya,72,SC/nshyam,71,ST/nPriyanka,70,Open/nvarsha,66,BC/nyash,61,BC/nAbhishek,60,BC/nAnkit,58,BC/nvani,50,Open/nAishwarya,48,Open/nManoj,39,SC/nAnjali,38,SC/nAryan,32,ST/nShreya,23,SC/
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -75,7 +75,7 @@ Raj,87,BC
 Aditya,80,ST
 priya,72,SC
 Your Output: 
-divya99ST,Ishita99Open,Deepak98Open,Ira93ST,tanvi90BC,Raj87BC,mahesh87Open,riya83Open,Aditya80ST,Ajay76Open,Arjun75Open,rahul73Open,priya72SC,shyam71ST,ROHIT70SC,Amit70Open,Priyanka70Open,Tanya66BC,varsha66BC,yash61BC,Abhishek60BC,Ankit58BC,Gayatri58SC,vani50Open,Sneha50SC,Aishwarya48Open,Manoj39SC,Anjali38SC,Aryan32ST,Shreya23SC
+divya,99,ST/nIshita,99,Open/nDeepak,98,Open/nIra,93,ST/ntanvi,90,BC/nRaj,87,BC/nmahesh,87,Open/nriya,83,Open/nAditya,80,ST/nAjay,76,Open/nArjun,75,Open/nrahul,73,Open/npriya,72,SC/nshyam,71,ST/nROHIT,70,SC/nAmit,70,Open/nPriyanka,70,Open/nTanya,66,BC/nvarsha,66,BC/nyash,61,BC/nAbhishek,60,BC/nAnkit,58,BC/nGayatri,58,SC/nvani,50,Open/nSneha,50,SC/nAishwarya,48,Open/nManoj,39,SC/nAnjali,38,SC/nAryan,32,ST/nShreya,23,SC/
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -94,7 +94,7 @@ divya,99,Open
 Aditya,80,ST
 priya,76,SC
 Your Output: 
-divya99Open,tanvi90Open,Aditya80ST,Ajay76Open,priya76SC,rahul73Open,Amit70Open,Priyanka70Open,Tanya66BC,Abhishek60BC
+divya,99,Open/ntanvi,90,Open/nAditya,80,ST/nAjay,76,Open/npriya,76,SC/nrahul,73,Open/nAmit,70,Open/nPriyanka,70,Open/nTanya,66,BC/nAbhishek,60,BC/
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -116,7 +116,7 @@ priya,76,SC
 Ajay,76,Open
 Tanya,66,BC
 Your Output: 
-divya99Open,tanvi90ST,Aditya80Open,Ajay76Open,priya76SC,rahul73Open,Amit70Open,Priyanka70Open,Tanya66BC,Abhishek60BC
+divya,99,Open/ntanvi,90,ST/nAditya,80,Open/nAjay,76,Open/npriya,76,SC/nrahul,73,Open/nAmit,70,Open/nPriyanka,70,Open/nTanya,66,BC/nAbhishek,60,BC/
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -165,7 +165,7 @@ Ajay,76,Open
 Amit,76,Open
 Arjun,75,Open
 Your Output: 
-divya99Open,tanvi99Open,Ishita99Open,Deepak98Open,Ira93Open,Raj87Open,mahesh87Open,riya83Open,Aditya80Open,priya76Open,Ajay76Open,Amit76Open,Arjun75Open,rahul73Open,Tanya72Open,ROHIT70Open,Priyanka70Open,varsha66Open,yash61Open,Abhishek60Open,Ankit58Open,Gayatri58Open,vani50Open,Sneha50Open,Aishwarya48Open,Manoj39Open,Anjali38Open,Aryan32Open,Shreya23Open,shyam23Open
+divya,99,Open/ntanvi,99,Open/nIshita,99,Open/nDeepak,98,Open/nIra,93,Open/nRaj,87,Open/nmahesh,87,Open/nriya,83,Open/nAditya,80,Open/npriya,76,Open/nAjay,76,Open/nAmit,76,Open/nArjun,75,Open/nrahul,73,Open/nTanya,72,Open/nROHIT,70,Open/nPriyanka,70,Open/nvarsha,66,Open/nyash,61,Open/nAbhishek,60,Open/nAnkit,58,Open/nGayatri,58,Open/nvani,50,Open/nSneha,50,Open/nAishwarya,48,Open/nManoj,39,Open/nAnjali,38,Open/nAryan,32,Open/nShreya,23,Open/nshyam,23,Open/
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
@@ -216,5 +216,5 @@ rahul,73,Open
 priya,72,SC
 varsha,66,BC
 Your Output: 
-divya99ST,Ishita99Open,Deepak99Open,Ira93ST,tanvi90BC,Raj87BC,mahesh87BC,riya83Open,Aditya80ST,Ajay76Open,Amit76Open,Arjun75Open,rahul73Open,priya72SC,shyam71ST,ROHIT70SC,Priyanka70Open,Tanya66SC,varsha66BC,yash61Open,Abhishek60SC,Ankit58SC,Gayatri58SC,vani50Open,Sneha50SC,Aishwarya48Open,Anjali38SC,Manoj32SC,Aryan32ST,Shreya23SC
+divya,99,ST/nIshita,99,Open/nDeepak,99,Open/nIra,93,ST/ntanvi,90,BC/nRaj,87,BC/nmahesh,87,BC/nriya,83,Open/nAditya,80,ST/nAjay,76,Open/nAmit,76,Open/nArjun,75,Open/nrahul,73,Open/npriya,72,SC/nshyam,71,ST/nROHIT,70,SC/nPriyanka,70,Open/nTanya,66,SC/nvarsha,66,BC/nyash,61,Open/nAbhishek,60,SC/nAnkit,58,SC/nGayatri,58,SC/nvani,50,Open/nSneha,50,SC/nAishwarya,48,Open/nAnjali,38,SC/nManoj,32,SC/nAryan,32,ST/nShreya,23,SC/
 ----------------------------------------
