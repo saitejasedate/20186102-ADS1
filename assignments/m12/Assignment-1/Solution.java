@@ -28,9 +28,9 @@ final class Solution {
         int studentsQualified = sc.nextInt();
         int numOfvacancies = sc.nextInt();
         int unreserved_vacancies = sc.nextInt();
-        int BC_vacancies = sc.nextInt();
-        int SC_vacancies = sc.nextInt();
-        int ST_vacancies = sc.nextInt();
+        int bc_vacancies = sc.nextInt();
+        int sch_vacancies = sc.nextInt();
+        int sct_vacancies = sc.nextInt();
         StringBuffer sb = new StringBuffer();
         while (sc.hasNext()) {
             sb.append(sc.nextLine() + "::");
