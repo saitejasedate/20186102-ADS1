@@ -22,7 +22,7 @@ final class Solution {
             String[] tokens = sc.nextLine().split(" ");
             switch (tokens[0]) {
             case "insertAt":
-                if (!ll.insertAt(Integer.parseInt(tokens[1]), 
+                if (!ll.insertAt(Integer.parseInt(tokens[1]),
                     Integer.parseInt(tokens[2]))) {
                     size++;
                     System.out.println(ll.print());
