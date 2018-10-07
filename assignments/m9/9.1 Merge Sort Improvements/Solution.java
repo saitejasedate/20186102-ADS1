@@ -30,6 +30,7 @@ public final class Solution {
             }
             str += tokens[i] + "]";
             System.out.println(str);
+            System.out.println();
         }
     }
 }
