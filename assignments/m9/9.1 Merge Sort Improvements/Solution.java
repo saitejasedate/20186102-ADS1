@@ -9,7 +9,7 @@ public final class Solution {
     /**
      * Constructs the object.
      */
-    private Solution() { 
+    private Solution() {
 
     }
     /**
@@ -54,7 +54,7 @@ final class MergeSort {
      /**
       * setter for cutoff.
       *
-      * @param      cutoff  The cutoff.
+      * @param      cutof  The cutof.
       */
      public void setcutoff(final int cutof) {
       this.cutoff = cutof;
