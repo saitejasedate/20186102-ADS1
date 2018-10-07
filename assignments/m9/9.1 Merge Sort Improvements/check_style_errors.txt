@@ -1,0 +1,7 @@
+Starting audit...
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m9\9.1 Merge Sort Improvements\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m9\9.1 Merge Sort Improvements\Solution.java:12: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m9\9.1 Merge Sort Improvements\Solution.java:56:9: Unused @param tag for 'cutoff'. [JavadocMethod]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m9\9.1 Merge Sort Improvements\Solution.java:58:38: Expected @param tag for 'cutof'. [JavadocMethod]
+Audit done.
+Checkstyle ends with 4 errors.
