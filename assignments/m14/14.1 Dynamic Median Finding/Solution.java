@@ -24,12 +24,14 @@ public class Solution {
 				}
 				if (maxpq.size() == minpq.size()) {
 					median = (minpq.min() + maxpq.max()) / 2;
+					System.out.println(median);
 				} else if (maxpq.size() > minpq.size()) {
 					median = maxpq.size();
+					System.out.println(median);
 				} else {
 					median = minpq.size();
+					System.out.println(median);
 				}
-			System.out.println(median);
 			}
 		}	
 	}

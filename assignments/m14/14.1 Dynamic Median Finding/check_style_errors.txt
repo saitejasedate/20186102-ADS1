@@ -8,6 +8,6 @@ Starting audit...
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.1 Dynamic Median Finding\Solution.java:9: Line has trailing spaces. [RegexpSingleline]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.1 Dynamic Median Finding\Solution.java:13:35: 'if' is not followed by whitespace. [WhitespaceAround]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.1 Dynamic Median Finding\Solution.java:26: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.1 Dynamic Median Finding\Solution.java:34: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.1 Dynamic Median Finding\Solution.java:36: Line has trailing spaces. [RegexpSingleline]
 Audit done.
 Checkstyle ends with 10 errors.
