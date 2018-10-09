@@ -16,25 +16,25 @@ public class Solution {
 				else {
 					maxpq.insert(value);
 				}
+				if (maxpq.size() - minpq.size() > 1) {
+					float value1 = maxpq.delMax();
+					minpq.insert(value1);
+				}
+				else {
+					float value1 = minpq.delMin();
+					maxpq.insert(value1);
+				}
+				if (maxpq.size() == minpq.size()) {
+					median = (minpq.min() + maxpq.max()) / 2;
+				}
+				else if (maxpq.size() > minpq.size()) {
+					median = maxpq.size();
+				}
+				else {
+					median = minpq.size();
+				}
+				System.out.println(median);
 			}
-			if (maxpq.size() - minpq.size() > 1) {
-				float value1 = maxpq.delMax();
-				minpq.insert(value1);
-			}
-			else {
-				float value1 = minpq.delMin();
-				maxpq.insert(value1);
-			}
-			if (maxpq.size() == minpq.size()) {
-				median = (minpq.min() + maxpq.max()) / 2;
-			}
-			else if (maxpq.size() > minpq.size()) {
-				median = maxpq.size();
-			}
-			else {
-				median = minpq.size();
-			}
-			System.out.println(median);
 		}	
 	}
 }
