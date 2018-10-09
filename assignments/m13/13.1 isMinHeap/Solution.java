@@ -76,7 +76,7 @@ public final  class Solution {
             *
             *When the str value is Double this case will
             * executes.
-            */  
+            */
             case "Double":
             while (numOfinputs > 0) {
                 String[] tokens = sc.nextLine().split(",");
