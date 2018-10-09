@@ -42,15 +42,15 @@ public final  class Solution {
              */
             case "Integer":
             while (numOfinputs > 0) {
-                String[] tokens = key.split(",");
-                Integer[] inttokens = new Integer[tokens.length];
-                for (int i = 0; i < tokens.length; i++) {
-                    inttokens[i] = Integer.parseInt(tokens[i]);
-                }
+            String[] tokens = key.split(",");
+            Integer[] inttokens = new Integer[tokens.length];
+            for (int i = 0; i < tokens.length; i++) {
+                inttokens[i] = Integer.parseInt(tokens[i]);
+            }
             MinHeap min = new MinHeap(inttokens);
             System.out.println(min.IsMinHeap());
             numOfinputs--;
-            }
+        }
             break;
             /**
              * When the key value is Float this case will
@@ -63,24 +63,29 @@ public final  class Solution {
                     System.out.println(false);
                     break;
                 } else {
-                    String[] tokens = input.split(",");
-                    Float[] floattokens = new Float[tokens.length];
-                    for (int i = 0; i < tokens.length; i++) {
-                        floattokens[i] = Float.parseFloat(tokens[i]);
-                    }
-                    MinHeap min = new MinHeap(floattokens);
-                    System.out.println(min.IsMinHeap());
-                    numOfinputs--;
-                }
-            }
-            break;
-            /**
-             *
-             *When the key value is Double this case will
-             * executes.
-             */
 
-            case "Double":
+            String[] tokens = input.split(",");
+            Float[] floattokens = new Float[tokens.length];
+            // if (numOfinputs !=tokens.length) {
+            //     System.out.println(false);
+            // }
+            for (int i = 0; i < tokens.length; i++) {
+                floattokens[i] = Float.parseFloat(tokens[i]);
+            }
+
+            MinHeap min = new MinHeap(floattokens);
+            System.out.println(min.IsMinHeap());
+            numOfinputs--;
+        }
+    }
+        break;
+        /**
+         *
+         *When the key value is Double this case will
+         * executes.
+         */
+
+        case "Double":
             while (numOfinputs > 0) {
             String[] tokens = key.split(",");
             Double[] doubletokens = new Double[tokens.length];
@@ -90,11 +95,10 @@ public final  class Solution {
             MinHeap min = new MinHeap(doubletokens);
             System.out.println(min.IsMinHeap());
             numOfinputs--;
-            }
-            break;
-            default:
-            break;
+        }
+        break;
+        default:
+        break;
         }
     }
 }
-
