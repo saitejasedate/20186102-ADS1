@@ -20,8 +20,8 @@ public class MinHeap <E extends Comparable <E>> {
  * @return     True if minimum heap, False otherwise.
  */
 	public boolean IsMinHeap() {
-		for (int i = 0; i < array.length; i++) {
-			if (2 * i < array.length && min(2 * i, i)) {
+		for (int i = 1; i < array.length/2; i++) {
+			if (min(2 * i, i) && min(2 * i + 1, i)) {
 				return false;
 			}
 		}
