@@ -15,7 +15,7 @@ public class MinHeap <E extends Comparable <E>> {
 /**
  * Determines if minimum heap.
  * 
- * By the analysis the complexity of the method is O(N^2).
+ * By the analysis the complexity of the method is O(N).
  *
  * @return     True if minimum heap, False otherwise.
  */
