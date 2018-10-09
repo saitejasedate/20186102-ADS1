@@ -15,7 +15,7 @@ public class MinHeap <E extends Comparable <E>> {
 /**
  * Determines if minimum heap.
  * 
- * By the analysis the complexity of the method is O(N).
+ * By the analysis the time complexity of the method is O(N).
  *
  * @return     True if minimum heap, False otherwise.
  */
@@ -41,7 +41,4 @@ public class MinHeap <E extends Comparable <E>> {
 		return array[i].compareTo(array[j]) < 0;
 	}
 }
-	
-
-
 	

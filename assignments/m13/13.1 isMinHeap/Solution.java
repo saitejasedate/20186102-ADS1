@@ -1,3 +1,7 @@
+/**
+ * Program to check if the given input is minimum heap.
+ * @author : saitejasedate.
+ */
 import java.util.Scanner;
 /**
  * Class for solution.
@@ -12,9 +16,8 @@ public final  class Solution {
          */
     }
     /**.
-     * It is the main method in this method,in this we can
-     * take the input from the user and convert in to the array of
-     * the elements depends upon the various data types.
+     * Main method to take the input, convert them to the desired datatype and
+     * pass the input to the MinHeap method.
      * @param      args  The arguments
      */
     public static void main(final String[] args) {
