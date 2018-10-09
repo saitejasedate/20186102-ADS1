@@ -5,7 +5,7 @@ public class Solution {
 		int numOfvalues = sc.nextInt();
 		MinPQ<Float> minpq = new MinPQ<Float>(numOfvalues);
 		MaxPQ<Float> maxpq = new MaxPQ<Float>(numOfvalues);
-		double median = 0.0D; 
+		double median = 0.0; 
 		while (sc.hasNext()) {
 			for (int i = 0; i < numOfvalues; i++) {
 				float value = sc.nextFloat();
