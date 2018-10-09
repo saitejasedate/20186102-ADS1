@@ -30,7 +30,7 @@ public final  class Solution {
              */
             case "String":
             while (numOfinputs > 0) {
-                String[] tokens = key.split(",");
+                String[] tokens = sc.nextLine().split(",");
                 MinHeap min = new MinHeap(tokens);
                 System.out.println(min.IsMinHeap());
                 numOfinputs--;
@@ -42,7 +42,7 @@ public final  class Solution {
              */
             case "Integer":
             while (numOfinputs > 0) {
-            String[] tokens = key.split(",");
+            String[] tokens = sc.nextLine().split(",");
             Integer[] inttokens = new Integer[tokens.length];
             for (int i = 0; i < tokens.length; i++) {
                 inttokens[i] = Integer.parseInt(tokens[i]);
@@ -58,7 +58,7 @@ public final  class Solution {
              */
             case "Float":
             while (numOfinputs > 0) {
-                String input = key;
+                String input = sc.nextLine();
                 if (input.equals("")) {
                     System.out.println(false);
                     break;
@@ -87,7 +87,7 @@ public final  class Solution {
 
         case "Double":
             while (numOfinputs > 0) {
-            String[] tokens = key.split(",");
+            String[] tokens = sc.nextLine().split(",");
             Double[] doubletokens = new Double[tokens.length];
             for (int i = 0; i < tokens.length; i++) {
                 doubletokens[i] = Double.parseDouble(tokens[i]);
