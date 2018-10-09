@@ -47,9 +47,9 @@ public final  class Solution {
                 for (int i = 0; i < tokens.length; i++) {
                     inttokens[i] = Integer.parseInt(tokens[i]);
                 }
-                MinHeap min = new MinHeap(inttokens);
-                System.out.println(min.IsMinHeap());
-                numOfinputs--;
+            MinHeap min = new MinHeap(inttokens);
+            System.out.println(min.IsMinHeap());
+            numOfinputs--;
             }
             break;
             /**
