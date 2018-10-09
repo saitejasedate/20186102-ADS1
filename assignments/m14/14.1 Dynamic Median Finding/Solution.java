@@ -23,16 +23,17 @@ public class Solution {
 				}
 				if (maxpq.size() == minpq.size()) {
 					median = (minpq.min() + maxpq.max()) / 2;
-					System.out.println(median);
+					// System.out.println(median);
 				}  
 				else if (maxpq.size() > minpq.size()) {
 					median = maxpq.max();
-					System.out.println(median);
+					// System.out.println(median);
 				} 
 				else {
 					median = minpq.min();
-					System.out.println(median);
+					// System.out.println(median);
 				}
+				System.out.println(median);
 			}
 		}	
 	}
