@@ -7,11 +7,7 @@ Starting audit...
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.1 Dynamic Median Finding\Solution.java:3:33: Parameter args should be final. [FinalParameters]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.1 Dynamic Median Finding\Solution.java:9: Line has trailing spaces. [RegexpSingleline]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.1 Dynamic Median Finding\Solution.java:13:35: 'if' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.1 Dynamic Median Finding\Solution.java:15:33: '}' at column 5 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.1 Dynamic Median Finding\Solution.java:22:33: '}' at column 5 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.1 Dynamic Median Finding\Solution.java:28: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.1 Dynamic Median Finding\Solution.java:29:33: '}' at column 5 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.1 Dynamic Median Finding\Solution.java:32:33: '}' at column 5 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.1 Dynamic Median Finding\Solution.java:38: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.1 Dynamic Median Finding\Solution.java:26: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.1 Dynamic Median Finding\Solution.java:34: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 14 errors.
+Checkstyle ends with 10 errors.

@@ -12,28 +12,24 @@ public class Solution {
 				float value = sc.nextFloat();
 				if(value > median) {
 					minpq.insert(value);
-				}
-				else {
+				} else {
 					maxpq.insert(value);
 				}
 				if (maxpq.size() - minpq.size() > 1) {
 					float value1 = maxpq.delMax();
 					minpq.insert(value1);
-				}
-				else {
+				} else {
 					float value1 = minpq.delMin();
 					maxpq.insert(value1);
 				}
 				if (maxpq.size() == minpq.size()) {
 					median = (minpq.min() + maxpq.max()) / 2;
-				}
-				else if (maxpq.size() > minpq.size()) {
+				} else if (maxpq.size() > minpq.size()) {
 					median = maxpq.size();
-				}
-				else {
+				} else {
 					median = minpq.size();
 				}
-				System.out.println(median);
+			System.out.println(median);
 			}
 		}	
 	}
