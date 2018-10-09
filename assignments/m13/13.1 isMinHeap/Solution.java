@@ -14,18 +14,18 @@ public final  class Solution {
     /**.
      * It is the main method in this method,in this we can
      * take the input from the user and convert in to the array of
-     * the eelements depends upon the various data types.
+     * the elements depends upon the various data types.
      * By the analysis the complexity of the method is O(N^2).
      *
      * @param      args  The arguments
      */
     public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
-        String key = sc.nextLine();
+        String str = sc.nextLine();
         int numOfinputs = Integer.parseInt(sc.nextLine());
-        switch (key) {
+        switch (str) {
             /**
-             * When the key value is String this case will
+             * When the str value is String this case will
              * executes.
              */
             case "String":
@@ -37,7 +37,7 @@ public final  class Solution {
             }
             break;
             /**
-             * When the key value is Integer this case will
+             * When the str value is Integer this case will
              * executes.
              */
             case "Integer":
@@ -53,7 +53,7 @@ public final  class Solution {
         }
             break;
             /**
-             * When the key value is Float this case will
+             * When the str value is Float this case will
              * executes.
              */
             case "Float":
@@ -81,7 +81,7 @@ public final  class Solution {
         break;
         /**
          *
-         *When the key value is Double this case will
+         *When the str value is Double this case will
          * executes.
          */
 
