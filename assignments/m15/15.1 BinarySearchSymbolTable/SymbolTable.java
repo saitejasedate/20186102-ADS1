@@ -7,9 +7,9 @@
  */
 class SymbolTable<Key extends Comparable<Key>, Value> {
     /**
-     * initial capc for the arrays.
+     * initial CAPS for the arrays.
      */
-    private static final int capc = 2;
+    private static final int CAPS = 2;
     /**
      * keys array to store keys of the give.
      * SymbolTable
@@ -29,8 +29,8 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
      * the SymbolTable.
      */
     SymbolTable() {
-        keys = (Key[]) new Comparable[capc];
-        vals = (Value[]) new Object[capc];
+        keys = (Key[]) new Comparable[CAPS];
+        vals = (Value[]) new Object[CAPS];
     }
     /**
      *method to return max value.
