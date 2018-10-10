@@ -1,0 +1,5 @@
+Starting audit...
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m15\15.1 BinarySearchSymbolTable\SymbolTable.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m15\15.1 BinarySearchSymbolTable\SymbolTable.java:12:30: Name 'capacity' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'. [ConstantName]
+Audit done.
+Checkstyle ends with 2 errors.
