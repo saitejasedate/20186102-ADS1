@@ -36,7 +36,7 @@ public class Heap {
     * Indices are "off-by-one" to support 1-based indexing.
     ***************************************************************************/
     private static boolean less(Comparable[] pq, int i, int j) {
-        return pq[i-1].compareTo(pq[j-1]) < 0;
+        return pq[i-1].compareTo(pq[j-1]) > 0;
     }
 
     private static void exch(Object[] pq, int i, int j) {
