@@ -1,15 +1,4 @@
 Starting audit...
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.1 Dynamic Median Finding\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.1 Dynamic Median Finding\Solution.java:11: Class Solution should be declared as final. [FinalClass]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.1 Dynamic Median Finding\Solution.java:12:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.1 Dynamic Median Finding\Solution.java:12:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.1 Dynamic Median Finding\Solution.java:25: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.1 Dynamic Median Finding\Solution.java:29:35: 'if' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.1 Dynamic Median Finding\Solution.java:42: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.1 Dynamic Median Finding\Solution.java:43: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.1 Dynamic Median Finding\Solution.java:43:33: '}' at column 5 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.1 Dynamic Median Finding\Solution.java:46: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.1 Dynamic Median Finding\Solution.java:46:33: '}' at column 5 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.1 Dynamic Median Finding\Solution.java:52: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.1 Dynamic Median Finding\Solution.java:11:7: 'public' modifier out of order with the JLS suggestions. [ModifierOrder]
 Audit done.
-Checkstyle ends with 12 errors.
+Checkstyle ends with 1 errors.
