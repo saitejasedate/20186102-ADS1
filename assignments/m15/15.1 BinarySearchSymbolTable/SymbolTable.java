@@ -7,9 +7,9 @@
  */
 class SymbolTable<Key extends Comparable<Key>, Value> {
     /**
-     * initial capacity for the arrays.
+     * initial capc for the arrays.
      */
-    private static final int capacity = 2;
+    private static final int capc = 2;
     /**
      * keys array to store keys of the give.
      * SymbolTable
@@ -29,11 +29,11 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
      * the SymbolTable.
      */
     SymbolTable() {
-        keys = (Key[]) new Comparable[capacity];
-        vals = (Value[]) new Object[capacity];
+        keys = (Key[]) new Comparable[capc];
+        vals = (Value[]) new Object[capc];
     }
     /**
-     * method to return max value.
+     *method to return max value.
      *complexity O(1)
      * @return     { it return n-1 index of key array }
      */
@@ -42,7 +42,7 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
         return keys[n - 1];
     }
     /**
-     * method to send Key object.
+     *method to send Key object.
      *befor the pramater Key
      *complexity O(1)
      * @param      key   The key
@@ -64,7 +64,7 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
         return keys[i - 1];
     }
     /**
-     * returns the index of the @param Key.
+     *returns the index of the @param Key.
      *complexity O(Logn)
      * @param      key   The key
      *
@@ -88,7 +88,7 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
         return lo;
     }
     /**
-     * return the first element. or the minimum of the ordered keys.
+     *return the first element. or the minimum of the ordered keys.
      *complexity O(1)
      * @return     keys[0];
      */
@@ -99,8 +99,8 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
     /**
      *
      * deletemin is used to delete.
-     *  the min element of the element and it
-     *  calls the delete function.
+     * the min element of the element and it
+     * calls the delete function.
      */
     public void deleteMin() {
 
@@ -108,7 +108,7 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
     }
     /**
      * method to check weather.
-     *  the element is present or not.
+     * the element is present or not.
      *
      *complexity O(1)
      * @param      key   The key
@@ -121,7 +121,7 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
         return get(key) != null;
     }
     /**
-     * get method returns the key element.
+     *get method returns the key element.
      *complexity O(1)
      *
      * @param      key   The key
