@@ -12,12 +12,12 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
     private static final int capacity = 2;
     /**
      * keys array to store keys of the give.
-     * SYmbolTable
+     * SymbolTable
      */
     private Key[] keys;
     /**
      * values array to store values of the give.
-     * SYmbolTable
+     * SymbolTable
      */
     private Value[] vals;
     /**

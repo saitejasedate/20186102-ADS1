@@ -1,5 +1,25 @@
+/**
+ * @author : saitejasedate.
+ */
+/**
+ * import Scanner package.
+ */
 import java.util.Scanner;
+/**
+ * Class for solution.
+ */
 class Solution {
+	/**
+	 * Constructs the object.
+	 */
+	private Solution() {
+
+	}
+	/**
+	 * main function to take the input and call the methods.
+	 *
+	 * @param      args  The arguments
+	 */
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		SymbolTable<String, Integer> symboltable = new SymbolTable<String, Integer>(); 
