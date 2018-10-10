@@ -1,6 +1,23 @@
+/**
+ * @author : saitejasedate.
+ */
+/**
+ * import java Scanner class.
+ */
 import java.util.Scanner;
+/**
+ * Class for solution.
+ */
 public class Solution {
-	public static void main(String[] args) {
+	private Solution() {
+
+	}
+	/**
+	 * main function to take input and calculate the median.
+	 *
+	 * @param      args  The arguments
+	 */
+	public static void main(final String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int numOfvalues = sc.nextInt();
 		MinPQ<Float> minpq = new MinPQ<Float>(numOfvalues);

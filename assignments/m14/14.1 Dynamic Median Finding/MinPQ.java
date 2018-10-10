@@ -1,47 +1,10 @@
-/******************************************************************************
- *  Compilation:  javac MinPQ.java
- *  Execution:    java MinPQ < input.txt
- *  Dependencies: StdIn.java StdOut.java
- *  Data files:   https://algs4.cs.princeton.edu/24pq/tinyPQ.txt
- *  
- *  Generic min priority queue implementation with a binary heap.
- *  Can be used with a comparator instead of the natural order.
- *
- *  % java MinPQ < tinyPQ.txt
- *  E A E (6 left on pq)
- *
- *  We use a one-based array to simplify parent and child calculations.
- *
- *  Can be optimized by replacing full exchanges with half exchanges
- *  (ala insertion sort).
- *
- ******************************************************************************/
-
 import java.util.Comparator;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
-
 /**
- *  The {@code MinPQ} class represents a priority queue of generic keys.
- *  It supports the usual <em>insert</em> and <em>delete-the-minimum</em>
- *  operations, along with methods for peeking at the minimum key,
- *  testing if the priority queue is empty, and iterating through
- *  the keys.
- *  <p>
- *  This implementation uses a binary heap.
- *  The <em>insert</em> and <em>delete-the-minimum</em> operations take
- *  logarithmic amortized time.
- *  The <em>min</em>, <em>size</em>, and <em>is-empty</em> operations take constant time.
- *  Construction takes time proportional to the specified capacity or the number of
- *  items used to initialize the data structure.
- *  <p>
- *  For additional documentation, see <a href="https://algs4.cs.princeton.edu/24pq">Section 2.4</a> of
- *  <i>Algorithms, 4th Edition</i> by Robert Sedgewick and Kevin Wayne.
+ * Class for minimum pq.
  *
- *  @author Robert Sedgewick
- *  @author Kevin Wayne
- *
- *  @param <Key> the generic type of key on this priority queue
+ * @param      <Key>  The key
  */
 public class MinPQ<Key> implements Iterable<Key> {
     private Key[] pq;                    // store items at indices 1 to n
@@ -265,19 +228,4 @@ public class MinPQ<Key> implements Iterable<Key> {
             return copy.delMin();
         }
     }
-
-    // /**
-    //  * Unit tests the {@code MinPQ} data type.
-    //  *
-    //  * @param args the command-line arguments
-    //  */
-    // public static void main(String[] args) {
-    //     MinPQ<String> pq = new MinPQ<String>();
-    //     while (!StdIn.isEmpty()) {
-    //         String item = StdIn.readString();
-    //         if (!item.equals("-")) pq.insert(item);
-    //         else if (!pq.isEmpty()) StdOut.print(pq.delMin() + " ");
-    //     }
-    //     StdOut.println("(" + pq.size() + " left on pq)");
-    // }
 }
