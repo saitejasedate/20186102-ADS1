@@ -1,36 +1,42 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 Australia,India,SouthAfrica,England,Zimbabwe,Bangladesh,Ireland
 Your Output: 
-Australia,India,SouthAfrica,England,Zimbabwe,Bangladesh,Ireland
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at Solution.main(Solution.java:41)
 ----------------------------------------
-########## Testcase 1: Passed ##########
+########## Testcase 1: Failed ##########
 Expected Output: 
 Zimbabwe,SouthAfrica,Bangladesh,Ireland
 Your Output: 
-Zimbabwe,SouthAfrica,Bangladesh,Ireland
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 4
+	at Solution.main(Solution.java:41)
 ----------------------------------------
-########## Testcase 2: Passed ##########
+########## Testcase 2: Failed ##########
 Expected Output: 
 Australia,Zimbabwe,SouthAfrica,England,Ireland,Bangladesh,India
 Your Output: 
-Australia,Zimbabwe,SouthAfrica,England,Ireland,Bangladesh,India
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at Solution.main(Solution.java:41)
 ----------------------------------------
-########## Testcase 3: Passed ##########
+########## Testcase 3: Failed ##########
 Expected Output: 
 Zimbabwe,Bangladesh,Australia,Ireland,SouthAfrica,India,England
 Your Output: 
-Zimbabwe,Bangladesh,Australia,Ireland,SouthAfrica,India,England
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at Solution.main(Solution.java:41)
 ----------------------------------------
-########## Testcase 4: Passed ##########
+########## Testcase 4: Failed ##########
 Expected Output: 
 England
 Your Output: 
-England
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
+	at Solution.main(Solution.java:41)
 ----------------------------------------
-########## Testcase 5: Passed ##########
+########## Testcase 5: Failed ##########
 Expected Output: 
 Ireland,Zimbabwe,Bangladesh,SouthAfrica,Australia,India,England
 Your Output: 
-Ireland,Zimbabwe,Bangladesh,SouthAfrica,Australia,India,England
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at Solution.main(Solution.java:41)
 ----------------------------------------
