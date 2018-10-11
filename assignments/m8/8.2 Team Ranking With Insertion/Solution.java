@@ -38,7 +38,6 @@ final class Solution {
                 Integer.parseInt(tokens[2]), Integer.parseInt(tokens[three]));
             teams[i++] = team;
         }
-        System.out.println(teams[i]);
         Insertion.sort(teams);
         String output = "";
         for (Team team : teams) {
