@@ -30,8 +30,8 @@ public final class Solution {
             String[] keys = sc.nextLine().split(" ");
             for (int i = 0; i < numOfvalues; i++) {
                 symboltable.put(keys[i], i);
-                System.out.println(symboltable.max());
             }
+            System.out.println(symboltable.max());
         }
     }
 }
