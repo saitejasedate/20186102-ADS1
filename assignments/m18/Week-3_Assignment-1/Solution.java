@@ -29,9 +29,7 @@ public class Solution {
         }
         MaxPQ<Float> maxpq = new MaxPQ<Float>(keys.length);
         MinPQ<Float> minpq = new MinPQ<Float>(keys.length);
-        while (sc.hasNext()) {
-            System.out.println(symboltable.max());
-        }
+        System.out.println(symboltable.max());
     }
 }
 
