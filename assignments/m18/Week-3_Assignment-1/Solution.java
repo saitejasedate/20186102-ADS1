@@ -26,29 +26,10 @@ public final class Solution {
         SymbolTable<String, Integer> symboltable = new SymbolTable<String, Integer>();
         MinPQ<Float> minpq = new MinPQ<Float>(numOfvalues);
         MaxPQ<Float> maxpq = new MaxPQ<Float>(numOfvalues);
-        double median = 0.0;
         while (sc.hasNext()) {
+            String[] keys = sc.nextLine().split(" ");
             for (int i = 0; i < numOfvalues; i++) {
-                float value = sc.nextFloat();
-                if (value > median) {
-                    minpq.insert(value);
-                } else {
-                    maxpq.insert(value);
-                }
-                if (maxpq.size() - minpq.size() > 1) {
-                    float value1 = maxpq.delMax();
-                    minpq.insert(value1);
-                } else if (minpq.size() - maxpq.size() > 1) {
-                    float value1 = minpq.delMin();
-                    maxpq.insert(value1);
-                }
-                if (maxpq.size() == minpq.size()) {
-                    median = (minpq.min() + maxpq.max()) / 2;
-                }  else if (maxpq.size() > minpq.size()) {
-                    median = maxpq.max();
-                } else {
-                    median = minpq.min();
-                }
+                symboltable.put(keys[i], i);
                 System.out.println(symboltable.max());
             }
         }
