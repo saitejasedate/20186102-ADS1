@@ -2,13 +2,13 @@
  * @author : saitejasedate.
  */
 /**
- * import Scanner package.
+ * import java Scanner class.
  */
 import java.util.Scanner;
 /**
  * Class for solution.
  */
-public class Solution {
+public final class Solution {
     /**
      * Constructs the object.
      */
@@ -16,44 +16,41 @@ public class Solution {
 
     }
     /**
-     * main function to take the input and call the methods.
+     * main function to take input and calculate the median.
      *
      * @param      args  The arguments
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
-        SymbolTable<String, Integer> symboltable = new SymbolTable<String, Integer>(); 
-        String[] keys = sc.nextLine().split(" ");
-        for (int i = 0; i < keys.length; i++) {
-            symboltable.put(keys[i], i);
+        int numOfvalues = sc.nextInt();
+        SymbolTable<String, Integer> symboltable = new SymbolTable<String, Integer>();
+        MinPQ<Float> minpq = new MinPQ<Float>(numOfvalues);
+        MaxPQ<Float> maxpq = new MaxPQ<Float>(numOfvalues);
+        double median = 0.0;
+        while (sc.hasNext()) {
+            for (int i = 0; i < numOfvalues; i++) {
+                float value = sc.nextFloat();
+                if (value > median) {
+                    minpq.insert(value);
+                } else {
+                    maxpq.insert(value);
+                }
+                if (maxpq.size() - minpq.size() > 1) {
+                    float value1 = maxpq.delMax();
+                    minpq.insert(value1);
+                } else if (minpq.size() - maxpq.size() > 1) {
+                    float value1 = minpq.delMin();
+                    maxpq.insert(value1);
+                }
+                if (maxpq.size() == minpq.size()) {
+                    median = (minpq.min() + maxpq.max()) / 2;
+                }  else if (maxpq.size() > minpq.size()) {
+                    median = maxpq.max();
+                } else {
+                    median = minpq.min();
+                }
+                System.out.println(symboltable.max());
+            }
         }
-        MaxPQ<Float> maxpq = new MaxPQ<Float>(keys.length);
-        MinPQ<Float> minpq = new MinPQ<Float>(keys.length);
-        System.out.println(symboltable.max());
     }
 }
-
-            // switch (method[0]) {
-            //     case "max":
-            //     System.out.println(symboltable.max());
-            //     break;
-            //     case "floor":
-            //     System.out.println(symboltable.floor(method[1]));
-            //     break;
-            //     case "rank":
-            //     System.out.println(symboltable.rank(method[1]));
-            //     break;
-            //     case "deleteMin":
-            //     symboltable.deleteMin();
-            //     break;
-            //     case "contains":
-            //     System.out.println(symboltable.contains(method[1]));
-            //     break;
-            //     case "keys":
-            //     symboltable.keys();
-            //     break;
-            //     case "get":
-            //     System.out.println(symboltable.get(method[1]));
-            //     break;
-            //     default:
-            //     break;
