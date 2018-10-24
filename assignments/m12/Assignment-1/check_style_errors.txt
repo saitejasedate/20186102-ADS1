@@ -102,7 +102,7 @@ Starting audit...
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:185: Line has trailing spaces. [RegexpSingleline]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:185: Line is longer than 80 characters (found 86). [LineLength]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:186: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:186: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:186: Line is longer than 80 characters (found 87). [LineLength]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:186: Line is longer than 80 characters (found 86). [LineLength]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m12\Assignment-1\Student.java:187: Line has trailing spaces. [RegexpSingleline]
 Audit done.
 Checkstyle ends with 105 errors.
