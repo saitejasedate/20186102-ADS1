@@ -47,14 +47,20 @@ final class Solution {
             students[i++] = student;
         }
         Heap.sort(students);
-        String output = "";
-        for (Student student : students) {
-            System.out.println(student);
-        }
-        System.out.println();
+        // String output = "";
+        // for (Student student : students) {
+        //     System.out.println(student);
+        // }
+        print(students);
         allotment(students, numOfvacancies, unreserved_vacancies, bc_vacancies,
                   sch_vacancies, sct_vacancies);
     }
+        public static void print(final Student[] students) {
+        	for (Student student : students) {
+            	System.out.println(student);
+        	System.out.println();
+        	}
+    	}
 	/**
 	 * Alloting the seats to the students based on merit.
 	 * @param students  list of students.
@@ -132,6 +138,6 @@ final class Solution {
 	        }
 	    }
 	    Heap.sort(alloted);
-	    System.out.println(alloted);
+	    print(alloted);
 	}
-	}
+}
