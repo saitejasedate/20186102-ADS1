@@ -1,10 +1,18 @@
+/**
+ * @author : saitejasedate.
+ */
 import java.util.Scanner;
+/**
+ * Solution class.
+ */
 final class Solution {
     /**
      * Constructs the object.
      */
     private Solution() {
-        //function.
+        /**
+         * Empty constructor.
+         */
     }
     /**
      * main.
@@ -20,7 +28,7 @@ final class Solution {
             case "put":
                 Book book = new Book(tokens[1], tokens[2],
                  Double.parseDouble(tokens[2 + 1]));
-                binarysearchtree.put(book, tokens[2+2]);
+                binarysearchtree.put(book, tokens[2 + 2]);
                 break;
             case "get":
                 book = new Book(tokens[1],

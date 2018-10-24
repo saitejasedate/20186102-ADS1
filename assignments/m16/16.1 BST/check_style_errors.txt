@@ -1,7 +1,2 @@
 Starting audit...
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\Solution.java:2: Missing a Javadoc comment. [JavadocType]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\Solution.java:23:52: '+' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\Solution.java:23:53: '+' is not followed by whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 4 errors.
