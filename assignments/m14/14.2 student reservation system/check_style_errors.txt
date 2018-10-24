@@ -107,6 +107,5 @@ Starting audit...
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:192: Line is longer than 80 characters (found 86). [LineLength]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:193: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:193: Line is longer than 80 characters (found 86). [LineLength]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:194: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 109 errors.
+Checkstyle ends with 108 errors.

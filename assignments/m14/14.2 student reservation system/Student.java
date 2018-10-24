@@ -191,7 +191,6 @@ class Student implements Comparable<Student> {
 		if (Integer.parseInt(a.month) < Integer.parseInt(that.month)) return 1; 
 		if (Integer.parseInt(a.date) < Integer.parseInt(that.date)) return 1; 
 		if (Integer.parseInt(a.date) < Integer.parseInt(that.date)) return -1;
-		System.out.println(); 
 		return 0;
 	}
 }
