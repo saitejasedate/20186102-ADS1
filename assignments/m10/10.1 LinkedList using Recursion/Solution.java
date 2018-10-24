@@ -1,3 +1,6 @@
+/**
+ * @author : saitejasedate.
+ */
 import java.util.Scanner;
 /**
  * Class for solution.
@@ -10,7 +13,7 @@ final class Solution {
 
     }
     /**
-     * main.
+     * main function to take the input and call the functions.
      *
      * @param      args  The arguments
      */
