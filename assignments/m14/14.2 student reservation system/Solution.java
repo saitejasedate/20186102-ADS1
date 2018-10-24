@@ -57,9 +57,9 @@ final class Solution {
     }
         public static void print(final Student[] students) {
         	for (Student student : students) {
-            	System.out.print(student);
-        	System.out.println();
+            	System.out.println(student);
         	}
+        	System.out.println();
     	}
 	/**
 	 * Alloting the seats to the students based on merit.
