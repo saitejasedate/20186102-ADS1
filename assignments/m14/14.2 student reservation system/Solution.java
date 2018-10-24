@@ -57,7 +57,7 @@ final class Solution {
     }
         public static void print(final Student[] students) {
         	for (Student student : students) {
-            	System.out.println(student);
+            	System.out.print(student);
         	System.out.println();
         	}
     	}
