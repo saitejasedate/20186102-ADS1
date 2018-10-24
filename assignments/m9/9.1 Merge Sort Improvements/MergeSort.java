@@ -32,8 +32,12 @@ final class MergeSort {
      * @param      arr   The arr
      */
     public void sort(final Comparable[] arr) {
-        // Comparable[] aux = new Comparable[arr.length];
         Comparable[] aux = arr.clone();
+        // Comparable[] aux = new Comparable[arr.length];
+        // for (int i = 0; i < arr.length; i++) {
+        //     aux[i] = arr[i];
+        // }
+        sort(aux, arr, 0, arr.length - 1);
     }
     /**
      * helper sort method for above sort method where.
