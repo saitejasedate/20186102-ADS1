@@ -13,6 +13,7 @@ class Student implements Comparable<Student> {
 	private int subject3;
 	private int totalmarks;
 	private String reservation;
+	private boolean alloted;
 
 	Student (String name, String date, String month, String year, int subject1, int subject2, int subject3,
 		int totalmarks, String reservation) {
@@ -25,6 +26,12 @@ class Student implements Comparable<Student> {
 		this.subject3 = subject3;
 		this.totalmarks = totalmarks;
 		this.reservation = reservation;
+	}
+	public boolean getAlloted() {
+		return alloted;
+	}
+	public void setAlloted(final boolean alloted) {
+		this.alloted = alloted;
 	}
 	/**
 	 * Gets name.
