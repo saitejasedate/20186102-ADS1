@@ -187,10 +187,10 @@ class Student implements Comparable<Student> {
 		if (a.subject2 < that.subject2) return -1; 
 		if (Integer.parseInt(a.year) < Integer.parseInt(that.year)) return 1; 
 		if (Integer.parseInt(a.year) > Integer.parseInt(that.year)) return -1; 
-		if (Integer.parseInt(a.month) < Integer.parseInt(that.month)) return 1; 
-		if (Integer.parseInt(a.month) > Integer.parseInt(that.month)) return -1; 
-		if (Integer.parseInt(a.date) < Integer.parseInt(that.date)) return 1; 
-		if (Integer.parseInt(a.date) > Integer.parseInt(that.date)) return -1;
+		if (Integer.parseInt(a.month) < Integer.parseInt(that.month)) return -1; 
+		if (Integer.parseInt(a.month) > Integer.parseInt(that.month)) return 1; 
+		if (Integer.parseInt(a.date) < Integer.parseInt(that.date)) return -1; 
+		if (Integer.parseInt(a.date) > Integer.parseInt(that.date)) return 1;
 		return 0;
 	}
 }
