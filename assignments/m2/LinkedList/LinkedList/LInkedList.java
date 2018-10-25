@@ -1,3 +1,9 @@
+ /**
+  * @author : saitejasedate.
+  */
+ /**
+  * List of linkeds.
+  */
  class LinkedList {
     private int size;
     private Node start;
@@ -5,9 +11,19 @@
         this.size = 0;
         this.start = null;
     }
+    /**
+     * size of the linked list.
+     *
+     * @return     { return size }.
+     */
     public int size() {
         return size;
     }
+    /**
+     * Pushes a right.
+     *
+     * @param      data  The data
+     */
     public void pushRight(int data) {
         if (start == null) {
             Node newNode = new Node(data);
@@ -23,12 +39,20 @@
         }
         size++;
     }
+    /**
+     * Pushes a left.
+     *
+     * @param      data  The data
+     */
     public void pushLeft(int data) {
         Node newnode = new Node(data);
         newnode.setNextNode(start);
         start = newnode;
         size++;
     }
+    /**
+     * Removes a left.
+     */
     public void removeLeft() {
         if (start != null) {
             start = start.getNextNode();
@@ -37,6 +61,11 @@
             System.out.println("No nodes to remove");
         }
     }
+    /**
+     * Removes the given data from linked list.
+     *
+     * @param      data  The data
+     */
     public void remove(int data) {
         Node temp1 = start;
         if(temp1.getData() == data) {
@@ -55,6 +84,9 @@
         }
         size--;
     }
+    /**
+     * removes the left node and updates the new start.
+     */
     public void popLeft() {
         if (start != null) {
             start = start.getNextNode();
@@ -63,6 +95,9 @@
             System.out.println("No nodes to remove");
         }
     }
+    /**
+     * Removes a right.
+     */
     public void removeRight() {
         if (start == null) {
             System.out.println("No nodes to remove");
@@ -78,6 +113,11 @@
             size--;
         }
     }
+    /**
+     * Returns a string representation of the object.
+     *
+     * @return     String representation of the object.
+     */
     public String toString() {
         String s = "";
         Node temp = start;
