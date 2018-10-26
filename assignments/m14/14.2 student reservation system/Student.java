@@ -96,7 +96,7 @@ class Student implements Comparable<Student> {
      *
      * @return     dateOfbirth.
      */
-    public String getdate(){
+    public String getdate() {
         return date;
     }
     /**
@@ -104,15 +104,15 @@ class Student implements Comparable<Student> {
      *
      * @param      dateOfbirth  The dateOfbirth.
      */
-    public void setdate(String date){
+    public void setdate(String date) {
         this.date = date;
     }
 
-     public String getmonth(){
+     public String getmonth() {
       return year;
      }
      
-     public void setmonth(String year){
+     public void setmonth(String year) {
       this.year = year;
      }
 
@@ -188,7 +188,7 @@ class Student implements Comparable<Student> {
         this.totalmarks = totalmarks;
     }
     /**
-     * Get resrvation
+     * Get resrvation.
      *
      * @return reservation.
      */
@@ -209,7 +209,7 @@ class Student implements Comparable<Student> {
      * @return     String representation of the object.
      */
     public String toString() {
-        return this.name +","+this.totalmarks+","+this.reservation;
+        return this.name + "," + this.totalmarks + "," + this.reservation;
     }
     /**
      * comapares two objects in the given condition.
@@ -235,7 +235,7 @@ class Student implements Comparable<Student> {
         if (a.subject2 > that.subject2) {
             return 1;
         }
-        if (a.subject2 < that.subject2) { 
+        if (a.subject2 < that.subject2) {
             return -1;
         }
         if (Integer.parseInt(a.year) < Integer.parseInt(that.year)) {
