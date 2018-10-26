@@ -85,9 +85,9 @@ class Student implements Comparable<Student> {
         return name;
     }
     /**
-     * Sets name.
+     * Sets name1.
      *
-     * @param      name  The name.
+     * @param      name1  The name.
      */
     public void setname(String name1) {
         this.name = name1;
@@ -101,26 +101,42 @@ class Student implements Comparable<Student> {
         return date;
     }
     /**
-     * Set dateOfbirth.
+     * Set dateOfbirth1.
      *
-     * @param      dateOfbirth  The dateOfbirth.
+     * @param      dateOfbirth1  The dateOfbirth.
      */
     public void setdate(String date1) {
         this.date = date1;
     }
-
+    /**
+     * Get month.
+     *
+     * @return     { description_of_the_return_value }
+     */
      public String getmonth() {
-      return year;
+      return month;
      }
-     
-     public void setmonth(String year1) {
-      this.year = year1;
+     /**
+      * set month.
+      *
+      * @param      month1  The month 1
+      */
+     public void setmonth(String month1) {
+      this.month = month1;
      }
-
+     /**
+      * Get year.
+      *
+      * @return     { description_of_the_return_value }
+      */
       public String getyear(){
        return year;
       }
-      
+      /**
+       * Sets year1.
+       *
+       * @param      year1  The year 1
+       */
       public void setyear(String year1){
        this.year = year1;
       }
@@ -181,9 +197,9 @@ class Student implements Comparable<Student> {
         return totalmarks;
     }
     /**
-     * Set totalmarks.
+     * Set totalmarks1.
      *
-     * @param      totalmarks  The totalmarks.
+     * @param      totalmarks1  The totalmarks.
      */
     public void settotalmarks(int totalmarks1) {
         this.totalmarks = totalmarks1;
@@ -197,9 +213,9 @@ class Student implements Comparable<Student> {
         return reservation;
     }
     /**
-     * Set reservation.
+     * Set reservation1.
      *
-     * @param      reservation The reservation.
+     * @param      reservation1 The reservation.
      */
     public void setreservation(String reservation1) {
         this.reservation = reservation1;
