@@ -213,11 +213,11 @@ class Student implements Comparable<Student> {
         return this.name + "," + this.totalmarks + "," + this.reservation;
     }
     /**
-     * comapares two objects in the given condition.
+     * { function_description }
      *
      * @param      that  The that
      *
-     *
+     * @return     { description_of_the_return_value }
      */
     public int compareTo(final Student that) {
         Student a = this;
