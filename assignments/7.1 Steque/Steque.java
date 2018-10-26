@@ -30,7 +30,7 @@ class Node {
 	 *
 	 * @param      data1  The data
 	 */
-	Node (final String data1)  {
+	Node(final String data1)  {
 		this.data = data1;
 		this.next = null;
 	}
@@ -38,10 +38,10 @@ class Node {
 /**
  * add item to the left of steque.
  * time complexity is constant.
- * 
+ *
  * @param      item  The item
  */
-public void push(String item) {
+public void push(final String item) {
 	Node newNode = new Node(item);
 	if (start == null) {
 		end = newNode;
@@ -54,7 +54,7 @@ public void push(String item) {
  * time complexity is constant.
  * @param      item  The item
  */
-public void enqueue(String item) {
+public void enqueue(final String item) {
 	if (start == null) {
 		Node newNode = new Node(item);
 		start = newNode;
@@ -70,7 +70,7 @@ public void enqueue(String item) {
  * time complexity is constant.
  */
 public void pop() {
-	if (start!=null) {
+	if (start != null) {
 		start = start.next;
 	}
 	if (end != null) {
