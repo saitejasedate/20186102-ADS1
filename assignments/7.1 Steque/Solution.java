@@ -17,6 +17,7 @@ class Solution {
 			while (sc.hasNext()) {
 				String line = sc.nextLine();
 				if (line.length() == 0) {
+					System.out.println();
 					break;
 				}
 				String[] tokens = sc.nextLine().split(" ");

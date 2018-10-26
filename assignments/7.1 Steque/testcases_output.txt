@@ -22,7 +22,7 @@ Your Output:
 Steque is Empty
 Exception in thread "main" java.util.NoSuchElementException: No line found
 	at java.base/java.util.Scanner.nextLine(Unknown Source)
-	at Solution.main(Solution.java:22)
+	at Solution.main(Solution.java:23)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -71,6 +71,7 @@ Steque is empty.
 2, 4, 6, 8, 10, 9, 7, 5, 3, 1
 Your Output: 
 Steque is Empty
+
 2
 4, 2
 2
@@ -78,8 +79,9 @@ Steque is Empty
 6
 6, 8
 8
+
 Exception in thread "main" java.lang.NullPointerException
 	at Steque$Node.access$002(Steque.java:7)
 	at Steque.enqueue(Steque.java:30)
-	at Solution.main(Solution.java:29)
+	at Solution.main(Solution.java:30)
 ----------------------------------------
