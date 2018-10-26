@@ -219,7 +219,7 @@ class Student implements Comparable<Student> {
      *
      * @return
      */
-    public int compareTo(Student that) {
+    public int compareTo(final Student that) {
         Student a = this;
         if (a.totalmarks > that.totalmarks) {
             return 1;
