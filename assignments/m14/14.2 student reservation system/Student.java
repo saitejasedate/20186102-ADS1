@@ -57,7 +57,8 @@ class Student implements Comparable<Student> {
      * @param      totalmarks   The totalmarks
      * @param      reservation  The reservation
      */
-    Student (String name, String date, String month, String year, int subject1, int subject2, int subject3,
+    Student (String name, String date, String month, String year, 
+        int subject1, int subject2, int subject3,
         int totalmarks, String reservation) {
         this.name = name;
         this.date = date;
