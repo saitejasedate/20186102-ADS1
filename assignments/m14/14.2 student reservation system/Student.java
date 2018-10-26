@@ -89,8 +89,8 @@ class Student implements Comparable<Student> {
      *
      * @param      name  The name.
      */
-    public void setname(String name) {
-        this.name = name;
+    public void setname(String name1) {
+        this.name = name1;
     }
     /**
      * Get dateOfbirth.
@@ -105,24 +105,24 @@ class Student implements Comparable<Student> {
      *
      * @param      dateOfbirth  The dateOfbirth.
      */
-    public void setdate(String date) {
-        this.date = date;
+    public void setdate(String date1) {
+        this.date = date1;
     }
 
      public String getmonth() {
       return year;
      }
      
-     public void setmonth(String year) {
-      this.year = year;
+     public void setmonth(String year1) {
+      this.year = year1;
      }
 
       public String getyear(){
        return year;
       }
       
-      public void setyear(String year){
-       this.year = year;
+      public void setyear(String year1){
+       this.year = year1;
       }
     /**
      * Get subject1.
@@ -185,8 +185,8 @@ class Student implements Comparable<Student> {
      *
      * @param      totalmarks  The totalmarks.
      */
-    public void settotalmarks(int totalmarks) {
-        this.totalmarks = totalmarks;
+    public void settotalmarks(int totalmarks1) {
+        this.totalmarks = totalmarks1;
     }
     /**
      * Get resrvation.
@@ -201,8 +201,8 @@ class Student implements Comparable<Student> {
      *
      * @param      reservation The reservation.
      */
-    public void setreservation(String reservation) {
-        this.reservation = reservation;
+    public void setreservation(String reservation1) {
+        this.reservation = reservation1;
     }
     /**
      * Returns a string representation of the object.
