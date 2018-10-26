@@ -57,9 +57,10 @@ class Student implements Comparable<Student> {
      * @param      totalmarks    The totalmarks
      * @param      reservation   The reservation
      */
-    Student (String name1, String date1, String month1, String year1, 
-        int sub1, int sub2, int sub3,
-        int totalmarks1, String reservation1) {
+    Student (final String name1, final String date1, final String month1,
+        final String year1,
+        final int sub1, final int sub2, final int sub3,
+        final int totalmarks1, final String reservation1) {
         this.name = name1;
         this.date = date1;
         this.month = month1;
@@ -89,7 +90,7 @@ class Student implements Comparable<Student> {
      *
      * @param      name1  The name.
      */
-    public void setname(String name1) {
+    public void setname(final String name1) {
         this.name = name1;
     }
     /**
@@ -105,7 +106,7 @@ class Student implements Comparable<Student> {
      *
      * @param      dateOfbirth1  The dateOfbirth.
      */
-    public void setdate(String date1) {
+    public void setdate(final String date1) {
         this.date = date1;
     }
     /**
@@ -121,7 +122,7 @@ class Student implements Comparable<Student> {
       *
       * @param      month1  The month 1
       */
-     public void setmonth(String month1) {
+     public void setmonth(final String month1) {
       this.month = month1;
      }
      /**
@@ -137,7 +138,7 @@ class Student implements Comparable<Student> {
        *
        * @param      year1  The year 1
        */
-      public void setyear(String year1){
+      public void setyear(final String year1){
        this.year = year1;
       }
     /**
@@ -153,7 +154,7 @@ class Student implements Comparable<Student> {
      *
      * @param      sub1  The subject1.
      */
-    public void setsubject1(int sub1) {
+    public void setsubject1(final int sub1) {
         this.subject1 = sub1;
     }
     /**
@@ -169,7 +170,7 @@ class Student implements Comparable<Student> {
      *
      * @param      sub2  The subject2.
      */
-    public void setsubject2(int sub2) {
+    public void setsubject2(final int sub2) {
         this.subject2 = sub2;
     }
     /**
@@ -185,7 +186,7 @@ class Student implements Comparable<Student> {
      *
      * @param      sub3  The subject2.
      */
-    public void setsubject3(int sub3) {
+    public void setsubject3(final int sub3) {
         this.subject3 = sub3;
     }
     /**
@@ -201,7 +202,7 @@ class Student implements Comparable<Student> {
      *
      * @param      totalmarks1  The totalmarks.
      */
-    public void settotalmarks(int totalmarks1) {
+    public void settotalmarks(final int totalmarks1) {
         this.totalmarks = totalmarks1;
     }
     /**
@@ -217,7 +218,7 @@ class Student implements Comparable<Student> {
      *
      * @param      reservation1 The reservation.
      */
-    public void setreservation(String reservation1) {
+    public void setreservation(final String reservation1) {
         this.reservation = reservation1;
     }
     /**
