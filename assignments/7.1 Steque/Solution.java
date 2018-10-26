@@ -20,7 +20,7 @@ class Solution {
 					System.out.println();
 					break;
 				}
-				String[] tokens = sc.nextLine().split(" ");
+				String[] tokens = line.split(" ");
 				switch (tokens[0]) {
 					case "push":
 					steobj.push(tokens[1]);
