@@ -25,8 +25,8 @@ Your Output:
 1, 0, 1
 0, 1
 1
-Steque is Empty
-Steque is Empty
+Steque is empty
+Steque is empty
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -74,8 +74,8 @@ Steque is empty.
 2, 4, 6, 8, 10, 9, 7, 5, 3
 2, 4, 6, 8, 10, 9, 7, 5, 3, 1
 Your Output: 
-Steque is Empty
-Steque is Empty
+Steque is empty
+Steque is empty
 
 1
 2, 1
@@ -84,7 +84,7 @@ Steque is Empty
 3, 2, 1
 2, 1
 1
-Steque is Empty
+Steque is empty
 5
 5, 6
 5, 6, 7
