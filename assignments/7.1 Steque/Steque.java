@@ -21,13 +21,14 @@ public void push(String item) {
 	start = newNode;
 }
 public void enqueue(String item) {
-	Node newNode = new Node(item);
 	if (start == null) {
+		Node newNode = new Node(item);
 		start = newNode;
 		end = newNode;
 	} else {
-		end.next = newNode;
-		end = newNode;
+		Node newNode1 = new Node(item);
+		end.next = newNode1;
+		end = newNode1;
 	}
 }
 public void pop() {

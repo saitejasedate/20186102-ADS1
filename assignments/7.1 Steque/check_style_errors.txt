@@ -14,10 +14,10 @@ Starting audit...
 [ERROR] D:\MSIT\20186102-ADS1\assignments\7.1 Steque\Steque.java:15:18: Parameter item should be final. [FinalParameters]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\7.1 Steque\Steque.java:23:1: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\7.1 Steque\Steque.java:23:21: Parameter item should be final. [FinalParameters]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\7.1 Steque\Steque.java:33:1: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\7.1 Steque\Steque.java:34:18: '!=' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\7.1 Steque\Steque.java:34:20: '!=' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\7.1 Steque\Steque.java:41:1: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\7.1 Steque\Steque.java:57: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\7.1 Steque\Steque.java:34:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\7.1 Steque\Steque.java:35:18: '!=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\7.1 Steque\Steque.java:35:20: '!=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\7.1 Steque\Steque.java:42:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\7.1 Steque\Steque.java:58: Line has trailing spaces. [RegexpSingleline]
 Audit done.
 Checkstyle ends with 20 errors.
