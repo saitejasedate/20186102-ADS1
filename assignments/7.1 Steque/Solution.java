@@ -1,5 +1,11 @@
+/**
+ * @author : saitejasedate.
+ */
 import java.util.Scanner;
-class Solution {
+/**
+ * Class for solution.
+ */
+public final class Solution {
 	/**
 	 * Constructs the object.
 	 */
@@ -8,6 +14,11 @@ class Solution {
 		 * Empty constructor.
 		 */
 	}
+	/**
+	 * main method to take input and call steque functions.
+	 *
+	 * @param      args  The arguments
+	 */
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int numOftestcases = sc.nextInt();
