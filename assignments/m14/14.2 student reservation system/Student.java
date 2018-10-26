@@ -217,7 +217,7 @@ class Student implements Comparable<Student> {
      *
      * @param      that  The that
      *
-     * @return
+     *
      */
     public int compareTo(final Student that) {
         Student a = this;
