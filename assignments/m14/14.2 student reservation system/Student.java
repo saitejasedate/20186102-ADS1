@@ -57,18 +57,18 @@ class Student implements Comparable<Student> {
      * @param      totalmarks   The totalmarks
      * @param      reservation  The reservation
      */
-    Student (String name, String date, String month, String year, 
+    Student (String name1, String date1, String month1, String year1, 
         int subject1, int subject2, int subject3,
-        int totalmarks, String reservation) {
-        this.name = name;
-        this.date = date;
-        this.month = month;
-        this.year = year;
+        int totalmarks1, String reservation1) {
+        this.name = name1;
+        this.date = date1;
+        this.month = month1;
+        this.year = year1;
         this.subject1 = subject1;
         this.subject2 = subject2;
         this.subject3 = subject3;
-        this.totalmarks = totalmarks;
-        this.reservation = reservation;
+        this.totalmarks = totalmarks1;
+        this.reservation = reservation1;
     }
     public boolean getAlloted() {
         return alloted;
@@ -213,11 +213,11 @@ class Student implements Comparable<Student> {
         return this.name + "," + this.totalmarks + "," + this.reservation;
     }
     /**
-     * { function_description }
+     * compareTo function compares the inputs a and b.
      *
      * @param      that  The that
      *
-     * @return     { description_of_the_return_value }
+     * @return     integer.
      */
     public int compareTo(final Student that) {
         Student a = this;
