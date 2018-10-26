@@ -1,4 +1,2 @@
 Starting audit...
-[ERROR] D:\MSIT\20186102-ADS1\assignments\7.1 Steque\Steque.java:8:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 Audit done.
-Checkstyle ends with 1 errors.
