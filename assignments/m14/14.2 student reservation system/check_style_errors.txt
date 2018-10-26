@@ -1,17 +1,5 @@
 Starting audit...
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:57:8: Unused @param tag for 'totalmarks'. [JavadocMethod]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:58:8: Unused @param tag for 'reservation'. [JavadocMethod]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:60:5: More than 7 parameters (found 9). [ParameterNumber]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:60:13: '(' is preceded with whitespace. [MethodParamPad]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:63:19: Expected @param tag for 'totalmarks1'. [JavadocMethod]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:63:45: Expected @param tag for 'reservation1'. [JavadocMethod]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:74:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:77:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:77:42: 'alloted' hides a field. [HiddenField]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:107:8: Unused @param tag for 'dateOfbirth1'. [JavadocMethod]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:109:38: Expected @param tag for 'date1'. [JavadocMethod]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:133:30: '{' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:141:46: '{' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:163: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:87:28: '(' is preceded with whitespace. [MethodParamPad]
 Audit done.
-Checkstyle ends with 14 errors.
+Checkstyle ends with 2 errors.

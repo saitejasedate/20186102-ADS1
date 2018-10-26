@@ -54,10 +54,10 @@ class Student implements Comparable<Student> {
      * @param      sub1          The subject 1
      * @param      sub2          The subject 2
      * @param      sub3          The subject 3
-     * @param      totalmarks    The totalmarks
-     * @param      reservation   The reservation
+     * @param      totalmarks1   The totalmarks
+     * @param      reservation1  The reservation
      */
-    Student (final String name1, final String date1, final String month1,
+    Student(final String name1, final String date1, final String month1,
         final String year1,
         final int sub1, final int sub2, final int sub3,
         final int totalmarks1, final String reservation1) {
@@ -71,11 +71,21 @@ class Student implements Comparable<Student> {
         this.totalmarks = totalmarks1;
         this.reservation = reservation1;
     }
+    /**
+     * Gets the alloted.
+     *
+     * @return     The alloted.
+     */
     public boolean getAlloted() {
         return alloted;
     }
-    public void setAlloted(final boolean alloted) {
-        this.alloted = alloted;
+    /**
+     * Sets the alloted.
+     *
+     * @param      alloted1  The alloted 1
+     */
+    public void setAlloted (final boolean alloted1) {
+        this.alloted = alloted1;
     }
     /**
      * Gets name.
@@ -94,17 +104,17 @@ class Student implements Comparable<Student> {
         this.name = name1;
     }
     /**
-     * Get dateOfbirth.
+     * Get date.
      *
-     * @return     dateOfbirth.
+     * @return     date.
      */
     public String getdate() {
         return date;
     }
     /**
-     * Set dateOfbirth1.
+     * Set date1.
      *
-     * @param      dateOfbirth1  The dateOfbirth.
+     * @param      date1  The date.
      */
     public void setdate(final String date1) {
         this.date = date1;
@@ -130,7 +140,7 @@ class Student implements Comparable<Student> {
       *
       * @return     { description_of_the_return_value }
       */
-      public String getyear(){
+      public String getyear() {
        return year;
       }
       /**
@@ -138,7 +148,7 @@ class Student implements Comparable<Student> {
        *
        * @param      year1  The year 1
        */
-      public void setyear(final String year1){
+      public void setyear(final String year1) {
        this.year = year1;
       }
     /**
@@ -160,7 +170,7 @@ class Student implements Comparable<Student> {
     /**
      * Get subject2.
      *
-     * @return     subject2. 
+     * @return     subject2.
      */
     public int getsubject2() {
         return subject2;
