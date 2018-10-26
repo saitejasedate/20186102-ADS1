@@ -209,30 +209,53 @@ class Student implements Comparable<Student> {
      * @return     String representation of the object.
      */
     public String toString() {
-        return this.name +","+this.totalmarks+","+this.reservation;     
+        return this.name +","+this.totalmarks+","+this.reservation;
     }
-
     /**
      * comapares two objects in the given condition.
      *
      * @param      that  The that
      *
-     * @return    
+     * @return
      */
     public int compareTo(Student that) {
         Student a = this;
-        if (a.totalmarks > that.totalmarks) return 1;
-        if (a.totalmarks < that.totalmarks) return -1;
-        if (a.subject3 > that.subject3) return 1;
-        if (a.subject3 < that.subject3) return -1;
-        if (a.subject2 > that.subject2) return 1;
-        if (a.subject2 < that.subject2) return -1; 
-        if (Integer.parseInt(a.year) < Integer.parseInt(that.year)) return -1; 
-        if (Integer.parseInt(a.year) > Integer.parseInt(that.year)) return 1; 
-        if (Integer.parseInt(a.month) < Integer.parseInt(that.month)) return -1; 
-        if (Integer.parseInt(a.month) > Integer.parseInt(that.month)) return 1; 
-        if (Integer.parseInt(a.date) < Integer.parseInt(that.date)) return -1; 
-        if (Integer.parseInt(a.date) > Integer.parseInt(that.date)) return 1;
+        if (a.totalmarks > that.totalmarks) {
+            return 1;
+        }
+        if (a.totalmarks < that.totalmarks) {
+            return -1;
+        }
+        if (a.subject3 > that.subject3) {
+            return 1;
+        }
+        if (a.subject3 < that.subject3) {
+            return -1;
+        }
+        if (a.subject2 > that.subject2) {
+            return 1;
+        }
+        if (a.subject2 < that.subject2) { 
+            return -1;
+        }
+        if (Integer.parseInt(a.year) < Integer.parseInt(that.year)) {
+            return -1;
+        }
+        if (Integer.parseInt(a.year) > Integer.parseInt(that.year)) {
+            return 1;
+        }
+        if (Integer.parseInt(a.month) < Integer.parseInt(that.month)) {
+            return -1;
+        }
+        if (Integer.parseInt(a.month) > Integer.parseInt(that.month)) {
+            return 1;
+        }
+        if (Integer.parseInt(a.date) < Integer.parseInt(that.date)) {
+            return -1;
+        }
+        if (Integer.parseInt(a.date) > Integer.parseInt(that.date)) {
+            return 1;
+        }
         return 0;
     }
 }
