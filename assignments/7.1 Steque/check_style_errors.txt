@@ -1,13 +1,10 @@
 Starting audit...
 [ERROR] D:\MSIT\20186102-ADS1\assignments\7.1 Steque\Steque.java:8:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\7.1 Steque\Steque.java:16: Missing a Javadoc comment. [JavadocType]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\7.1 Steque\Steque.java:30:14: '(' is preceded with whitespace. [MethodParamPad]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\7.1 Steque\Steque.java:30:15: Parameter data should be final. [FinalParameters]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\7.1 Steque\Steque.java:30:22: 'data' hides a field. [HiddenField]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\7.1 Steque\Steque.java:38: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\7.1 Steque\Steque.java:41:18: Parameter item should be final. [FinalParameters]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\7.1 Steque\Steque.java:54:21: Parameter item should be final. [FinalParameters]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\7.1 Steque\Steque.java:70:18: '!=' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\7.1 Steque\Steque.java:70:20: '!=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\7.1 Steque\Steque.java:33:14: '(' is preceded with whitespace. [MethodParamPad]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\7.1 Steque\Steque.java:41: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\7.1 Steque\Steque.java:44:18: Parameter item should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\7.1 Steque\Steque.java:57:21: Parameter item should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\7.1 Steque\Steque.java:73:18: '!=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\7.1 Steque\Steque.java:73:20: '!=' is not followed by whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 10 errors.
+Checkstyle ends with 7 errors.

@@ -13,6 +13,9 @@ class Steque {
 	 * Node end.
 	 */
 	private Node end = null;
+/**
+ * Class for node.
+ */
 class Node {
 	/**
 	 * String data in a node.
@@ -25,10 +28,10 @@ class Node {
 	/**
 	 * Constructs the object.
 	 *
-	 * @param      data  The data
+	 * @param      data1  The data
 	 */
-	Node (String data)  {
-		this.data = data;
+	Node (final String data1)  {
+		this.data = data1;
 		this.next = null;
 	}
 }
