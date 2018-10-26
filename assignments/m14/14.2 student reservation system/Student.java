@@ -47,26 +47,26 @@ class Student implements Comparable<Student> {
     /**
      * Constructs the object.
      *
-     * @param      name         The name
-     * @param      date         The date
-     * @param      month        The month
-     * @param      year         The year
-     * @param      subject1     The subject 1
-     * @param      subject2     The subject 2
-     * @param      subject3     The subject 3
-     * @param      totalmarks   The totalmarks
-     * @param      reservation  The reservation
+     * @param      name1         The name
+     * @param      date1         The date
+     * @param      month1        The month
+     * @param      year1         The year
+     * @param      sub1          The subject 1
+     * @param      sub2          The subject 2
+     * @param      sub3          The subject 3
+     * @param      totalmarks    The totalmarks
+     * @param      reservation   The reservation
      */
     Student (String name1, String date1, String month1, String year1, 
-        int subject1, int subject2, int subject3,
+        int sub1, int sub2, int sub3,
         int totalmarks1, String reservation1) {
         this.name = name1;
         this.date = date1;
         this.month = month1;
         this.year = year1;
-        this.subject1 = subject1;
-        this.subject2 = subject2;
-        this.subject3 = subject3;
+        this.subject1 = sub1;
+        this.subject2 = sub2;
+        this.subject3 = sub3;
         this.totalmarks = totalmarks1;
         this.reservation = reservation1;
     }
@@ -149,12 +149,12 @@ class Student implements Comparable<Student> {
         return subject1;
     }
     /**
-     * Set subject1.
+     * Set sub1.
      *
-     * @param      subject1  The subject1.
+     * @param      sub1  The subject1.
      */
-    public void setsubject1(int subject1) {
-        this.subject1 = subject1;
+    public void setsubject1(int sub1) {
+        this.subject1 = sub1;
     }
     /**
      * Get subject2.
@@ -165,12 +165,12 @@ class Student implements Comparable<Student> {
         return subject2;
     }
     /**
-     * Set subject2.
+     * Set sub2.
      *
-     * @param      subject2  The subject2.
+     * @param      sub2  The subject2.
      */
-    public void setsubject2(int subject2) {
-        this.subject2 = subject2;
+    public void setsubject2(int sub2) {
+        this.subject2 = sub2;
     }
     /**
      * Get subject3.
@@ -181,12 +181,12 @@ class Student implements Comparable<Student> {
         return subject3;
     }
     /**
-     * Set subject3.
+     * Set sub3.
      *
-     * @param      subject3  The subject2.
+     * @param      sub3  The subject2.
      */
-    public void setsubject3(int subject3) {
-        this.subject3 = subject3;
+    public void setsubject3(int sub3) {
+        this.subject3 = sub3;
     }
     /**
      * Get totalmarks.
