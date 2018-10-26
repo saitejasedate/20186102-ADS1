@@ -43,7 +43,7 @@ public String toString() {
 	String str = "";
 	Node temp = start;
 	if (temp == null) {
-		return "Steque is empty";
+		return "Steque is empty.";
 	}
 	while (temp.next != null) {
         str += temp.data + "," + " ";
