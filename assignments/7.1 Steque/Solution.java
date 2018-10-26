@@ -12,8 +12,8 @@ class Solution {
 		Scanner sc = new Scanner(System.in);
 		int numOftestcases = sc.nextInt();
 		sc.nextLine();
-		Steque steque = new Steque();
 		for (int i = 0; i < numOftestcases; i++) {
+			Steque steobj = new Steque();
 			while (sc.hasNext()) {
 				String line = sc.nextLine();
 				if (line.length() == 0) {
@@ -23,16 +23,16 @@ class Solution {
 				String[] tokens = sc.nextLine().split(" ");
 				switch (tokens[0]) {
 					case "push":
-					steque.push(tokens[1]);
-					System.out.println(steque);
+					steobj.push(tokens[1]);
+					System.out.println(steobj);
 					break;
 					case "enqueue":
-					steque.enqueue(tokens[1]);
-					System.out.println(steque);
+					steobj.enqueue(tokens[1]);
+					System.out.println(steobj);
 					break;
 					case "pop":
-					steque.pop();
-					System.out.println(steque);
+					steobj.pop();
+					System.out.println(steobj);
 					break;
 					default:
 					break;

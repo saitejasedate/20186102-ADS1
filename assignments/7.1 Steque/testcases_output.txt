@@ -80,8 +80,17 @@ Steque is Empty
 6, 8
 8
 
-Exception in thread "main" java.lang.NullPointerException
-	at Steque$Node.access$002(Steque.java:7)
-	at Steque.enqueue(Steque.java:30)
-	at Solution.main(Solution.java:30)
+200
+200, 400
+200, 400, 600
+200, 400, 600, 800
+1000, 200, 400, 600, 800
+1000, 200, 400, 600, 800, 1200
+200, 400, 600, 800, 1200
+
+9
+9, 7
+9, 7, 5
+9, 7, 5, 3
+9, 7, 5, 3, 1
 ----------------------------------------
