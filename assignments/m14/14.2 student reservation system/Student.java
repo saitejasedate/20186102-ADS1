@@ -84,7 +84,7 @@ class Student implements Comparable<Student> {
      *
      * @param      alloted1  The alloted 1
      */
-    public void setAlloted (final boolean alloted1) {
+    public void setAlloted(final boolean alloted1) {
         this.alloted = alloted1;
     }
     /**

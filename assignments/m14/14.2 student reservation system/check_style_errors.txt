@@ -1,5 +1,4 @@
 Starting audit...
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:60:5: More than 7 parameters (found 9). [ParameterNumber]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:87:28: '(' is preceded with whitespace. [MethodParamPad]
 Audit done.
-Checkstyle ends with 2 errors.
+Checkstyle ends with 1 errors.
