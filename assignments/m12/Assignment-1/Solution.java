@@ -1,4 +1,7 @@
 /**
+ * @author:saitejasedate.
+ */
+/**
  * import Scanner class
  */
 import java.util.Scanner;
