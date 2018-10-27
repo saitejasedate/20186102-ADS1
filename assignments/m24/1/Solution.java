@@ -1,6 +1,21 @@
+/**
+ * @author : saitejasedate.
+ */
+/**
+ * import Scanner class.
+ */
 import java.util.Scanner;
+/**
+ * Class for solution.
+ */
 public class Solution {
+/**
+ * Constructs the object.
+ */
 private Solution() {
+  /**
+   * Empty constructor.
+   */
 }
 public static void main(final String[] args) {
   Scanner scan = new Scanner(System.in);
