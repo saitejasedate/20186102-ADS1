@@ -8,7 +8,7 @@ public static void main(final String[] args) {
   LinearProbingHashST<Integer, Student> lph = new LinearProbingHashST<>();
   for (int i = 0; i < numOfStudentRecords; i++) {
     String[] str = scan.nextLine().split(",");
-    Student stuobj = new Student(Integer.parseInt(str[0]), str[1], Double.parseDouble(str[2]));
+    Student stuobj = new Student(Integer.parseInt(str[0]),str[1],Double.parseDouble(str[2]));
     lph.put(Integer.parseInt(str[0]), stuobj);
   }
   int queries = Integer.parseInt(scan.nextLine());
@@ -16,10 +16,19 @@ public static void main(final String[] args) {
     String[] tokens = scan.nextLine().split(" ");
     switch (tokens[2]) {
     case "1":
+      try {
+        System.out.println(lph.get(Integer.parseInt(tokens[1])).getName());
+      } catch (Exception e) {
         System.out.println("Student doesn't exists...");
+      }
       break;
     case "2":
+      try {
+        System.out.println(lph.get(
+                             Integer.parseInt(tokens[1])).getMarks());
+      } catch (Exception e) {
         System.out.println("Student doesn't exists...");
+      }
       break;
       default:
       break;
@@ -27,4 +36,3 @@ public static void main(final String[] args) {
   }
 }
 }
-
