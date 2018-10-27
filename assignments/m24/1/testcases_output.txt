@@ -1,4 +1,4 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 Clark
 Rivest
@@ -9,14 +9,7 @@ Alice
 Bob
 John
 Your Output: 
-Clark
-Rivest
-Abegg
-Fred
-Wayne
-Alice
-Bob
-John
+
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
