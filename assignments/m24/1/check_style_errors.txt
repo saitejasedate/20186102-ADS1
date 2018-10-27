@@ -1,13 +1,5 @@
 Starting audit...
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m24\1\Student.java:1:8: Unused import - java.util.Scanner. [UnusedImports]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m24\1\Student.java:2: Missing a Javadoc comment. [JavadocType]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m24\1\Student.java:3:3: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m24\1\Student.java:4:3: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m24\1\Student.java:5:3: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m24\1\Student.java:6:3: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m24\1\Student.java:6:21: 'rollnum' hides a field. [HiddenField]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m24\1\Student.java:6:66: 'marks' hides a field. [HiddenField]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m24\1\Student.java:11:3: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m24\1\Student.java:14:3: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m24\1\Student.java:24:21: 'rollnum' hides a field. [HiddenField]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m24\1\Student.java:24:66: 'marks' hides a field. [HiddenField]
 Audit done.
-Checkstyle ends with 10 errors.
+Checkstyle ends with 2 errors.
