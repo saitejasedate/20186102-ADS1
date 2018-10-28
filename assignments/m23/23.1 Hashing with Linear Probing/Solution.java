@@ -39,7 +39,11 @@ class Solution {
                     System.out.println(lpst.get(tokens[1]));
                 break;
                 case "display":
-                    lpst.display();
+                    try {
+                    	lpst.display();
+                    } catch (Exception e) {
+                    	System.out.println("{}");
+                    }
                 break;
                 default:
                 break;
