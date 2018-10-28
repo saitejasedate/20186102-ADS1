@@ -6,6 +6,5 @@ Starting audit...
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m17\TaxiCabNumbers\Taxicab.java:91:40: Name 'N' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m17\TaxiCabNumbers\Taxicab.java:91:43: Parameter M should be final. [FinalParameters]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m17\TaxiCabNumbers\Taxicab.java:91:47: Name 'M' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m17\TaxiCabNumbers\Taxicab.java:93:17: '600' is a magic number. [MagicNumber]
 Audit done.
-Checkstyle ends with 8 errors.
+Checkstyle ends with 7 errors.

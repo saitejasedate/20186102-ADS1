@@ -90,7 +90,8 @@ public class Taxicab implements Comparable<Taxicab> {
      */
     public static long findTaxicab(int N, int M) {
         MinPQ<Taxicab> minPQ = new MinPQ<Taxicab>();
-        int n = 600;
+        final int sixhundred = 600;
+        int n = sixhundred;
         int count = 0;
         long res = 0;
         for (int i = 1; i <= n; i++) {
