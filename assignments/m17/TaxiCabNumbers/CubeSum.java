@@ -1,3 +1,6 @@
+/**
+ * Class for cube sum.
+ */
 class CubeSum implements Comparable<CubeSum> {
     private final int sum;
     private final int i;

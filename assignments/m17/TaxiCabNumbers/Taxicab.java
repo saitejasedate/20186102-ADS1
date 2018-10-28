@@ -37,7 +37,16 @@ public class Taxicab implements Comparable<Taxicab> {
         this.j = j;
     }
 
-    // compare by i^3 + j^3, breaking ties by i
+    
+
+    /**
+     * compare by i^3 + j^3, breaking ties by i
+     * time complexity is 1.
+     *
+     * @param      that  The that
+     *
+     * @return     { description_of_the_return_value }
+     */
     public int compareTo(Taxicab that) {
         if      (this.sum < that.sum) return -1;
         else if (this.sum > that.sum) return +1;
@@ -49,7 +58,14 @@ public class Taxicab implements Comparable<Taxicab> {
     public String toString() {
         return i + "^3 + " + j + "^3";
     }
-
+    /**.
+     * finds the taxi cab number
+     * Time complexity is O(N).
+     * @param      n1     { number of occurance of the taxi cab number}
+     * @param      m1     { number of pairs that we needed}
+     *
+     * @return     { returns the taxicab number }
+     */
     public static long findTaxicab(int N, int M) {
         MinPQ<Taxicab> minPQ = new MinPQ<Taxicab>();
         int n = 600;
