@@ -18,7 +18,7 @@ Alice
 Bob
 John
 ----------------------------------------
-########## Testcase 1: Passed ##########
+########## Testcase 1: Failed ##########
 Expected Output: 
 100.1
 100.0
@@ -34,21 +34,9 @@ Expected Output:
 45.4
 99.3
 Your Output: 
-100.1
-100.0
-76.4
-78.2
-65.7
-85.6
-98.3
-88.3
-56.7
-65.7
-11.2
-45.4
-99.3
+
 ----------------------------------------
-########## Testcase 2: Passed ##########
+########## Testcase 2: Failed ##########
 Expected Output: 
 Knuth
 100.0
@@ -68,23 +56,7 @@ Student doesn't exists...
 Student doesn't exists...
 Student doesn't exists...
 Your Output: 
-Knuth
-100.0
-Clark
-78.2
-Abegg
-85.6
-Wayne
-88.3
-John
-65.7
-Hank
-13.3
-Jeannette Caines
-Student doesn't exists...
-Student doesn't exists...
-Student doesn't exists...
-Student doesn't exists...
+
 ----------------------------------------
 ########## Testcase 3: Passed ##########
 Expected Output: 
