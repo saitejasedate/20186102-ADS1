@@ -81,7 +81,8 @@ public class Taxicab implements Comparable<Taxicab> {
         return i + "^3 + " + j + "^3";
     }
     /**
-     * { function_description }
+     * finds the taxi cab number
+     * Time complexity is N as for loop is itereated for N times.
      *
      * @param      n1     { Nth Number}.
      * @param      m1    { M times }.
