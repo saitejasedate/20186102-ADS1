@@ -21,9 +21,9 @@ class Solution {
      */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        LinearProbingHashST<String, Integer> lpst = new LinearProbingHashST<String, Integer>();
         int nopes = sc.nextInt();
         sc.nextLine();
+        LinearProbingHashST<String, Integer> lpst = new LinearProbingHashST<String, Integer>();
         for (int i = 0; i < nopes; i++) {
             String line = sc.nextLine();
             String[]tokens = line.split(" ");
