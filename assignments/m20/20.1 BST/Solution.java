@@ -31,7 +31,7 @@ public final class Solution {
             case "get":
                 books = new Book(tokens[1], tokens[2],
                                  Float.parseFloat(tokens[three]));
-                if (bst.get(books).equals(-1)) {
+                if (bst.get(books) == null) {
                     System.out.println("null");
                 } else {
                     System.out.println(bst.get(books));

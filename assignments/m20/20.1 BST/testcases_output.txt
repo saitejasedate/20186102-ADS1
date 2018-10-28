@@ -46,7 +46,7 @@ Mental, Robert, 1800.0
 IT, Viswas, 400.0
 2
 ----------------------------------------
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 Harry, JK, 600.0
 Harry, JK, 600.0
@@ -63,6 +63,12 @@ Your Output:
 Harry, JK, 600.0
 Harry, JK, 600.0
 TheBook, Joy, 24000.0
-Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:34)
+null
+IT, Viswas, 400.0
+IT, Viswas, 400.0
+Anamy, Steave, 1600.0
+Harry, JK, 600.0
+TheBook, Joy, 24000.0
+Street, Kiran, 800.0
+null
 ----------------------------------------
