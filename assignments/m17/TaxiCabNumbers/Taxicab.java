@@ -53,7 +53,7 @@ public class Taxicab implements Comparable<Taxicab> {
     }
     /**
      * compare by i^3 + j^3, breaking ties by i
-     * time complexity is 1.
+     * Time complexity is constant as iteration is done only once.
      *
      * @param      that  The that
      *
@@ -74,7 +74,7 @@ public class Taxicab implements Comparable<Taxicab> {
     }
     /**
      * Returns a string representation of the object.
-     *
+     * Time complexity is constant as iteration is done only once.
      * @return     String representation of the object.
      */
     public String toString() {
