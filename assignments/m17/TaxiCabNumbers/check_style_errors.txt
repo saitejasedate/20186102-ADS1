@@ -1,6 +1,4 @@
 Starting audit...
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m17\TaxiCabNumbers\Taxicab.java:5: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m17\TaxiCabNumbers\Taxicab.java:71: Line has trailing spaces. [RegexpSingleline]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m17\TaxiCabNumbers\Taxicab.java:83: First sentence should end with a period. [JavadocStyle]
 Audit done.
-Checkstyle ends with 3 errors.
+Checkstyle ends with 1 errors.

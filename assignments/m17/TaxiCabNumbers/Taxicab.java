@@ -2,7 +2,7 @@
  *  Compilation:  javac Taxicab.java
  *  Execution:    java Taxicab n
  *  Dependencies: StdOut.java MinPQ.java
- * 
+ *
  *  Find all nontrivial integer solutions to a^3 + b^3 = c^3 + d^3 where
  *  a, b, c, and d are between 0 and n. By nontrivial, we mean
  *  a <= b, c <= d, and a < c.
@@ -68,7 +68,7 @@ public class Taxicab implements Comparable<Taxicab> {
             return -1;
         } else if (this.i > that.i) {
             return +1;
-        } else {     
+        } else {
             return  0;
         }
     }
