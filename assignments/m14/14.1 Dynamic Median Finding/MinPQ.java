@@ -4,6 +4,7 @@ import java.util.NoSuchElementException;
 /**
  * Class for minimum pq.
  *
+ *
  * @param      <Key>  The key
  */
 public class MinPQ<Key> implements Iterable<Key> {
@@ -54,7 +55,7 @@ public class MinPQ<Key> implements Iterable<Key> {
      * Initializes a priority queue from the array of keys.
      * <p>
      * Takes time proportional to the number of keys, using sink-based heap construction.
-     *
+     * Time complexity is N because two for loop loops iterate for N times
      * @param  keys the array of keys
      */
     public MinPQ(Key[] keys) {
@@ -69,7 +70,7 @@ public class MinPQ<Key> implements Iterable<Key> {
 
     /**
      * Returns true if this priority queue is empty.
-     *
+     * TIme complexity 1 because only one statement is executed at one time
      * @return {@code true} if this priority queue is empty;
      *         {@code false} otherwise
      */
@@ -78,8 +79,8 @@ public class MinPQ<Key> implements Iterable<Key> {
     }
 
     /**
+     * Time complexiry is 1 because only one statement is executed at once
      * Returns the number of keys on this priority queue.
-     *
      * @return the number of keys on this priority queue
      */
     public int size() {
@@ -88,7 +89,7 @@ public class MinPQ<Key> implements Iterable<Key> {
 
     /**
      * Returns a smallest key on this priority queue.
-     *
+     *Time complexiry is 1 because only one statement is executed at once
      * @return a smallest key on this priority queue
      * @throws NoSuchElementException if this priority queue is empty
      */
@@ -109,7 +110,7 @@ public class MinPQ<Key> implements Iterable<Key> {
 
     /**
      * Adds a new key to this priority queue.
-     *
+     *Time complexiry is logN because of swim function is executed logN times
      * @param  x the key to add to this priority queue
      */
     public void insert(Key x) {
@@ -124,7 +125,7 @@ public class MinPQ<Key> implements Iterable<Key> {
 
     /**
      * Removes and returns a smallest key on this priority queue.
-     *
+     *Time complexiry is logN because of sink funciton is executed logN times
      * @return a smallest key on this priority queue
      * @throws NoSuchElementException if this priority queue is empty
      */
@@ -143,14 +144,22 @@ public class MinPQ<Key> implements Iterable<Key> {
    /***************************************************************************
     * Helper functions to restore the heap invariant.
     ***************************************************************************/
-
+    /**
+     * swim function it generally moves the element to upwards.
+     * Time complexity is N because of while loop
+     * @param      k     { key type}
+     */
     private void swim(int k) {
         while (k > 1 && greater(k/2, k)) {
             exch(k, k/2);
             k = k/2;
         }
     }
-
+    /**
+     * sink function it generally moves the elements to downwards
+     * Time complexity is N because of while loop 
+     * @param      k     {key type }
+     */
     private void sink(int k) {
         while (2*k <= n) {
             int j = 2*k;
@@ -164,6 +173,14 @@ public class MinPQ<Key> implements Iterable<Key> {
    /***************************************************************************
     * Helper functions for compares and swaps.
     ***************************************************************************/
+   /**
+    * compares two objects and returns true or false
+    * time complexity is 1 because all the statements are executed only once
+    * @param      i     { index of array element }
+    * @param      j     { index of array element}
+    *
+    * @return     { returns true if condition is satified or false }
+    */
     private boolean greater(int i, int j) {
         if (comparator == null) {
             return ((Comparable<Key>) pq[i]).compareTo(pq[j]) > 0;
@@ -172,7 +189,12 @@ public class MinPQ<Key> implements Iterable<Key> {
             return comparator.compare(pq[i], pq[j]) > 0;
         }
     }
-
+    /**
+     * swaps the two elements of the pq
+     * Time complexity is 1 because only once the statements are executed
+     * @param      i     { index of comparable array}
+     * @param      j     { index of comparable array}
+     */
     private void exch(int i, int j) {
         Key swap = pq[i];
         pq[i] = pq[j];
@@ -180,11 +202,25 @@ public class MinPQ<Key> implements Iterable<Key> {
     }
 
     // is pq[1..N] a min heap?
+    
+    /**
+     * Determines if minimum heap.
+     * Time complexity is 1.
+     * @return     True if minimum heap, False otherwise.
+     */
     private boolean isMinHeap() {
         return isMinHeap(1);
     }
 
     // is subtree of pq[1..n] rooted at k a min heap?
+
+    /**
+     * Determines if minimum heap.
+     * Time complexity is 1.
+     * @param      k     { parameter_description }
+     *
+     * @return     True if minimum heap, False otherwise.
+     */
     private boolean isMinHeap(int k) {
         if (k > n) return true;
         int left = 2*k;
