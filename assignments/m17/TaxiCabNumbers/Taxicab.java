@@ -24,21 +24,33 @@
  *  1477354411 = 802^3 + 987^3 = 883^3 + 924^3
  *
  ******************************************************************************/
-
+/**
+ * Class for taxicab.
+ */
 public class Taxicab implements Comparable<Taxicab> {
+    /**
+     * integer i.
+     */
     private final int i;
+    /**
+     * integer j.
+     */
     private final int j;
-    private final long sum;   // i^3 + j^3, cached to avoid recomputation
-
-    // create a new tuple (i, j, i^3 + j^3)
-    public Taxicab(int i, int j) {
-        this.sum = (long) i * i *i + (long) j * j * j;
-        this.i = i;
-        this.j = j;
+    /**
+     * sum of long type.
+     */
+    private final long sum;
+    /**
+     * Constructs the object.
+     *
+     * @param      i1    I 1
+     * @param      j1    The j 1
+     */
+    public Taxicab(int i1, int j1) {
+        this.sum = (long) i1 * i1 *i1 + (long) j1 * j1 * j1;
+        this.i = i1;
+        this.j = j1;
     }
-
-    
-
     /**
      * compare by i^3 + j^3, breaking ties by i
      * time complexity is 1.
@@ -48,13 +60,27 @@ public class Taxicab implements Comparable<Taxicab> {
      * @return     { description_of_the_return_value }
      */
     public int compareTo(Taxicab that) {
-        if      (this.sum < that.sum) return -1;
-        else if (this.sum > that.sum) return +1;
-        else if (this.i < that.i)     return -1;
-        else if (this.i > that.i)     return +1;
-        else                          return  0;
+        if (this.sum < that.sum) {
+            return -1;
+        }
+        else if (this.sum > that.sum) { 
+            return +1;
+        }
+        else if (this.i < that.i) {     
+            return -1;
+        }
+        else if (this.i > that.i) {     
+            return +1;
+        }
+        else {                          
+            return  0;
+        }
     }
-
+    /**
+     * Returns a string representation of the object.
+     *
+     * @return     String representation of the object.
+     */
     public String toString() {
         return i + "^3 + " + j + "^3";
     }
@@ -98,6 +124,5 @@ public class Taxicab implements Comparable<Taxicab> {
             prev = curr;
         }
         return res;
-        // System.out.println("Result is : " + res);
     }
 }
