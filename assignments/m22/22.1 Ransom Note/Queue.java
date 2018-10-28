@@ -1,5 +1,10 @@
 import java.util.Iterator;
 import java.util.NoSuchElementException;
+/**
+ * List of .
+ *
+ * @param      <Item>  The item
+ */
 public class Queue<Item> implements Iterable<Item> {
     private Node<Item> first;    // beginning of queue
     private Node<Item> last;     // end of queue
