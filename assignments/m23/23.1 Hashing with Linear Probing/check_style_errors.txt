@@ -2,7 +2,8 @@ Starting audit...
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m23\23.1 Hashing with Linear Probing\Solution.java:11: Class Solution should be declared as final. [FinalClass]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m23\23.1 Hashing with Linear Probing\Solution.java:12:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m23\23.1 Hashing with Linear Probing\Solution.java:22:29: Parameter args should be final. [FinalParameters]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m23\23.1 Hashing with Linear Probing\Solution.java:26: Line is longer than 80 characters (found 95). [LineLength]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m23\23.1 Hashing with Linear Probing\Solution.java:26: Line is longer than 80 characters (found 104). [LineLength]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m23\23.1 Hashing with Linear Probing\Solution.java:26:94: '3' is a magic number. [MagicNumber]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m23\23.1 Hashing with Linear Probing\Solution.java:32:40: ',' is not followed by whitespace. [WhitespaceAfter]
 Audit done.
-Checkstyle ends with 5 errors.
+Checkstyle ends with 6 errors.
