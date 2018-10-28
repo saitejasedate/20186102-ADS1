@@ -23,6 +23,7 @@ class Solution {
         Scanner sc = new Scanner(System.in);
         LinearProbingHashST<String, Integer> lpst = new LinearProbingHashST<String, Integer>();
         int nopes = sc.nextInt();
+        sc.nextLine();
         for (int i = 0; i < nopes; i++) {
             String line = sc.nextLine();
             String[]tokens = line.split(" ");
