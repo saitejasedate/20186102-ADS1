@@ -32,7 +32,7 @@ public class Taxicab implements Comparable<Taxicab> {
 
     // create a new tuple (i, j, i^3 + j^3)
     public Taxicab(int i, int j) {
-        this.sum = (long) i*i*i + (long) j*j*j;
+        this.sum = (long) i * i *i + (long) j * j * j;
         this.i = i;
         this.j = j;
     }
@@ -58,13 +58,13 @@ public class Taxicab implements Comparable<Taxicab> {
     public String toString() {
         return i + "^3 + " + j + "^3";
     }
-    /**.
-     * finds the taxi cab number
-     * Time complexity is O(N).
-     * @param      n1     { number of occurance of the taxi cab number}
-     * @param      m1     { number of pairs that we needed}
+    /**
+     * { function_description }
      *
-     * @return     { returns the taxicab number }
+     * @param      N     { parameter_description }
+     * @param      M     { parameter_description }
+     *
+     * @return     { description_of_the_return_value }
      */
     public static long findTaxicab(int N, int M) {
         MinPQ<Taxicab> minPQ = new MinPQ<Taxicab>();
@@ -82,7 +82,6 @@ public class Taxicab implements Comparable<Taxicab> {
             Taxicab curr = minPQ.delMin();
             if (prev.sum == curr.sum) {
                 run = run + 1;
-                // System.out.println(prev + " " + curr);
                 if (run == M) {
                     count++;
                     if (count == N) {
@@ -93,8 +92,9 @@ public class Taxicab implements Comparable<Taxicab> {
             } else {
                 run = 1;
             }
-            if (curr.j < n)
-                minPQ.insert(new Taxicab(curr.i, curr.j+1));
+            if (curr.j < n) {
+                minPQ.insert(new Taxicab(curr.i, curr.j + 1));
+            }
             prev = curr;
         }
         return res;
