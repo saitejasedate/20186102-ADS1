@@ -84,7 +84,7 @@ public class BST <Key extends Comparable <Key>, Value> {
 		while (x != null) {
 			int cmp = key.compareTo(x.key);
 			if(cmp < 0)  x =x.left;
-			else if(cmp>0)    x=x.right;
+			else if(cmp>0) x = x.right;
 			else return x.value;
 
 		}
