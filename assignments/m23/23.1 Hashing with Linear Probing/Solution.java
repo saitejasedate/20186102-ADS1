@@ -8,7 +8,7 @@ import java.util.Scanner;
 /**
  * Class for solution.
  */
-class Solution {
+public final class Solution {
     /**
      * Constructs the object.
      */
@@ -26,7 +26,7 @@ class Solution {
         Scanner sc = new Scanner(System.in);
         int nopes = sc.nextInt();
         sc.nextLine();
-        LinearProbingHashST<String, Integer> lpst = new 
+        LinearProbingHashST<String, Integer> lpst = new
                 LinearProbingHashST<String, Integer>();
         for (int i = 0; i < nopes; i++) {
             String line = sc.nextLine();
