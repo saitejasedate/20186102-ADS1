@@ -89,7 +89,7 @@ public class LinearProbingHashST<Key, Value> {
      * @return     { description_of_the_return_value }
      */
     private int hash(Key key) {
-        return (key.hashCode() & 0x7fffffff) % m;
+        return (11 * key.hashCode()) % m;
     }
 
     
