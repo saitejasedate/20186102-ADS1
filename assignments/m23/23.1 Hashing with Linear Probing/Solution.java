@@ -9,6 +9,9 @@ import java.util.Scanner;
  * Class for solution.
  */
 class Solution {
+    /**
+     * Constructs the object.
+     */
     private Solution() {
         /**
          * Empty constructor.
@@ -19,17 +22,18 @@ class Solution {
      *
      * @param      args  The arguments
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         int nopes = sc.nextInt();
         sc.nextLine();
-        LinearProbingHashST<String, Integer> lpst = new LinearProbingHashST<String, Integer>();
+        LinearProbingHashST<String, Integer> lpst = new 
+                LinearProbingHashST<String, Integer>();
         for (int i = 0; i < nopes; i++) {
             String line = sc.nextLine();
             String[] tokens = line.split(" ");
             switch (tokens[0]) {
                 case "put":
-                    lpst.put(tokens[1],Integer.parseInt(tokens[2]));
+                    lpst.put(tokens[1], Integer.parseInt(tokens[2]));
                     break;
                 case "delete":
                     lpst.delete(tokens[1]);
@@ -40,9 +44,9 @@ class Solution {
                 break;
                 case "display":
                     try {
-                    	lpst.display();
+                        lpst.display();
                     } catch (Exception e) {
-                    	System.out.println("{}");
+                        System.out.println("{}");
                     }
                 break;
                 default:
