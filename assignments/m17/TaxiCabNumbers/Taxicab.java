@@ -46,8 +46,8 @@ public class Taxicab implements Comparable<Taxicab> {
      * @param      i1    I 1
      * @param      j1    The j 1
      */
-    public Taxicab(int i1, int j1) {
-        this.sum = (long) i1 * i1 *i1 + (long) j1 * j1 * j1;
+    public Taxicab(final int i1, final int j1) {
+        this.sum = (long) i1 * i1 * i1 + (long) j1 * j1 * j1;
         this.i = i1;
         this.j = j1;
     }
@@ -59,20 +59,16 @@ public class Taxicab implements Comparable<Taxicab> {
      *
      * @return     { description_of_the_return_value }
      */
-    public int compareTo(Taxicab that) {
+    public int compareTo(final Taxicab that) {
         if (this.sum < that.sum) {
             return -1;
-        }
-        else if (this.sum > that.sum) { 
+        } else if (this.sum > that.sum) {
             return +1;
-        }
-        else if (this.i < that.i) {     
+        } else if (this.i < that.i) {
             return -1;
-        }
-        else if (this.i > that.i) {     
+        } else if (this.i > that.i) {
             return +1;
-        }
-        else {                          
+        } else {     
             return  0;
         }
     }
@@ -87,8 +83,8 @@ public class Taxicab implements Comparable<Taxicab> {
     /**
      * { function_description }
      *
-     * @param      N     { parameter_description }
-     * @param      M     { parameter_description }
+     * @param      N     { parameter_description }.
+     * @param      M     { parameter_description }.
      *
      * @return     { description_of_the_return_value }
      */
