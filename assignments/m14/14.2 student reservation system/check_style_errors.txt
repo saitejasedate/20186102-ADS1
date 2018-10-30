@@ -1,2 +1,4 @@
 Starting audit...
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:214: Line has trailing spaces. [RegexpSingleline]
 Audit done.
+Checkstyle ends with 1 errors.

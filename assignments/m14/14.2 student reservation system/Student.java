@@ -136,42 +136,11 @@ class Student implements Comparable<Student> {
         long year = Integer.parseInt(elements[2]);
         return year;
     }
-    // /**
-    //  * Get month.
-    //  *
-    //  * @return     { description_of_the_return_value }
-    //  */
-    //  public String getmonth() {
-    //   return month;
-    //  }
-    //  /**
-    //   * set month.
-    //   *
-    //   * @param      month1  The month 1
-    //   */
-    //  public void setmonth(final String month1) {
-    //   this.month = month1;
-    //  }
-    //  /**
-    //   * Get year.
-    //   *
-    //   * @return     { description_of_the_return_value }
-    //   */
-    //   public String getyear() {
-    //    return year;
-    //   }
-    //   /**
-    //    * Sets year1.
-    //    *
-    //    * @param      year1  The year 1
-    //    */
-    //   public void setyear(final String year1) {
-    //    this.year = year1;
-    //   }
+
     /**
-     * Get subject1.
+     * Get sub1.
      *
-     * @return     subject1.
+     * @return     { subject1 }
      */
     public int getsubject1() {
         return subject1;
@@ -242,7 +211,7 @@ class Student implements Comparable<Student> {
     }
     /**
      * Set reservation1.
-     *
+     * 
      * @param      reservation1 The reservation.
      */
     public void setreservation(final String reservation1) {
@@ -250,7 +219,7 @@ class Student implements Comparable<Student> {
     }
     /**
      * Returns a string representation of the object.
-     *
+     * Time complexity is constant.
      * @return     String representation of the object.
      */
     public String toString() {
@@ -258,7 +227,7 @@ class Student implements Comparable<Student> {
     }
     /**
      * compareTo function compares the inputs a and b.
-     *
+     * Time complexity is constant.
      * @param      that  The that
      *
      * @return     integer.
