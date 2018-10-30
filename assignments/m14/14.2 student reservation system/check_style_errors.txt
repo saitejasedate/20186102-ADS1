@@ -1,4 +1,14 @@
 Starting audit...
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:60:5: More than 7 parameters (found 9). [ParameterNumber]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:43:8: Unused @param tag for 'date1'. [JavadocMethod]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:44:8: Unused @param tag for 'month1'. [JavadocMethod]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:45:8: Unused @param tag for 'year1'. [JavadocMethod]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:52:46: Expected @param tag for 'dob1'. [JavadocMethod]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:106:8: Unused @param tag for 'date1'. [JavadocMethod]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:108:37: Expected @param tag for 'dob1'. [JavadocMethod]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:112:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:116:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:117:22: Array brackets at illegal position. [ArrayTypeStyle]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:120:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:122:40: '3' is a magic number. [MagicNumber]
 Audit done.
-Checkstyle ends with 1 errors.
+Checkstyle ends with 11 errors.

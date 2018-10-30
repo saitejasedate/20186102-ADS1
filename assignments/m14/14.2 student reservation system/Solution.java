@@ -39,8 +39,8 @@ final class Solution {
         Student[] students = new Student[lines.length];
         for (String line : lines) {
             String[] tokens = line.split(",");
-            String[] date = tokens[1].split("-");
-            Student student = new Student(tokens[0], date[0], date[1], date[2],
+            //String[] date = tokens[1].split("-");
+            Student student = new Student(tokens[0], tokens[1],
                 Integer.parseInt(tokens[2]), Integer.parseInt(tokens[3]),
                 Integer.parseInt(tokens[4]), Integer.parseInt(tokens[5]), 
                 tokens[6]);

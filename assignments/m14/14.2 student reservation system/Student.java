@@ -9,19 +9,11 @@ class Student implements Comparable<Student> {
      */
     private String name;
     /**
-     * String date.
+     * String dob.
      */
-    private String date;
+    private String dob;
     /**
-     * String month.
-     */
-    private String month;
-    /**
-     * String year.
-     */
-    private String year;
-    /**
-     * String subject1.
+     * int subject1.
      */
     private int subject1;
     /**
@@ -57,14 +49,11 @@ class Student implements Comparable<Student> {
      * @param      totalmarks1   The totalmarks
      * @param      reservation1  The reservation
      */
-    Student(final String name1, final String date1, final String month1,
-        final String year1,
+    Student(final String name1, final String dob1,
         final int sub1, final int sub2, final int sub3,
         final int totalmarks1, final String reservation1) {
         this.name = name1;
-        this.date = date1;
-        this.month = month1;
-        this.year = year1;
+        this.dob = dob1;
         this.subject1 = sub1;
         this.subject2 = sub2;
         this.subject3 = sub3;
@@ -108,49 +97,62 @@ class Student implements Comparable<Student> {
      *
      * @return     date.
      */
-    public String getdate() {
-        return date;
+    public String getdob() {
+        return dob;
     }
     /**
      * Set date1.
      *
      * @param      date1  The date.
      */
-    public void setdate(final String date1) {
-        this.date = date1;
+    public void setdob(final String dob1) {
+        this.dob = dob1;
     }
-    /**
-     * Get month.
-     *
-     * @return     { description_of_the_return_value }
-     */
-     public String getmonth() {
-      return month;
-     }
-     /**
-      * set month.
-      *
-      * @param      month1  The month 1
-      */
-     public void setmonth(final String month1) {
-      this.month = month1;
-     }
-     /**
-      * Get year.
-      *
-      * @return     { description_of_the_return_value }
-      */
-      public String getyear() {
-       return year;
-      }
-      /**
-       * Sets year1.
-       *
-       * @param      year1  The year 1
-       */
-      public void setyear(final String year1) {
-       this.year = year1;
-      }
+
+    int getdate() {
+        String[] tokens = this.dob.split("-");
+        return Integer.parseInt(tokens[1]);
+    }
+    int getmonth() {
+        String tokens[] = this.dob.split("-");
+        return Integer.parseInt(tokens[2]);
+    }
+    int getyear() {
+        String[] tokens = this.dob.split("-");
+        return Integer.parseInt(tokens[3]);
+    }
+    // /**
+    //  * Get month.
+    //  *
+    //  * @return     { description_of_the_return_value }
+    //  */
+    //  public String getmonth() {
+    //   return month;
+    //  }
+    //  /**
+    //   * set month.
+    //   *
+    //   * @param      month1  The month 1
+    //   */
+    //  public void setmonth(final String month1) {
+    //   this.month = month1;
+    //  }
+    //  /**
+    //   * Get year.
+    //   *
+    //   * @return     { description_of_the_return_value }
+    //   */
+    //   public String getyear() {
+    //    return year;
+    //   }
+    //   /**
+    //    * Sets year1.
+    //    *
+    //    * @param      year1  The year 1
+    //    */
+    //   public void setyear(final String year1) {
+    //    this.year = year1;
+    //   }
     /**
      * Get subject1.
      *
@@ -266,22 +268,22 @@ class Student implements Comparable<Student> {
         if (a.subject2 < that.subject2) {
             return -1;
         }
-        if (Integer.parseInt(a.year) < Integer.parseInt(that.year)) {
+        if (a.getyear() < that.getyear()) {
             return -1;
         }
-        if (Integer.parseInt(a.year) > Integer.parseInt(that.year)) {
+        if (a.getyear() > that.getyear()) {
             return 1;
         }
-        if (Integer.parseInt(a.month) < Integer.parseInt(that.month)) {
+        if (a.getmonth() < that.getmonth()) {
             return -1;
         }
-        if (Integer.parseInt(a.month) > Integer.parseInt(that.month)) {
+        if (a.getmonth() > that.getmonth()) {
             return 1;
         }
-        if (Integer.parseInt(a.date) < Integer.parseInt(that.date)) {
+        if (a.getdate() < that.getdate()) {
             return -1;
         }
-        if (Integer.parseInt(a.date) > Integer.parseInt(that.date)) {
+        if (a.getdate() > that.getdate()) {
             return 1;
         }
         return 0;
