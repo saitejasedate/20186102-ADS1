@@ -9,10 +9,11 @@ public class Heap {
      */
     public static void sort(Comparable[] pq) {
         int n = pq.length;
+        // System.out.println("HI");
         for (int k = n/2; k >= 1; k--)
             sink(pq, k, n);
         while (n > 1) {
-            exch(pq, 1, n--);
+            exch(pq, 1, --n);
             sink(pq, 1, n);
         }
     }

@@ -92,22 +92,22 @@ class Student implements Comparable<Student> {
     public void setname(final String name1) {
         this.name = name1;
     }
-    /**
-     * Get date.
-     *
-     * @return     date.
-     */
-    public int getdob() {
-        return Integer.parseInt(dob);
-    }
-    /**
-     * Set date1.
-     *
-     * @param      date1  The date.
-     */
-    public void setdob(final String dob1) {
-        this.dob = dob1;
-    }
+    // /**
+    //  * Get date.
+    //  *
+    //  * @return     date.
+    //  */
+    // public int getdob() {
+    //     return Integer.parseInt(dob);
+    // }
+    // /**
+    //  * Set date1.
+    //  *
+    //  * @param      date1  The date.
+    //  */
+    // public void setdob(final String dob1) {
+    //     this.dob = dob1;
+    // }
 
     int getdate() {
         String[] elements = this.dob.split("-");
