@@ -117,7 +117,7 @@ class Student implements Comparable<Student> {
         String tokens[] = this.dob.split("-");
         return Integer.parseInt(tokens[2]);
     }
-    int getyear() {
+    long getyear() {
         String[] tokens = this.dob.split("-");
         return Integer.parseInt(tokens[3]);
     }
