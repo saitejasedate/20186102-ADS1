@@ -106,9 +106,8 @@ class Student implements Comparable<Student> {
     // public void setdob(final String dob1) {
     //     this.dob = dob1;
     // }
-    
     /**
-     * { split the date of birth(dob) separated by "-" }
+     * { split the date of birth(dob) separated by "-" }.
      *
      * @return     { date }
      */
@@ -118,7 +117,7 @@ class Student implements Comparable<Student> {
         return date;
     }
     /**
-     * { split the date of birth(dob) separated by "-" }
+     * { split the date of birth(dob) separated by "-" }.
      *
      * @return     { month }
      */
@@ -128,7 +127,7 @@ class Student implements Comparable<Student> {
         return month;
     }
     /**
-     * { split the date of birth(dob) separated by "-" }
+     * { split the date of birth(dob) separated by "-" }.
      *
      * @return     { year }
      */
