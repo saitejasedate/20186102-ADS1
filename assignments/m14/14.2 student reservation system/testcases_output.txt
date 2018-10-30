@@ -162,8 +162,8 @@ Aditya,80,ST
 priya,76,SC
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 3
-	at Student.getyear(Student.java:122)
-	at Student.compareTo(Student.java:271)
+	at Student.getyear(Student.java:124)
+	at Student.compareTo(Student.java:274)
 	at Student.compareTo(Student.java:4)
 	at Heap.less(Heap.java:39)
 	at Heap.sink(Heap.java:27)
@@ -191,8 +191,8 @@ Ajay,76,Open
 Tanya,66,BC
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 3
-	at Student.getyear(Student.java:122)
-	at Student.compareTo(Student.java:271)
+	at Student.getyear(Student.java:124)
+	at Student.compareTo(Student.java:274)
 	at Student.compareTo(Student.java:4)
 	at Heap.less(Heap.java:39)
 	at Heap.sink(Heap.java:27)
@@ -247,8 +247,8 @@ Amit,76,Open
 Arjun,75,Open
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 3
-	at Student.getyear(Student.java:122)
-	at Student.compareTo(Student.java:271)
+	at Student.getyear(Student.java:124)
+	at Student.compareTo(Student.java:274)
 	at Student.compareTo(Student.java:4)
 	at Heap.less(Heap.java:39)
 	at Heap.sink(Heap.java:27)
@@ -305,8 +305,8 @@ priya,72,SC
 varsha,66,BC
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 3
-	at Student.getyear(Student.java:122)
-	at Student.compareTo(Student.java:271)
+	at Student.getyear(Student.java:124)
+	at Student.compareTo(Student.java:274)
 	at Student.compareTo(Student.java:4)
 	at Heap.less(Heap.java:39)
 	at Heap.sink(Heap.java:27)

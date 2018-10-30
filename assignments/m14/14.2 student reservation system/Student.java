@@ -111,15 +111,18 @@ class Student implements Comparable<Student> {
 
     int getdate() {
         String[] tokens = this.dob.split("-");
-        return Integer.parseInt(tokens[1]);
+        int date = Integer.parseInt(tokens[1]);
+        return date;
     }
     int getmonth() {
         String tokens[] = this.dob.split("-");
-        return Integer.parseInt(tokens[2]);
+        int month = Integer.parseInt(tokens[2]);
+        return month;
     }
     long getyear() {
         String[] tokens = this.dob.split("-");
-        return Integer.parseInt(tokens[3]);
+        long year = Integer.parseInt(tokens[3]);
+        return year;
     }
     // /**
     //  * Get month.
