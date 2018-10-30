@@ -36,7 +36,7 @@ final class Solution {
         }
         String[] lines = sb.toString().split("::");
         int i = 0;
-        Student[] students = new Student[lines.length + 3];
+        Student[] students = new Student[lines.length];
         for (String line : lines) {
             String[] tokens = line.split(",");
             //String[] date = tokens[1].split("-");
