@@ -97,8 +97,8 @@ class Student implements Comparable<Student> {
      *
      * @return     date.
      */
-    public String getdob() {
-        return dob;
+    public int getdob() {
+        return Integer.parseInt(dob);
     }
     /**
      * Set date1.
