@@ -1,10 +1,7 @@
 Starting audit...
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:43:8: Unused @param tag for 'date1'. [JavadocMethod]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:44:8: Unused @param tag for 'month1'. [JavadocMethod]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:45:8: Unused @param tag for 'year1'. [JavadocMethod]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:52:46: Expected @param tag for 'dob1'. [JavadocMethod]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:112:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:117:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:122:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:109: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:110: First sentence should end with a period. [JavadocStyle]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:120: First sentence should end with a period. [JavadocStyle]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m14\14.2 student reservation system\Student.java:130: First sentence should end with a period. [JavadocStyle]
 Audit done.
-Checkstyle ends with 7 errors.
+Checkstyle ends with 4 errors.

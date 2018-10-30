@@ -39,15 +39,13 @@ class Student implements Comparable<Student> {
     /**
      * Constructs the object.
      *
-     * @param      name1         The name
-     * @param      date1         The date
-     * @param      month1        The month
-     * @param      year1         The year
-     * @param      sub1          The subject 1
-     * @param      sub2          The subject 2
-     * @param      sub3          The subject 3
-     * @param      totalmarks1   The totalmarks
-     * @param      reservation1  The reservation
+     * @param      name1         The name 1
+     * @param      dob1          The dob 1
+     * @param      sub1          The sub 1
+     * @param      sub2          The sub 2
+     * @param      sub3          The sub 3
+     * @param      totalmarks1   The totalmarks 1
+     * @param      reservation1  The reservation 1
      */
     Student(final String name1, final String dob1,
         final int sub1, final int sub2, final int sub3,
@@ -108,17 +106,32 @@ class Student implements Comparable<Student> {
     // public void setdob(final String dob1) {
     //     this.dob = dob1;
     // }
-
+    
+    /**
+     * { split the date of birth(dob) separated by "-" }
+     *
+     * @return     { date }
+     */
     int getdate() {
         String[] elements = this.dob.split("-");
         int date = Integer.parseInt(elements[0]);
         return date;
     }
+    /**
+     * { split the date of birth(dob) separated by "-" }
+     *
+     * @return     { month }
+     */
     int getmonth() {
         String[] elements = this.dob.split("-");
         int month = Integer.parseInt(elements[1]);
         return month;
     }
+    /**
+     * { split the date of birth(dob) separated by "-" }
+     *
+     * @return     { year }
+     */
     long getyear() {
         String[] elements = this.dob.split("-");
         long year = Integer.parseInt(elements[2]);
