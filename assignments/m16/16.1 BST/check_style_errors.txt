@@ -1,2 +1,45 @@
 Starting audit...
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\Book.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\Book.java:1:8: Unused import - java.util.Scanner. [UnusedImports]
+Audit done.
+Checkstyle ends with 2 errors.
+Starting audit...
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\BST.java:7:17: '<' is preceded with whitespace. [GenericWhitespace]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\BST.java:7:41: '<' is preceded with whitespace. [GenericWhitespace]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\BST.java:8: First sentence should end with a period. [JavadocStyle]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\BST.java:8:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\BST.java:9: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\BST.java:20: First sentence should end with a period. [JavadocStyle]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\BST.java:24: First sentence should end with a period. [JavadocStyle]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\BST.java:28: First sentence should end with a period. [JavadocStyle]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\BST.java:32: First sentence should end with a period. [JavadocStyle]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\BST.java:38:17: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\BST.java:38:30: Parameter key should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\BST.java:38:35: 'key' hides a field. [HiddenField]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\BST.java:38:40: Parameter value should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\BST.java:38:47: 'value' hides a field. [HiddenField]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\BST.java:44: First sentence should end with a period. [JavadocStyle]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\BST.java:50:25: Parameter key should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\BST.java:50:35: Parameter value should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\BST.java:53: First sentence should end with a period. [JavadocStyle]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\BST.java:60: Line is longer than 80 characters (found 107). [LineLength]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\BST.java:62:25: Parameter x should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\BST.java:62:33: Parameter key should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\BST.java:62:43: Parameter value should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\BST.java:62:55: ')' is preceded with whitespace. [ParenPad]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\BST.java:63: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\BST.java:75: First sentence should end with a period. [JavadocStyle]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\BST.java:76: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\BST.java:82:27: Parameter key should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\BST.java:86: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\BST.java:86:27: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\BST.java:86:41: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\BST.java:87: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\BST.java:87:32: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\BST.java:87:36: '>' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\BST.java:87:37: '>' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m16\16.1 BST\BST.java:88: 'else' construct must use '{}'s. [NeedBraces]
+Audit done.
+Checkstyle ends with 35 errors.
+Starting audit...
 Audit done.
