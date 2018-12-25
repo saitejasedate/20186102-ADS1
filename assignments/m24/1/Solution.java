@@ -17,14 +17,14 @@ class Solution {
 				try {
 					System.out.println(st.get(Integer.parseInt(str1[1])).getName());
 				} catch (Exception e) {
-					System.out.println("Student doesn't exist");
+					System.out.println("Student doesn't exist...");
 				}
 				break;
 				case "2":
 				try {
 					System.out.println(st.get(Integer.parseInt(str1[1])).getMarks());
 				} catch (Exception e) {
-					System.out.println("Student doesn't exist");
+					System.out.println("Student doesn't exist...");
 				}
 				break;
 				default:

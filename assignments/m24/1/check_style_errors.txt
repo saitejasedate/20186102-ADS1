@@ -153,9 +153,9 @@ Starting audit...
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m24\1\Solution.java:6: Line is longer than 80 characters (found 109). [LineLength]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m24\1\Solution.java:9: Line is longer than 80 characters (found 112). [LineLength]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m24\1\Solution.java:18: Line is longer than 80 characters (found 104). [LineLength]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m24\1\Solution.java:20: Line is longer than 80 characters (found 84). [LineLength]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m24\1\Solution.java:20: Line is longer than 80 characters (found 87). [LineLength]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m24\1\Solution.java:25: Line is longer than 80 characters (found 105). [LineLength]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m24\1\Solution.java:27: Line is longer than 80 characters (found 84). [LineLength]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m24\1\Solution.java:27: Line is longer than 80 characters (found 87). [LineLength]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m24\1\Solution.java:32: Line has trailing spaces. [RegexpSingleline]
 Audit done.
 Checkstyle ends with 14 errors.
