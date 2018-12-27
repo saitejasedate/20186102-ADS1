@@ -6,11 +6,11 @@ Dan
 Abegg
 
 Your Output: 
-Exception in thread "main" java.lang.NumberFormatException: For input string: "88.7"
+Exception in thread "main" java.lang.NumberFormatException: For input string: "76.7"
 	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
-	at Solution.main(Solution.java:10)
+	at Solution.main(Solution.java:17)
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -62,11 +62,11 @@ Abegg
 Brian Caffrey
 
 Your Output: 
-Exception in thread "main" java.lang.NumberFormatException: For input string: "88.3"
+Exception in thread "main" java.lang.NumberFormatException: For input string: "70.1"
 	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
-	at Solution.main(Solution.java:10)
+	at Solution.main(Solution.java:17)
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -135,11 +135,7 @@ Megon
 Meili Cady
 
 Your Output: 
-Exception in thread "main" java.lang.NumberFormatException: For input string: "88.3"
-	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
-	at java.base/java.lang.Integer.parseInt(Unknown Source)
-	at java.base/java.lang.Integer.parseInt(Unknown Source)
-	at Solution.main(Solution.java:10)
+
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -860,10 +856,10 @@ Thelma Page
 Vicky Hales-Dutton
 
 Your Output: 
-Exception in thread "main" java.lang.NumberFormatException: For input string: "97.83"
+Exception in thread "main" java.lang.NumberFormatException: For input string: "65.00"
 	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
-	at Solution.main(Solution.java:10)
+	at Solution.main(Solution.java:17)
 ----------------------------------------
 
