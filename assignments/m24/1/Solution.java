@@ -14,11 +14,7 @@ class Solution {
 			String[] str1 = sc.nextLine().split(" ");
 			switch (str1[2]) {
 				case "1":
-				try {
 					System.out.println(st.get(Integer.parseInt(str1[1])).getName());
-				} catch (Exception e) {
-					System.out.println("Student doesn't exists...");
-				}
 				break;
 				case "2":
 				try {
