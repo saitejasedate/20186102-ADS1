@@ -310,11 +310,12 @@ Starting audit...
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m24\2\Solution.java:3:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m24\2\Solution.java:3:33: Parameter args should be final. [FinalParameters]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m24\2\Solution.java:9: Line is longer than 80 characters (found 112). [LineLength]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m24\2\Solution.java:15: switch without "default" clause. [MissingSwitchDefault]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m24\2\Solution.java:17: Line is longer than 80 characters (found 110). [LineLength]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\m24\2\Solution.java:18: Line is longer than 80 characters (found 97). [LineLength]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m24\2\Solution.java:16: switch without "default" clause. [MissingSwitchDefault]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m24\2\Solution.java:20: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m24\2\Solution.java:21: Line is longer than 80 characters (found 110). [LineLength]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\m24\2\Solution.java:22: Line is longer than 80 characters (found 106). [LineLength]
 Audit done.
-Checkstyle ends with 11 errors.
+Checkstyle ends with 12 errors.
 Starting audit...
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m24\2\Student.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\m24\2\Student.java:1: Missing a Javadoc comment. [JavadocType]
