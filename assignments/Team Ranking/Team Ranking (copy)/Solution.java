@@ -8,6 +8,9 @@ class Solution {
 		}
 		System.out.println(sb);
 		String[] lines = sb.toString().split("::");
+		for (int j = 0; j < lines.length; j++) {
+			System.out.println(lines[j]);
+		}
 		int i = 0;
 		Team[] teams = new Team[lines.length];
 		for (String line : lines) {

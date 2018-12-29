@@ -4,8 +4,36 @@ Australia India SouthAfrica England Zimbabwe Bangladesh Ireland
 
 Your Output: 
 England::4::2::3::India::5::2::4::Australia::6::2::3::SouthAfrica::5::3::4::Bangladesh::3::4::2::Zimbabwe::3::4::6::Ireland::3::4::1::
+England
+4
+2
+3
+India
+5
+2
+4
+Australia
+6
+2
+3
+SouthAfrica
+5
+3
+4
+Bangladesh
+3
+4
+2
+Zimbabwe
+3
+4
+6
+Ireland
+3
+4
+1
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
-	at Solution.main(Solution.java:15)
+	at Solution.main(Solution.java:18)
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -14,8 +42,48 @@ India SouthAfrica Australia Zimbabwe Pakistan WestIndies Bangladesh Ireland SriL
 
 Your Output: 
 WestIndies::10::6::6::Bangladesh::9::5::4::Ireland::9::5::2::Australia::13::15::6::Zimbabwe::13::17::5::Pakistan::13::18::10::India::15::5::4::SouthAfrica::15::5::3::SriLanka::7::6::3::England::0::1::2::
+WestIndies
+10
+6
+6
+Bangladesh
+9
+5
+4
+Ireland
+9
+5
+2
+Australia
+13
+15
+6
+Zimbabwe
+13
+17
+5
+Pakistan
+13
+18
+10
+India
+15
+5
+4
+SouthAfrica
+15
+5
+3
+SriLanka
+7
+6
+3
+England
+0
+1
+2
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
-	at Solution.main(Solution.java:15)
+	at Solution.main(Solution.java:18)
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -24,8 +92,40 @@ a1 a2 a3 a4 a5 a6 a7 a8
 
 Your Output: 
 a7::2::10::4::a6::2::10::5::a5::2::10::6::a2::3::17::8::a3::3::19::9::a4::3::19::8::a8::0::0::0::a1::3::16::7::
+a7
+2
+10
+4
+a6
+2
+10
+5
+a5
+2
+10
+6
+a2
+3
+17
+8
+a3
+3
+19
+9
+a4
+3
+19
+8
+a8
+0
+0
+0
+a1
+3
+16
+7
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
-	at Solution.main(Solution.java:15)
+	at Solution.main(Solution.java:18)
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -34,7 +134,71 @@ a11 a12 a13 a14 a15 a16 a17 a18 a1 a2 a3 a4 a5 a6 a7 a8
 
 Your Output: 
 a17::12::10::4::a16::12::10::5::a15::12::10::6::a12::13::17::8::a13::13::19::9::a14::13::19::8::a18::10::0::0::a11::13::16::7::a7::2::10::4::a6::2::10::5::a5::2::10::6::a2::3::17::8::a3::3::19::9::a4::3::19::8::a8::0::0::0::a1::3::16::7::
+a17
+12
+10
+4
+a16
+12
+10
+5
+a15
+12
+10
+6
+a12
+13
+17
+8
+a13
+13
+19
+9
+a14
+13
+19
+8
+a18
+10
+0
+0
+a11
+13
+16
+7
+a7
+2
+10
+4
+a6
+2
+10
+5
+a5
+2
+10
+6
+a2
+3
+17
+8
+a3
+3
+19
+9
+a4
+3
+19
+8
+a8
+0
+0
+0
+a1
+3
+16
+7
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
-	at Solution.main(Solution.java:15)
+	at Solution.main(Solution.java:18)
 ----------------------------------------
 
