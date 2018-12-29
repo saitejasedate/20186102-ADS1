@@ -9,9 +9,8 @@ class Solution {
 		String[] lines = sb.toString().split("::");
 		int i = 0;
 		Team[] teams = new Team[lines.length];
-		System.out.println("h");
 		for (String line : lines) {
-			String[] tokens = line.split(",");
+			String[] tokens = line.split(" ");
 			Team team = new Team(tokens[0], Integer.parseInt(tokens[1]), Integer.parseInt(tokens[2]),
 				Integer.parseInt(tokens[3]));
 			teams[i++] = team;
