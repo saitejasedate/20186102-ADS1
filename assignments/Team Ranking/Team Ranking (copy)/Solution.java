@@ -4,7 +4,7 @@ class Solution {
 		Scanner sc = new Scanner(System.in);
 		StringBuffer sb = new StringBuffer();
 		while (sc.hasNext()) {
-			sb.append(sc.next() + "::");
+			sb.append(sc.nextLine() + "::");
 		}
 		String[] lines = sb.toString().split("::");
 		int i = 0;
