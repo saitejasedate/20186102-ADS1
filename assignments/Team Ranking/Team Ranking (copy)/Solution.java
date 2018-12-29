@@ -6,6 +6,7 @@ class Solution {
 		while (sc.hasNext()) {
 			sb.append(sc.next() + "::");
 		}
+		System.out.println(sb);
 		String[] lines = sb.toString().split("::");
 		int i = 0;
 		Team[] teams = new Team[lines.length];
