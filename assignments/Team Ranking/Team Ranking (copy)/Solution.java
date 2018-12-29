@@ -14,7 +14,7 @@ class Solution {
 		int i = 0;
 		Team[] teams = new Team[lines.length];
 		for (String line : lines) {
-			String[] tokens = line.split(" ");
+			String[] tokens = line.split("");
 			Team team = new Team(tokens[0], Integer.parseInt(tokens[1]), Integer.parseInt(tokens[2]),
 				Integer.parseInt(tokens[3]));
 			teams[i++] = team;

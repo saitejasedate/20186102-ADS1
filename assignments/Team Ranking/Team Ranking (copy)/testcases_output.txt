@@ -32,7 +32,10 @@ Ireland
 3
 4
 1
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
+Exception in thread "main" java.lang.NumberFormatException: For input string: "n"
+	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at Solution.main(Solution.java:18)
 ----------------------------------------
 
@@ -82,7 +85,10 @@ England
 0
 1
 2
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
+Exception in thread "main" java.lang.NumberFormatException: For input string: "e"
+	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at Solution.main(Solution.java:18)
 ----------------------------------------
 
@@ -124,7 +130,7 @@ a1
 3
 16
 7
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 2
 	at Solution.main(Solution.java:18)
 ----------------------------------------
 
@@ -198,7 +204,7 @@ a1
 3
 16
 7
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 3
 	at Solution.main(Solution.java:18)
 ----------------------------------------
 
