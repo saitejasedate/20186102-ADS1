@@ -18,7 +18,7 @@ class Solution {
 		Insertion.sort(teams);
 		String output = "";
 		for (Team team : teams) {
-			output += team + ",";
+			output += team + " ";
 		}
 		System.out.print(output.substring(0, output.length() - 1));
 	}
