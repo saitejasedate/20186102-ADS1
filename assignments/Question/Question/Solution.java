@@ -8,6 +8,7 @@ class Solution {
 		StringBuffer sb = new StringBuffer();
 		while (sc.hasNext()) {
 			sb.append(sc.nextLine() + "::");
+			System.out.println(sb);
 		}
 		String[] lines = sb.toString().split("::");
 		for (String line : lines) {
