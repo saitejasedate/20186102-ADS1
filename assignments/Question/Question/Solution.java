@@ -11,10 +11,7 @@ class Solution {
 			// System.out.println(sb);
 		}
 		String[] lines = sb.toString().split("::");
-		System.out.println(lines[0]);
-		System.out.println(lines[1]);
 		for (String line : lines) {
-			System.out.println(line);
 			if (line.equals("JC")) {
 				if (map.isEmpty()) {
 					System.out.println("NO Registration");
@@ -26,9 +23,8 @@ class Solution {
 			}
 			else {
 				String[] tokens = line.split(",");
-				System.out.println(tokens[0]);
+				// System.out.println(tokens[0]);
 				map.put(Integer.parseInt(tokens[0]), Integer.parseInt(tokens[1]));
-				print(map);
 			}
 		}
 	}
