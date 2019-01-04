@@ -10,11 +10,8 @@ class Solution {
 			sb.append(sc.nextLine() + "::");
 		}
 		String[] lines = sb.toString().split("::");
-		// System.out.println(lines[0]);
-		// Person[] persons = new Person[lines.length];
-		map.clear();
 		for (String line : lines) {
-			if (line.equals("JC")) {
+			if (line == "JC") {
 				if (map.isEmpty()) {
 					System.out.println("NO Registration");
 				}
