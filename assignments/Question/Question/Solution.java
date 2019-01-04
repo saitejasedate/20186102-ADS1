@@ -40,7 +40,8 @@ class Solution {
 					System.out.println("NO Registration");
 				}
 				else {
-					System.out.println(map);
+					// System.out.println(map);
+					System.out.println("hello");
 				}
 			}
 			else {

@@ -196,7 +196,7 @@ Starting audit...
 [ERROR] D:\MSIT\20186102-ADS1\assignments\Question\Question\Solution.java:27:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\Question\Question\Solution.java:27:33: Parameter args should be final. [FinalParameters]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\Question\Question\Solution.java:41:33: '}' at column 5 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\Question\Question\Solution.java:45:25: '}' at column 4 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\Question\Question\Solution.java:48: Line is longer than 80 characters (found 117). [LineLength]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\Question\Question\Solution.java:46:25: '}' at column 4 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\Question\Question\Solution.java:49: Line is longer than 80 characters (found 117). [LineLength]
 Audit done.
 Checkstyle ends with 13 errors.
