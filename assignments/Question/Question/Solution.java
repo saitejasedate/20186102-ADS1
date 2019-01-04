@@ -11,7 +11,7 @@ class Solution {
 		}
 		String[] lines = sb.toString().split("::");
 		for (String line : lines) {
-			if (line == "JC") {
+			if (line.equals("JC")) {
 				if (map.isEmpty()) {
 					System.out.println("NO Registration");
 				}
