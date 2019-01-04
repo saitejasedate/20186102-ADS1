@@ -20,11 +20,13 @@
 // 	}
 // }
 // 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 class Solution {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		SeparateChainingHashST<Integer, Person> st = new SeparateChainingHashST<Integer, Person>();
+		HashMap<Integer, Person> map = new HashMap<>();
 		StringBuffer sb = new StringBuffer();
 		while (sc.hasNext()) {
 			sb.append(sc.nextLine() + "::");
@@ -34,18 +36,18 @@ class Solution {
 		Person[] persons = new Person[lines.length];
 		for (String line : lines) {
 			if (line.equals("JC")) {
-				if (st.isEmpty()) {
+				if (map.isEmpty()) {
 					System.out.println("NO Registration");
 				}
 				else {
-					System.out.println(st.keys());
+					System.out.println(map);
 				}
 			}
 			else {
 				String[] tokens = line.split(",");
 				Person person = new Person(Integer.parseInt(tokens[0]), Integer.parseInt(tokens[1]));
-				st.put(Integer.parseInt(tokens[0]), person);
-				System.out.println(st.toString());
+				map.put(Integer.parseInt(tokens[0]), person);
+				System.out.println(map.toString());
 			}
 		}
 	}
