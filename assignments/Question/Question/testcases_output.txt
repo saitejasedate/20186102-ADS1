@@ -1,0 +1,170 @@
+########## Testcase 0: Failed ##########
+Expected Output: 
+0,2
+NO Registrations
+1,2
+2,3
+3,1
+4,3
+5,1
+6,2
+
+Your Output: 
+0,2
+SeparateChainingHashST@59a6e353
+0 
+0 
+SeparateChainingHashST@59a6e353
+0 1 
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+4 0 5 1 2 3 
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+8 4 0 5 1 6 2 7 3 
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+8 4 0 9 5 1 10 6 2 7 3 
+8 4 0 9 5 1 10 6 2 7 3 
+8 4 0 9 5 1 10 6 2 7 3
+----------------------------------------
+
+########## Testcase 1: Failed ##########
+Expected Output: 
+0,6
+1,5
+2,8
+4,7
+6,3
+7,9
+8,1
+19,2
+3,6
+5,5
+10,1
+12,3
+
+Your Output: 
+0,6
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+4 0 1 2 3 
+4 0 1 2 3 
+4 0 1 2 3 
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+4 0 5 1 6 2 7 3 
+SeparateChainingHashST@59a6e353
+8 4 0 5 1 6 2 7 3 
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+12 8 4 0 13 9 5 1 10 6 2 11 7 3 
+12 8 4 0 13 9 5 1 10 6 2 11 7 3 
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+20 16 12 8 4 0 17 13 9 5 1 18 14 10 6 2 19 15 11 7 3 
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+20 16 12 8 4 0 21 17 13 9 5 1 22 18 14 10 6 2 19 15 11 7 3 
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+24 20 16 12 8 4 0 21 17 13 9 5 1 22 18 14 10 6 2 23 19 15 11 7 3 
+24 20 16 12 8 4 0 21 17 13 9 5 1 22 18 14 10 6 2 23 19 15 11 7 3 
+24 20 16 12 8 4 0 21 17 13 9 5 1 22 18 14 10 6 2 23 19 15 11 7 3
+----------------------------------------
+
+########## Testcase 2: Failed ##########
+Expected Output: 
+0,8
+2,5
+3,7
+4,3
+5,6
+6,4
+
+Your Output: 
+0,8
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+0 1 2 
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+4 0 1 2 3 
+SeparateChainingHashST@59a6e353
+4 0 5 1 2 3 
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+8 4 0 5 1 6 2 7 3 
+SeparateChainingHashST@59a6e353
+8 4 0 9 5 1 6 2 7 3 
+8 4 0 9 5 1 6 2 7 3
+----------------------------------------
+
+########## Testcase 3: Failed ##########
+Expected Output: 
+0,4
+1,3
+2,6
+3,9
+4,1
+5,2
+6,7
+7,1
+8,3
+9,4
+11,9
+14,7
+10,1
+
+Your Output: 
+0,4
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+0 1 2 
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+4 0 1 2 3 
+4 0 1 2 3 
+4 0 1 2 3 
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+4 0 5 1 6 2 7 3 
+4 0 5 1 6 2 7 3 
+4 0 5 1 6 2 7 3 
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+8 4 0 9 5 1 10 6 2 11 7 3 
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+12 8 4 0 13 9 5 1 14 10 6 2 11 7 3 
+12 8 4 0 13 9 5 1 14 10 6 2 11 7 3 
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+SeparateChainingHashST@59a6e353
+16 12 8 4 0 17 13 9 5 1 14 10 6 2 15 11 7 3 
+16 12 8 4 0 17 13 9 5 1 14 10 6 2 15 11 7 3 
+16 12 8 4 0 17 13 9 5 1 14 10 6 2 15 11 7 3
+----------------------------------------
+
