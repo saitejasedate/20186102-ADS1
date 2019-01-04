@@ -14,7 +14,7 @@ class Solution {
 			if (line != "JC") {
 				// String[] tokens = line.split(",");
 				s1.push(Integer.parseInt(line));
-				System.out.println(s1); 
+				System.out.println(s1.toString()); 
 			}
 			else {
 				String[] tokens = line.split(",");
