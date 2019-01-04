@@ -26,6 +26,7 @@ class Solution {
 			}
 			else {
 				String[] tokens = line.split(",");
+				System.out.println(tokens[0]);
 				map.put(Integer.parseInt(tokens[0]), Integer.parseInt(tokens[1]));
 				print(map);
 			}
