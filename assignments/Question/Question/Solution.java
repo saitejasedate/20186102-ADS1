@@ -11,6 +11,7 @@ class Solution {
 			// System.out.println(sb);
 		}
 		String[] lines = sb.toString().split("::");
+		System.out.println(lines[0]);
 		for (String line : lines) {
 			if (line.equals("JC")) {
 				if (map.isEmpty()) {
