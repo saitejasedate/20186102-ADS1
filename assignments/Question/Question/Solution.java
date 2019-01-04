@@ -47,7 +47,7 @@ class Solution {
 				String[] tokens = line.split(",");
 				Person person = new Person(Integer.parseInt(tokens[0]), Integer.parseInt(tokens[1]));
 				map.put(Integer.parseInt(tokens[0]), person);
-				System.out.println(map.toString());
+				System.out.println(map);
 			}
 		}
 	}
