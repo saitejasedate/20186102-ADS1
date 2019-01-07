@@ -6,6 +6,9 @@ class Solution {
 		while (sc.hasNext()) {
 			sb.append(sc.nextLine()+"::");
 		}
-		System.out.println(sb);
+		StringBuffer sb1 = new StringBuffer();
+		// System.out.println(sb);
+		sb1.append(sb.toString().split("::"));
+		System.out.println(sb1);
 	}
 }
