@@ -1,7 +1,7 @@
 import java.util.Scanner;
 class Solution {
 	public static void main(String[] args) {
-		LinearProbingHashST<Integer, Integer> lst = new LinearProbingHashST<Integer, Integer>();
+		LinearProbingHashST<Integer, Integer> lst = new LinearProbingHashST<Integer, Integer>(20);
 		Scanner sc = new Scanner(System.in);
 		StringBuffer sb = new StringBuffer();
 		while (sc.hasNext()) {
