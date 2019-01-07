@@ -6,9 +6,9 @@ class Solution {
 		while (sc.hasNext()) {
 			sb.append(sc.nextLine()+"::");
 		}
-		StringBuffer sb1 = new StringBuffer();
-		// System.out.println(sb);
-		System.out.println(sb1.append(sb.toString().split("::")));
-		// System.out.println(sb1.toString());
+		String[] str = sb.toString().split("::");
+		for (int i = 0; i < str.length; i++) {
+			System.out.println(str[i]);
+		}
 	}
 }

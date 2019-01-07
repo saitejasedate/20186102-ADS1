@@ -10,7 +10,25 @@ NO Registrations
 6,2
 
 Your Output: 
-[Ljava.lang.String;@19dfb72a
+0,2
+JC
+JC
+1,2
+JC
+2,3
+3,1
+4,3
+5,1
+JC
+6,2
+7,1
+8,2
+JC
+9,3
+10,1
+JC
+JC
+JC
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -29,7 +47,43 @@ Expected Output:
 12,3
 
 Your Output: 
-[Ljava.lang.String;@19dfb72a
+0,6
+1,5
+2,8
+3,6
+4,7
+JC
+JC
+JC
+5,5
+6,3
+7,9
+JC
+8,1
+JC
+9,6
+10,1
+11,6
+12,3
+13,9
+JC
+JC
+14,5
+15,5
+16,8
+17,5
+18,1
+19,2
+20,6
+JC
+21,6
+22,9
+JC
+23,1
+24,8
+JC
+JC
+JC
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -42,7 +96,22 @@ Expected Output:
 6,4
 
 Your Output: 
-[Ljava.lang.String;@19dfb72a
+0,8
+1,8
+2,5
+JC
+3,7
+4,3
+JC
+5,6
+JC
+6,4
+7,6
+8,5
+JC
+9,3
+JC
+JC
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -62,6 +131,36 @@ Expected Output:
 10,1
 
 Your Output: 
-[Ljava.lang.String;@19dfb72a
+0,4
+1,3
+2,6
+JC
+3,9
+4,1
+JC
+JC
+JC
+5,2
+6,7
+7,1
+JC
+JC
+JC
+8,3
+9,4
+10,1
+11,9
+JC
+12,4
+13,1
+14,7
+JC
+JC
+15,7
+16,3
+17,9
+JC
+JC
+JC
 ----------------------------------------
 
