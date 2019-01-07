@@ -9,6 +9,6 @@ class Solution {
 		StringBuffer sb1 = new StringBuffer();
 		// System.out.println(sb);
 		sb1.append(sb.toString().split("::"));
-		System.out.println(sb1);
+		System.out.println(sb1.toString());
 	}
 }
