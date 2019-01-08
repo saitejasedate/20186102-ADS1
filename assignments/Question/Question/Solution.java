@@ -19,7 +19,7 @@ class Solution {
 				// 	case "1":
 				// }
 				lst.put(Integer.parseInt(str1[1]), jury);
-				System.out.println(lst.hash(Integer.parseInt(str1[1])));
+				System.out.println(lst.get(Integer.parseInt(str1[1])));
 			}
 		}
 	}

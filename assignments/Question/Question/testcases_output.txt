@@ -10,22 +10,22 @@ NO Registrations
 6,2
 
 Your Output: 
-2
+Jury@59a6e353
 NO Registration
 NO Registration
-2
+Jury@7a0ac6e3
 NO Registration
-3
-1
-3
-1
+Jury@71be98f5
+Jury@6fadae5d
+Jury@17f6480
+Jury@2d6e8792
 NO Registration
-2
-1
-2
+Jury@2812cbfa
+Jury@2acf57e3
+Jury@506e6d5e
 NO Registration
-3
-1
+Jury@96532d6
+Jury@3796751b
 NO Registration
 NO Registration
 NO Registration
@@ -47,40 +47,40 @@ Expected Output:
 12,3
 
 Your Output: 
-2
-1
-0
-2
-3
+Jury@59a6e353
+Jury@7a0ac6e3
+Jury@71be98f5
+Jury@6fadae5d
+Jury@17f6480
 NO Registration
 NO Registration
 NO Registration
-1
-3
-1
+Jury@2d6e8792
+Jury@2812cbfa
+Jury@2acf57e3
 NO Registration
-1
+Jury@506e6d5e
 NO Registration
-2
-1
-2
-3
-1
+Jury@96532d6
+Jury@3796751b
+Jury@67b64c45
+Jury@4411d970
+Jury@6442b0a6
 NO Registration
 NO Registration
-1
-1
-0
-1
-1
-2
-2
+Jury@60f82f98
+Jury@35f983a6
+Jury@7f690630
+Jury@edf4efb
+Jury@2f7a2457
+Jury@566776ad
+Jury@6108b2d7
 NO Registration
-2
-1
+Jury@1554909b
+Jury@6bf256fa
 NO Registration
-1
-0
+Jury@6cd8737
+Jury@22f71333
 NO Registration
 NO Registration
 NO Registration
@@ -96,20 +96,20 @@ Expected Output:
 6,4
 
 Your Output: 
-0
-0
-1
+Jury@59a6e353
+Jury@7a0ac6e3
+Jury@71be98f5
 NO Registration
-3
-3
+Jury@6fadae5d
+Jury@17f6480
 NO Registration
-2
+Jury@2d6e8792
 NO Registration
-0
-2
-1
+Jury@2812cbfa
+Jury@2acf57e3
+Jury@506e6d5e
 NO Registration
-3
+Jury@96532d6
 NO Registration
 NO Registration
 ----------------------------------------
@@ -131,34 +131,34 @@ Expected Output:
 10,1
 
 Your Output: 
-0
-3
-2
+Jury@59a6e353
+Jury@7a0ac6e3
+Jury@71be98f5
 NO Registration
-1
-1
-NO Registration
-NO Registration
-NO Registration
-2
-3
-1
+Jury@6fadae5d
+Jury@17f6480
 NO Registration
 NO Registration
 NO Registration
-3
-0
-1
-1
-NO Registration
-0
-1
-3
+Jury@2d6e8792
+Jury@2812cbfa
+Jury@2acf57e3
 NO Registration
 NO Registration
-3
-3
-1
+NO Registration
+Jury@506e6d5e
+Jury@96532d6
+Jury@3796751b
+Jury@67b64c45
+NO Registration
+Jury@4411d970
+Jury@6442b0a6
+Jury@60f82f98
+NO Registration
+NO Registration
+Jury@35f983a6
+Jury@7f690630
+Jury@edf4efb
 NO Registration
 NO Registration
 NO Registration
