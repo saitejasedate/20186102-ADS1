@@ -2,9 +2,9 @@ import java.util.Scanner;
 class Solution {
 	public static int c;
 	public static String[] str1;
+	public static SeparateChainingHashST<Integer, Jury> lst = new SeparateChainingHashST<Integer, Jury>();
 	public static void main(String[] args) {
 		int c = 0;
-		SeparateChainingHashST<Integer, Jury> lst = new SeparateChainingHashST<Integer, Jury>();
 		Scanner sc = new Scanner(System.in);
 		StringBuffer sb = new StringBuffer();
 		while (sc.hasNext()) {
@@ -25,7 +25,7 @@ class Solution {
 		}
 	}
 	public static Jury print() {
-		SeparateChainingHashST<Integer, Jury> lst = new SeparateChainingHashST<Integer, Jury>();
+		// SeparateChainingHashST<Integer, Jury> lst = new SeparateChainingHashST<Integer, Jury>();
 		if (c == 1) {
 			return lst.get(Integer.parseInt(str1[1]));
 		}
