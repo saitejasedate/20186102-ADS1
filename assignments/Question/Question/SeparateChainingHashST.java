@@ -64,7 +64,7 @@ public class SeparateChainingHashST<Key, Value> {
      *
      * @return     { is of int type}
      */
-    private int hash(Key key) {
+     public int hash(Key key) {
         return (key.hashCode() & 0x7fffffff) % m;
     } 
 

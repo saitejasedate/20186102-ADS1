@@ -10,11 +10,22 @@ NO Registrations
 6,2
 
 Your Output: 
+2
 NO Registration
 NO Registration
+2
 NO Registration
+3
+1
+3
+1
 NO Registration
+2
+1
+2
 NO Registration
+3
+1
 NO Registration
 NO Registration
 NO Registration
@@ -36,15 +47,40 @@ Expected Output:
 12,3
 
 Your Output: 
+6
+5
+8
+6
+7
 NO Registration
 NO Registration
 NO Registration
+5
+3
+9
+NO Registration
+1
+NO Registration
+6
+1
+6
+3
+9
 NO Registration
 NO Registration
+5
+5
+8
+5
+1
+2
+6
 NO Registration
+6
+9
 NO Registration
-NO Registration
-NO Registration
+1
+8
 NO Registration
 NO Registration
 NO Registration
@@ -60,10 +96,20 @@ Expected Output:
 6,4
 
 Your Output: 
+8
+8
+5
 NO Registration
+7
+3
 NO Registration
+6
 NO Registration
+4
+6
+5
 NO Registration
+3
 NO Registration
 NO Registration
 ----------------------------------------
@@ -85,16 +131,34 @@ Expected Output:
 10,1
 
 Your Output: 
+4
+3
+6
+NO Registration
+9
+1
 NO Registration
 NO Registration
 NO Registration
+2
+7
+1
 NO Registration
 NO Registration
 NO Registration
+3
+4
+1
+9
+NO Registration
+4
+1
+7
 NO Registration
 NO Registration
-NO Registration
-NO Registration
+7
+3
+9
 NO Registration
 NO Registration
 NO Registration

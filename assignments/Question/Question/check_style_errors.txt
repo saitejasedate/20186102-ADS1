@@ -183,5 +183,6 @@ Starting audit...
 [ERROR] D:\MSIT\20186102-ADS1\assignments\Question\Question\Solution.java:8:49: '+' is not followed by whitespace. [WhitespaceAround]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\Question\Question\Solution.java:14:25: '}' at column 4 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\Question\Question\Solution.java:17: Line is longer than 80 characters (found 107). [LineLength]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\Question\Question\Solution.java:22: Line is longer than 80 characters (found 88). [LineLength]
 Audit done.
-Checkstyle ends with 12 errors.
+Checkstyle ends with 13 errors.
