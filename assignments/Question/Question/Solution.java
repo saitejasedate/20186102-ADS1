@@ -24,8 +24,8 @@ class Solution {
 			}
 		}
 	}
-	public static Jury print() {
+	public static int print() {
 		// SeparateChainingHashST<Integer, Jury> lst = new SeparateChainingHashST<Integer, Jury>();
-		return lst.get(Integer.parseInt(str1[1]));
+		return c;
 	} 
 }

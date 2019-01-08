@@ -10,9 +10,7 @@ NO Registrations
 6,2
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Solution.print(Solution.java:29)
-	at Solution.main(Solution.java:16)
+
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -31,9 +29,7 @@ Expected Output:
 12,3
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Solution.print(Solution.java:29)
-	at Solution.main(Solution.java:16)
+
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -46,9 +42,7 @@ Expected Output:
 6,4
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Solution.print(Solution.java:29)
-	at Solution.main(Solution.java:16)
+
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -68,8 +62,6 @@ Expected Output:
 10,1
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Solution.print(Solution.java:29)
-	at Solution.main(Solution.java:16)
+
 ----------------------------------------
 
