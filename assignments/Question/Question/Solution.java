@@ -26,9 +26,6 @@ class Solution {
 	}
 	public static Jury print() {
 		// SeparateChainingHashST<Integer, Jury> lst = new SeparateChainingHashST<Integer, Jury>();
-		if (c == 1) {
-			return lst.get(Integer.parseInt(str1[1]));
-		}
 		return lst.get(Integer.parseInt(str1[1]));
 	} 
 }

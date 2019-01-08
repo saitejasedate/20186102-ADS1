@@ -198,6 +198,6 @@ Starting audit...
 [ERROR] D:\MSIT\20186102-ADS1\assignments\Question\Question\Solution.java:21: Line is longer than 80 characters (found 107). [LineLength]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\Question\Question\Solution.java:27:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\Question\Question\Solution.java:28: Line is longer than 80 characters (found 107). [LineLength]
-[ERROR] D:\MSIT\20186102-ADS1\assignments\Question\Question\Solution.java:33: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\Question\Question\Solution.java:30: Line has trailing spaces. [RegexpSingleline]
 Audit done.
 Checkstyle ends with 22 errors.

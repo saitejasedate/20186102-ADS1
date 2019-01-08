@@ -11,7 +11,7 @@ NO Registrations
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.print(Solution.java:32)
+	at Solution.print(Solution.java:29)
 	at Solution.main(Solution.java:16)
 ----------------------------------------
 
@@ -32,7 +32,7 @@ Expected Output:
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.print(Solution.java:32)
+	at Solution.print(Solution.java:29)
 	at Solution.main(Solution.java:16)
 ----------------------------------------
 
@@ -47,7 +47,7 @@ Expected Output:
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.print(Solution.java:32)
+	at Solution.print(Solution.java:29)
 	at Solution.main(Solution.java:16)
 ----------------------------------------
 
@@ -69,7 +69,7 @@ Expected Output:
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.print(Solution.java:32)
+	at Solution.print(Solution.java:29)
 	at Solution.main(Solution.java:16)
 ----------------------------------------
 
