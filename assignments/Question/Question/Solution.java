@@ -29,6 +29,6 @@ class Solution {
 		if (c == 1) {
 			return lst.get(Integer.parseInt(str1[1]));
 		}
-		return null;
+		return lst.get(Integer.parseInt(str1[1]));
 	} 
 }
