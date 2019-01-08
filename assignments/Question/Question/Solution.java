@@ -10,7 +10,7 @@ class Solution {
 		String[] str = sb.toString().split("::");
 		for (int i = 0; i < str.length; i++) {
 			if (str[i].equals("JC")) {
-				System.out.println("NO Registration");
+				print();
 			}
 			else {
 				String[] str1 = str[i].split(",");
@@ -19,8 +19,12 @@ class Solution {
 				// 	case "1":
 				// }
 				lst.put(Integer.parseInt(str1[1]), jury);
-				System.out.println(lst.get(Integer.parseInt(str1[1])));
 			}
 		}
+		System.out.println(lst.keys());
 	}
+	public static Jury print() {
+
+		return null;
+	} 
 }
