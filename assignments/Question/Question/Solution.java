@@ -10,7 +10,8 @@ class Solution {
 		String[] str = sb.toString().split("::");
 		for (int i = 0; i < str.length; i++) {
 			if (str[i].equals("JC")) {
-				print();
+				// print();
+				System.out.println("N");
 			}
 			else {
 				String[] str1 = str[i].split(",");
@@ -19,12 +20,12 @@ class Solution {
 				// 	case "1":
 				// }
 				lst.put(Integer.parseInt(str1[1]), jury);
+				System.out.println(lst);
 			}
 		}
-		System.out.println(lst.keys());
 	}
-	public static Jury print() {
-
-		return null;
-	} 
+	// public static lst print() {
+	// 	SeparateChainingHashST<Integer, Jury> lst = new SeparateChainingHashST<Integer, Jury>();
+	// 	return lst;
+	// } 
 }
