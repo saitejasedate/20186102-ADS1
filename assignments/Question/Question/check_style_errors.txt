@@ -22,8 +22,14 @@ Starting audit...
 [ERROR] D:\MSIT\20186102-ADS1\assignments\Question\Question\Jury.java:20:30: Parameter sectn should be final. [FinalParameters]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\Question\Question\Jury.java:20:34: 'sectn' hides a field. [HiddenField]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\Question\Question\Jury.java:20:40: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\Question\Question\Jury.java:24:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\Question\Question\Jury.java:24:33: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\Question\Question\Jury.java:25:34: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\Question\Question\Jury.java:25:35: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\Question\Question\Jury.java:25:38: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\20186102-ADS1\assignments\Question\Question\Jury.java:25:39: '+' is not followed by whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 23 errors.
+Checkstyle ends with 29 errors.
 Starting audit...
 [ERROR] D:\MSIT\20186102-ADS1\assignments\Question\Question\Queue.java:29: Line is longer than 80 characters (found 95). [LineLength]
 [ERROR] D:\MSIT\20186102-ADS1\assignments\Question\Question\Queue.java:32: Line is longer than 80 characters (found 106). [LineLength]

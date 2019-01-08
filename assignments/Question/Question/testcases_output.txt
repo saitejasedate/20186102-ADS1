@@ -10,22 +10,22 @@ NO Registrations
 6,2
 
 Your Output: 
-Jury@59a6e353
+0,2
 NO Registration
 NO Registration
-Jury@7a0ac6e3
+1,2
 NO Registration
-Jury@71be98f5
-Jury@6fadae5d
-Jury@17f6480
-Jury@2d6e8792
+2,3
+3,1
+4,3
+5,1
 NO Registration
-Jury@2812cbfa
-Jury@2acf57e3
-Jury@506e6d5e
+6,2
+7,1
+8,2
 NO Registration
-Jury@96532d6
-Jury@3796751b
+9,3
+10,1
 NO Registration
 NO Registration
 NO Registration
@@ -47,40 +47,40 @@ Expected Output:
 12,3
 
 Your Output: 
-Jury@59a6e353
-Jury@7a0ac6e3
-Jury@71be98f5
-Jury@6fadae5d
-Jury@17f6480
+0,6
+1,5
+2,8
+3,6
+4,7
 NO Registration
 NO Registration
 NO Registration
-Jury@2d6e8792
-Jury@2812cbfa
-Jury@2acf57e3
+5,5
+6,3
+7,9
 NO Registration
-Jury@506e6d5e
+8,1
 NO Registration
-Jury@96532d6
-Jury@3796751b
-Jury@67b64c45
-Jury@4411d970
-Jury@6442b0a6
+9,6
+10,1
+11,6
+12,3
+13,9
 NO Registration
 NO Registration
-Jury@60f82f98
-Jury@35f983a6
-Jury@7f690630
-Jury@edf4efb
-Jury@2f7a2457
-Jury@566776ad
-Jury@6108b2d7
+14,5
+15,5
+16,8
+17,5
+18,1
+19,2
+20,6
 NO Registration
-Jury@1554909b
-Jury@6bf256fa
+21,6
+22,9
 NO Registration
-Jury@6cd8737
-Jury@22f71333
+23,1
+24,8
 NO Registration
 NO Registration
 NO Registration
@@ -96,20 +96,20 @@ Expected Output:
 6,4
 
 Your Output: 
-Jury@59a6e353
-Jury@7a0ac6e3
-Jury@71be98f5
+0,8
+1,8
+2,5
 NO Registration
-Jury@6fadae5d
-Jury@17f6480
+3,7
+4,3
 NO Registration
-Jury@2d6e8792
+5,6
 NO Registration
-Jury@2812cbfa
-Jury@2acf57e3
-Jury@506e6d5e
+6,4
+7,6
+8,5
 NO Registration
-Jury@96532d6
+9,3
 NO Registration
 NO Registration
 ----------------------------------------
@@ -131,34 +131,34 @@ Expected Output:
 10,1
 
 Your Output: 
-Jury@59a6e353
-Jury@7a0ac6e3
-Jury@71be98f5
+0,4
+1,3
+2,6
 NO Registration
-Jury@6fadae5d
-Jury@17f6480
-NO Registration
-NO Registration
-NO Registration
-Jury@2d6e8792
-Jury@2812cbfa
-Jury@2acf57e3
+3,9
+4,1
 NO Registration
 NO Registration
 NO Registration
-Jury@506e6d5e
-Jury@96532d6
-Jury@3796751b
-Jury@67b64c45
-NO Registration
-Jury@4411d970
-Jury@6442b0a6
-Jury@60f82f98
+5,2
+6,7
+7,1
 NO Registration
 NO Registration
-Jury@35f983a6
-Jury@7f690630
-Jury@edf4efb
+NO Registration
+8,3
+9,4
+10,1
+11,9
+NO Registration
+12,4
+13,1
+14,7
+NO Registration
+NO Registration
+15,7
+16,3
+17,9
 NO Registration
 NO Registration
 NO Registration

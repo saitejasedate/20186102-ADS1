@@ -20,4 +20,8 @@ class Jury {
 	public void setsectn(int sectn){
 		this.sectn = sectn;
 	}
+
+	public String toString(){
+		return this.regst+","+this.sectn;
+	}
 }
