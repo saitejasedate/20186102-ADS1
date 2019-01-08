@@ -10,25 +10,7 @@ NO Registrations
 6,2
 
 Your Output: 
-SeparateChainingHashST@59a6e353
-N
-N
-SeparateChainingHashST@59a6e353
-N
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-N
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-N
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-N
-N
-N
+
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -47,43 +29,7 @@ Expected Output:
 12,3
 
 Your Output: 
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-N
-N
-N
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-N
-SeparateChainingHashST@59a6e353
-N
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-N
-N
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-N
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-N
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-N
-N
-N
+
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -96,22 +42,7 @@ Expected Output:
 6,4
 
 Your Output: 
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-N
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-N
-SeparateChainingHashST@59a6e353
-N
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-N
-SeparateChainingHashST@59a6e353
-N
-N
+
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -131,36 +62,6 @@ Expected Output:
 10,1
 
 Your Output: 
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-N
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-N
-N
-N
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-N
-N
-N
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-N
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-N
-N
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-SeparateChainingHashST@59a6e353
-N
-N
-N
+
 ----------------------------------------
 
