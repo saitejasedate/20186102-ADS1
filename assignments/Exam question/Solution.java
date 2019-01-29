@@ -41,7 +41,7 @@ class Solution {
 		}
 		Insertion.sort(positions);
 		System.out.println(word+":"+totalfreq);
-		if (count == 45) {
+		if (totalfreq == 0) {
 			System.out.println("word is not present in any file");
 		} else {
 
