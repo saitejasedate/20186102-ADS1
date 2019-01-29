@@ -9,6 +9,8 @@ class Solution {
 		int frequency = 0;
 		String arr = "";
 		String temp = "";
+		int size = 9;
+		Position[] positions = new Position[size];
 		for (int i = 0; i <= 8; i++) {
 			Scanner sc = new Scanner (new File("Files/"+i+".txt"));
 			String[] str = sc.nextLine().split(" ");
@@ -22,20 +24,24 @@ class Solution {
 					arr+=j+", ";
 				}
 			}
-			if (arr.length() == 0) {
-				temp = "0";
-			} else {
+			if (arr.length() != 0) {
 				String finalpos = "["+arr;
 				temp = finalpos.substring(0, finalpos.length() - 2)+"]";
 				Position pos = new Position(i, frequency, temp);
 				lst1.put(i, pos);
-			}
-			System.out.println(word+":"+totalfreq);
-			if (lst1.get(i) == null) {
-				System.out.println();
 			} else {
-				System.out.println(lst1.get(i));
+				temp.toString();
+				Position pos = new Position(0, 0, "0");
+				lst1.put(i, pos);
+			}
+			positions[i] = lst1.get(i);
+		}
+		Insertion.sort(positions);
+		System.out.println(word+":"+totalfreq);
+		for (Position pos : positions) {
+			if (pos.getindvfreq() != 0) {
+				System.out.println(pos);
 			}
 		}
-	}	
+	}
 }
