@@ -40,11 +40,11 @@ class Solution {
 			positions[i] = lst1.get(i);
 		}
 		Insertion.sort(positions);
-		System.out.println(word+":"+totalfreq);
 		if (totalfreq == 0) {
 			System.out.println("word is not present in any file");
 		} else {
 
+			System.out.println(word+":"+totalfreq);
 			for (Position pos : positions) {
 				if (pos.getindvfreq() != 0) {
 					System.out.println(pos);
