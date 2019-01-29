@@ -11,6 +11,7 @@ class Solution {
 		String temp = "";
 		int size = 9;
 		Position[] positions = new Position[size];
+		int count = 0;
 		for (int i = 0; i <= 8; i++) {
 			Scanner sc = new Scanner (new File("Files/"+i+".txt"));
 			String[] str = sc.nextLine().split(" ");
@@ -22,6 +23,8 @@ class Solution {
 					frequency++;
 					totalfreq++;
 					arr+=j+", ";
+				} else{
+					count++;
 				}
 			}
 			if (arr.length() != 0) {
@@ -38,9 +41,14 @@ class Solution {
 		}
 		Insertion.sort(positions);
 		System.out.println(word+":"+totalfreq);
-		for (Position pos : positions) {
-			if (pos.getindvfreq() != 0) {
-				System.out.println(pos);
+		if (count == 9) {
+			System.out.println("word is not present in any file");
+		} else {
+			
+			for (Position pos : positions) {
+				if (pos.getindvfreq() != 0) {
+					System.out.println(pos);
+				}
 			}
 		}
 	}
