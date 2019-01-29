@@ -24,7 +24,7 @@ class Solution {
 					totalfreq++;
 					arr+=j+", ";
 				} else{
-					count = i;
+					count += i;
 				}
 			}
 			if (arr.length() != 0) {
@@ -41,7 +41,7 @@ class Solution {
 		}
 		Insertion.sort(positions);
 		System.out.println(word+":"+totalfreq);
-		if (count == 9) {
+		if (count == 45) {
 			System.out.println("word is not present in any file");
 		} else {
 
