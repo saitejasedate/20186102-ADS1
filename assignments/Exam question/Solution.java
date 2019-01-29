@@ -30,6 +30,7 @@ class Solution {
 				Position pos = new Position(i, frequency, temp);
 				lst1.put(i, pos);
 			}
+			System.out.println(word+":"+totalfreq);
 			if (lst1.get(i) == null) {
 				System.out.println();
 			} else {
