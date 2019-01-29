@@ -24,7 +24,7 @@ class Solution {
 					totalfreq++;
 					arr+=j+", ";
 				} else{
-					count++;
+					count = i;
 				}
 			}
 			if (arr.length() != 0) {
@@ -44,7 +44,7 @@ class Solution {
 		if (count == 9) {
 			System.out.println("word is not present in any file");
 		} else {
-			
+
 			for (Position pos : positions) {
 				if (pos.getindvfreq() != 0) {
 					System.out.println(pos);
