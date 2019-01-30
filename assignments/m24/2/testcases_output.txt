@@ -4,14 +4,9 @@ Clark
 Rivest
 Dan
 Abegg
-
 Your Output: 
-20
-o
-20
-o
-----------------------------------------
 
+----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
 Clark
@@ -59,12 +54,9 @@ John
 Tim Cahill
 Abegg
 Brian Caffrey
-
 Your Output: 
-43
-o
-----------------------------------------
 
+----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
 Steve Cafferty
@@ -129,11 +121,9 @@ Dan Caddy
 Neil Cadigan
 Megon
 Meili Cady
-
 Your Output: 
 
 ----------------------------------------
-
 ########## Testcase 3: Failed ##########
 Expected Output: 
 Stuart B. MacBride
@@ -146,7 +136,7 @@ Elaine Pagels
 Tessa Hadley
 Sammy Hagar
 Keith Habersberger
-Yamile Saied MÃ©ndez
+Yamile Saied Méndez
 Namita Jain
 Ed J. Paine
 Jimmy Palmiotti
@@ -440,7 +430,7 @@ Elaine Pagels
 Tessa Hadley
 Sammy Hagar
 Keith Habersberger
-Yamile Saied MÃ©ndez
+Yamile Saied Méndez
 Namita Jain
 Ed J. Paine
 Jimmy Palmiotti
@@ -629,7 +619,7 @@ Elaine Pagels
 Tessa Hadley
 Sammy Hagar
 Keith Habersberger
-Yamile Saied MÃ©ndez
+Yamile Saied Méndez
 Namita Jain
 Ruby Jackson
 Charles B. Macdonald
@@ -850,13 +840,6 @@ Daniel Palmer
 Marianna Palk
 Thelma Page
 Vicky Hales-Dutton
-
 Your Output: 
-289
-o
-289
-o
-289
-o
-----------------------------------------
 
+----------------------------------------

@@ -2,31 +2,36 @@ import java.util.*;
 class Solution {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int numOfdataRecords = Integer.parseInt(sc.nextLine());
 		BST<Double, Student> bst = new BST<Double, Student>();
-		for (int i = 0; i < numOfdataRecords; i++) {
-			String[] arr = sc.nextLine().split(",");
-			Student obj = new Student(Integer.parseInt(arr[0]), arr[1], Double.parseDouble(arr[2]));
-			bst.put(Double.parseDouble(arr[2]), obj);
+		int num = Integer.parseInt(sc.nextLine());
+		int count = 0;
+		while (count < num) {
+			String[] str = sc.nextLine().split(",");
+			Student std = new Student(Integer.parseInt(str[0]), str[1], Double.parseDouble(str[2]));
+			bst.put(Double.parseDouble(str[2]), std);
+			count++;
 		}
-		int numOfqueries = Integer.parseInt(sc.nextLine());
-		for (int j = 0; j < numOfqueries; j++) {
-			String[] arr1 = sc.nextLine().split(" ");
-			int n = 0;
-			switch (arr1[0]) {
-				case "BE":
-				System.out.println(bst.size());
-				try {
-					for (double k = 0; k < bst.size(); k++) {
-						if ((bst.get(k)).getmarks() >= Double.parseDouble(arr1[1]))  {
-							System.out.println((bst.get(k)).getstudentname());
-						}
-					}
-				} 	catch (Exception e) {
-					System.out.println("o");
+		int queries = Integer.parseInt(sc.nextLine());
+		for (int i = 0; i < queries; i++) {
+			String[] arr = sc.nextLine().split(" ");
+			switch("arr[0]") {
+				case"BE":
+				for (Double j = Double.parseDouble(arr[1]); j <= Double.parseDouble(arr[2]); j++) {
+					System.out.println(bst.get(j));
 				}
-				case "GE":
-				case "LE":
+				break;
+				case"LE":
+				for (Double j = Double.parseDouble(arr[1]); j >= 0; j--) {
+					System.out.println(bst.get(j));
+				}
+				break;
+				case"GE":
+				for (Double j = Double.parseDouble(arr[1]); j <= bst.size(); j++) {
+					System.out.println(bst.get(j));
+				}
+				break;
+				default:
+				break;
 			}
 		}
 	}
