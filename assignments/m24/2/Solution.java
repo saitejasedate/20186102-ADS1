@@ -10,7 +10,7 @@ class Solution {
 			String[] str = sc.nextLine().split(",");
 			Student std = new Student(Integer.parseInt(str[0]), str[1], Double.parseDouble(str[2]));
 			bst.put(Double.parseDouble(str[2]), std);
-			lst.put(Double.parseDouble(str[2]), std);
+			// lst.put(Double.parseDouble(str[2]), std);
 			count++;
 		}
 		// System.out.println("--------------------------------------------------");
@@ -37,14 +37,14 @@ class Solution {
 				case"LE":
 				for (Double s : bst.keys()) {
 					if (s <= Double.parseDouble(arr[1])) {
-						System.out.println(bst.get(s));
+						System.out.println(bst.get(s).getname());
 					}
 				}
 				break;
 				case"GE":
 				for (Double s : bst.keys()) {
 					if (s >= Double.parseDouble(arr[1])) {
-						System.out.println(bst.get(s));
+						System.out.println(bst.get(s).getname());
 					}
 				}
 				break;
