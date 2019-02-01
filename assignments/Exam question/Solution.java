@@ -37,9 +37,9 @@ class Solution {
 			}
 			positions[i] = lst1.get(i);
 		}
-		for (int k = 0; k < positions.length; k++) {
-			System.out.println(positions[k]);
-		}
+		// for (int k = 0; k < positions.length; k++) {
+		// 	System.out.println(positions[k]);
+		// }
 		Insertion.sort(positions);
 		if (totalfreq == 0) {
 			System.out.println("word is not present in any file");
