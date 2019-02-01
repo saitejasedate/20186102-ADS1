@@ -31,11 +31,11 @@ class Solution {
 			switch(arr[0]) { 
 				case"BE":
 				for (Double s : bst.keys()) {
-						if (s >= Double.parseDouble(arr[1]) && s <= Double.parseDouble(arr[1])) {
+						if (s >= Double.parseDouble(arr[1]) && s <= Double.parseDouble(arr[2])) {
 							System.out.println(bst.get(s).getname());
 						}
 						if (lst.contains(s)) {
-							if (s >= Double.parseDouble(arr[1])  && s <= Double.parseDouble(arr[1])) {
+							if (s >= Double.parseDouble(arr[1])  && s <= Double.parseDouble(arr[2])) {
 								System.out.println(lst.get(s).getname());
 							}
 						}
