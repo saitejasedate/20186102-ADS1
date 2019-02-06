@@ -1,0 +1,4 @@
+[master 3256d60] "m24_a2_1: 3/4 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 0/1 "
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ rewrite assignments/2/2/result/score.json (69%)
+fatal: unable to access 'https://github.com/saitejasedate/20186102-ADS1.git/': Could not resolve host: github.com
