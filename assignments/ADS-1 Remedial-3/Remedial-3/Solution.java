@@ -31,7 +31,8 @@ class Solution {
 			for (int s : bst.keys()) {
 				if (bst.get(s).getmarks() != query && lst.get(s).getmarks() != query) {
 					System.out.println("This marks are not awarded to any student");
-				} else {
+				} 
+				else {
 					if (bst.get(s).getmarks() == query) {
 						System.out.println(bst.get(s));
 					}
