@@ -375,12 +375,14 @@ Starting audit...
 [ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Solution.java:3:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Solution.java:3:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Solution.java:3:33: Parameter args should be final. [FinalParameters]
-[ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Solution.java:7: Line is longer than 80 characters (found 102). [LineLength]
+[ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Solution.java:7: Line is longer than 80 characters (found 104). [LineLength]
 [ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Solution.java:11: Line is longer than 80 characters (found 111). [LineLength]
 [ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Solution.java:32: Line is longer than 80 characters (found 87). [LineLength]
 [ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Solution.java:36: Line is longer than 80 characters (found 95). [LineLength]
+[ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Solution.java:43: Line is longer than 80 characters (found 103). [LineLength]
+[ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Solution.java:44: Line is longer than 80 characters (found 104). [LineLength]
 Audit done.
-Checkstyle ends with 10 errors.
+Checkstyle ends with 12 errors.
 Starting audit...
 [ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Student.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Student.java:1: Missing a Javadoc comment. [JavadocType]
