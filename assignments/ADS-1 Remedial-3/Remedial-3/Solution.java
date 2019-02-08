@@ -21,7 +21,7 @@ class Solution {
 				if (st.getmarks() == Double.parseDouble(query)) {
 						System.out.println(st);
 				}
-				else {
+				if (st.getmarks() != Double.parseDouble(query)) {
 					System.out.println("This marks are not awarded to any student");
 					break;
 				}
