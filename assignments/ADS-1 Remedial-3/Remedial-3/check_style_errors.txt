@@ -378,7 +378,7 @@ Starting audit...
 [ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Solution.java:7: Line is longer than 80 characters (found 102). [LineLength]
 [ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Solution.java:11: Line is longer than 80 characters (found 111). [LineLength]
 [ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Solution.java:32: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Solution.java:35: Line is longer than 80 characters (found 87). [LineLength]
+[ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Solution.java:36: Line is longer than 80 characters (found 95). [LineLength]
 Audit done.
 Checkstyle ends with 10 errors.
 Starting audit...

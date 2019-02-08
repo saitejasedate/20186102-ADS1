@@ -32,8 +32,10 @@ class Solution {
 				if (bst.get(s).getmarks() == Integer.parseInt(query)) {
 					System.out.println(bst.get(s));
 				}
-				if (lst.get(s).getmarks() == Integer.parseInt(query)) {
-					System.out.println(lst.get(s));
+				for (String d : lst.keys()) {
+					if (lst.get(d).getmarks() == Integer.parseInt(query)) {
+						System.out.println(lst.get(d));
+					}
 				}
 			}
 		}
