@@ -6,44 +6,22 @@ class Solution {
 		BST<Integer, Student> bst = new BST<Integer, Student>();
 		LinearProbingHashST<Integer, Student> lst = new LinearProbingHashST<Integer, Student>();
 		int count = 0;
+		Student[] students = new Student[numOfrecords];
 		while (count < numOfrecords) {
 			String[] str = sc.nextLine().split(",");
 			Student st = new Student(Integer.parseInt(str[0]), str[1], Double.parseDouble(str[2]));
-			if (bst.contains(Integer.parseInt(str[0]))) {
-				lst.put(Integer.parseInt(str[0]), st);
-			} else {
-				bst.put(Integer.parseInt(str[0]), st);
-			}
+			students[count] = st;
 			count++;
 		}
-		// System.out.println("-----------------------------");
-		// for (int s : bst.keys()) {
-		// 	System.out.println(s + ", "+ bst.get(s));
-		// }
-		// System.out.println("--------------------------------");
-		// for (int s : lst.keys()) {
-		// 	System.out.println(s + ", "+ lst.get(s));
-		// }
-		// System.out.println("-------------------------------");
+		Insertion.sort(students);
 		int numOfqueries = Integer.parseInt(sc.nextLine());
 		for (int i = 0; i < numOfqueries; i++) {
 			String query = sc.nextLine();
-			for (int s : bst.keys()) {
-				if (bst.get(s).getmarks() == Integer.parseInt(query)) {
-					System.out.println(bst.get(s));
-				}
-				if (lst.contains(s)) {
-					if (bst.get(s).getmarks() == Integer.parseInt(query)) {
-						System.out.println(lst.get(s));
-					}
+			for (Student st : students) {
+				if (st.getmarks() == Double.parseDouble(query)) {
+					System.out.println(st);
 				}
 			}
-			// for (int s : bst.keys()) {
-			// 	for (int d : lst.keys())
-			// 	if (bst.get(s).getmarks() != query && lst.get(s).getmarks() != query) {
-			// 		System.out.println("This marks are not awarded to any student");
-			// 	}
-			// }
 		}
 	}
 }
