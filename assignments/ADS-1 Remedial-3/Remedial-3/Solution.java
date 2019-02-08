@@ -20,12 +20,15 @@ class Solution {
 			String query = sc.nextLine();
 			for (Student st : students) {
 				if (st.getmarks() == Double.parseDouble(query)) {
-						System.out.println(st);
+					System.out.println(st);
 				}
-				if (st.getmarks() != Double.parseDouble(query)) {
+				else {
 					c++;
-				}
+				} 
 			}
+		}
+		if (c > 1) {
+			System.out.println("This marks are not awarded to any student");
 		}
 	}
 }

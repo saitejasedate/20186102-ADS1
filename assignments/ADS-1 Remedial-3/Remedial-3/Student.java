@@ -52,12 +52,6 @@ class Student implements Comparable<Student> {
 				return 1;
 			}
 	    }
-		// if (a.rollnum > that.rollnum) {
-		// 	return -1;
-		// }
-		// if (a.rollnum < that.rollnum) {
-		// 	return 1;
-		// }
 		if (a.marks == that.marks && a.name.equals(that.name)) {
 			if (a.rollnum > that.rollnum) {
 				return -1;
