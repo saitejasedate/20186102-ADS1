@@ -15,6 +15,7 @@ class Solution {
 		}
 		Insertion.sort(students);
 		int numOfqueries = Integer.parseInt(sc.nextLine());
+		int c = 0;
 		for (int i = 0; i < numOfqueries; i++) {
 			String query = sc.nextLine();
 			for (Student st : students) {
@@ -22,10 +23,12 @@ class Solution {
 						System.out.println(st);
 				}
 				if (st.getmarks() != Double.parseDouble(query)) {
-					System.out.println("This marks are not awarded to any student");
-					break;
+					c++;
 				}
 			}
+		}
+		if (c == numOfrecords) {
+			System.out.println("This marks are not awarded to any student");
 		}
 	}
 }
