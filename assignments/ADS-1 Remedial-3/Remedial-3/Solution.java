@@ -29,18 +29,16 @@ class Solution {
 		for (int i = 0; i < numOfqueries; i++) {
 			int query = sc.nextInt();
 			for (int s : bst.keys()) {
-				if (bst.get(s).getmarks() != query && lst.get(s).getmarks() != query) {
-					System.out.println("This marks are not awarded to any student");
-				} 
-				else {
+				if (bst.get(s).getmarks() == query) {
+					System.out.println(bst.get(s));
+				}
+				if (lst.contains(s)) {
 					if (bst.get(s).getmarks() == query) {
-						System.out.println(bst.get(s));
+						System.out.println(lst.get(s));
 					}
-					if (lst.contains(s)) {
-						if (bst.get(s).getmarks() == query) {
-							System.out.println(lst.get(s));
-						}
-					}
+				}
+				else {
+					System.out.println("This marks are not awarded to any student");
 				}
 			}
 		}
