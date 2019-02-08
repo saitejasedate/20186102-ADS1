@@ -1,4 +1,4 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 1001,Mark,91.0
 1002,Bob,92.0
@@ -10,9 +10,10 @@ Your Output:
 1002,Bob,92.0
 1003,Raju,93.0
 1004,Shreya,94.0
+This marks are not awarded to any student
 ----------------------------------------
 
-########## Testcase 1: Passed ##########
+########## Testcase 1: Failed ##########
 Expected Output: 
 1002,Bob,92.0
 1010,Bob,97.0
@@ -28,6 +29,7 @@ Your Output:
 1001,Mark,91.0
 1008,Raju,91.0
 1009,Syed,91.0
+This marks are not awarded to any student
 ----------------------------------------
 
 ########## Testcase 2: Passed ##########
@@ -61,7 +63,7 @@ Your Output:
 This marks are not awarded to any student
 ----------------------------------------
 
-########## Testcase 4: Passed ##########
+########## Testcase 4: Failed ##########
 Expected Output: 
 1,Deepak,99.0
 2,Deepak,99.0
@@ -81,6 +83,7 @@ Your Output:
 6,Deepak,99.0
 7,Deepak,99.0
 8,Deepak,99.0
+This marks are not awarded to any student
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -90,9 +93,10 @@ This marks are not awarded to any student
 
 Your Output: 
 1010,Bob,90.0
+This marks are not awarded to any student
 ----------------------------------------
 
-########## Testcase 6: Passed ##########
+########## Testcase 6: Failed ##########
 Expected Output: 
 1002,Bob,91.0
 11002,Bob,91.0
@@ -136,5 +140,6 @@ Your Output:
 11010,Bob,95.0
 1009,Syed,95.0
 11009,Syed,95.0
+This marks are not awarded to any student
 ----------------------------------------
 
