@@ -1,4 +1,4 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 1001,Mark,91.0
 1002,Bob,92.0
@@ -6,10 +6,8 @@ Expected Output:
 1004,Shreya,94.0
 
 Your Output: 
-1001,Mark,91.0
-1002,Bob,92.0
-1003,Raju,93.0
-1004,Shreya,94.0
+Exception in thread "main" java.lang.NullPointerException
+	at Solution.main(Solution.java:35)
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -22,9 +20,8 @@ Expected Output:
 1009,Syed,91.0
 
 Your Output: 
-1002,Bob,92.0
-1007,Olive,97.0
-1001,Mark,91.0
+Exception in thread "main" java.lang.NullPointerException
+	at Solution.main(Solution.java:35)
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -52,7 +49,9 @@ Expected Output:
 
 Your Output: 
 1,Deepak,99.0
+5,Deepak,99.0
 3,Manasa,99.0
+7,Manasa,99.0
 Exception in thread "main" java.lang.NumberFormatException: For input string: "99.9"
 	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
 	at java.base/java.lang.Integer.parseInt(Integer.java:652)
@@ -73,6 +72,7 @@ Expected Output:
 
 Your Output: 
 1,Deepak,99.0
+8,Deepak,99.0
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -81,7 +81,8 @@ This marks are not awarded to any student
 1010,Bob,90.0
 
 Your Output: 
-
+Exception in thread "main" java.lang.NullPointerException
+	at Solution.main(Solution.java:35)
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -110,10 +111,17 @@ Expected Output:
 Your Output: 
 1002,Bob,91.0
 1001,Mark,91.0
+11001,Mark,91.0
 1003,Raju,92.0
 1004,Shreya,92.0
+11004,Shreya,92.0
 1006,Alice,93.0
+11006,Alice,93.0
 1005,Syed,93.0
 1007,Olive,94.0
+11007,Olive,94.0
+11008,Raju,94.0
+11010,Bob,95.0
+11009,Syed,95.0
 ----------------------------------------
 

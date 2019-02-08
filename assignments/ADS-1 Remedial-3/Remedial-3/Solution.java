@@ -32,10 +32,8 @@ class Solution {
 				if (bst.get(s).getmarks() == Integer.parseInt(query)) {
 					System.out.println(bst.get(s));
 				}
-				if (lst.contains(query)) {
-					if (bst.get(s).getmarks() == Integer.parseInt(query)) {
-						System.out.println(lst.get(s));
-					}
+				if (lst.get(s).getmarks() == Integer.parseInt(query)) {
+					System.out.println(lst.get(s));
 				}
 			}
 		}
