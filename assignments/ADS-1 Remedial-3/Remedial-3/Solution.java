@@ -27,8 +27,5 @@ class Solution {
 				} 
 			}
 		}
-		if (c > 1) {
-			System.out.println("This marks are not awarded to any student");
-		}
 	}
 }
