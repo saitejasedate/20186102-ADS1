@@ -16,15 +16,15 @@ class Solution {
 			}
 			count++;
 		}
-		System.out.println("-----------------------------");
-		for (int s : bst.keys()) {
-			System.out.println(s + ", "+ bst.get(s));
-		}
-		System.out.println("--------------------------------");
-		for (int s : bst.keys()) {
-			System.out.println(s + ", "+ lst.get(s));
-		}
-		System.out.println("-------------------------------");
+		// System.out.println("-----------------------------");
+		// for (int s : bst.keys()) {
+		// 	System.out.println(s + ", "+ bst.get(s));
+		// }
+		// System.out.println("--------------------------------");
+		// for (int s : bst.keys()) {
+		// 	System.out.println(s + ", "+ lst.get(s));
+		// }
+		// System.out.println("-------------------------------");
 		int numOfqueries = Integer.parseInt(sc.nextLine());
 		for (int i = 0; i < numOfqueries; i++) {
 			int query = sc.nextInt();

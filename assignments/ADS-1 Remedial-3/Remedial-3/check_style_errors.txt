@@ -377,10 +377,8 @@ Starting audit...
 [ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Solution.java:3:33: Parameter args should be final. [FinalParameters]
 [ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Solution.java:7: Line is longer than 80 characters (found 104). [LineLength]
 [ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Solution.java:11: Line is longer than 80 characters (found 111). [LineLength]
-[ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Solution.java:21:52: '+' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Solution.java:25:52: '+' is not preceded with whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 10 errors.
+Checkstyle ends with 8 errors.
 Starting audit...
 [ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Student.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Student.java:1: Missing a Javadoc comment. [JavadocType]
