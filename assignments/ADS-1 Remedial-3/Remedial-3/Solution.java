@@ -18,14 +18,12 @@ class Solution {
 		for (int i = 0; i < numOfqueries; i++) {
 			String query = sc.nextLine();
 			for (Student st : students) {
-				if (st.getmarks() != Double.parseDouble(query)) {
-					System.out.println("This marks are not awarded to any student");
-					break;
+				if (st.getmarks() == Double.parseDouble(query)) {
+						System.out.println(st);
 				}
 				else {
-					if (st.getmarks() == Double.parseDouble(query)) {
-						System.out.println(st);
-					}
+					System.out.println("This marks are not awarded to any student");
+					break;
 				}
 			}
 		}
