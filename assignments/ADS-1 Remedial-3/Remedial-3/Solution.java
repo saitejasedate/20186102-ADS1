@@ -23,11 +23,11 @@ class Solution {
 						System.out.println(st);
 				}
 				if (st.getmarks() != Double.parseDouble(query)) {
-					c = 0;
+					c++;
 				}
 			}
 		}
-		if (c == 0) {
+		if (c <= 0) {
 			System.out.println("This marks are not awarded to any student");
 		}
 	}
