@@ -35,11 +35,10 @@ Expected Output:
 This marks are not awarded to any student
 
 Your Output: 
-Exception in thread "main" java.util.InputMismatchException
-	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
-	at java.base/java.util.Scanner.next(Scanner.java:1594)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+Exception in thread "main" java.lang.NumberFormatException: For input string: "99.0"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Integer.parseInt(Integer.java:652)
+	at java.base/java.lang.Integer.parseInt(Integer.java:770)
 	at Solution.main(Solution.java:30)
 ----------------------------------------
 
@@ -59,11 +58,10 @@ Your Output:
 3,Manasa,99.0
 5,Deepak,99.0
 7,Manasa,99.0
-Exception in thread "main" java.util.InputMismatchException
-	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
-	at java.base/java.util.Scanner.next(Scanner.java:1594)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+Exception in thread "main" java.lang.NumberFormatException: For input string: "99.9"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Integer.parseInt(Integer.java:652)
+	at java.base/java.lang.Integer.parseInt(Integer.java:770)
 	at Solution.main(Solution.java:30)
 ----------------------------------------
 

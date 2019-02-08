@@ -27,7 +27,7 @@ class Solution {
 		// System.out.println("-------------------------------");
 		int numOfqueries = Integer.parseInt(sc.nextLine());
 		for (int i = 0; i < numOfqueries; i++) {
-			int query = sc.nextInt();
+			int query = Integer.parseInt(sc.nextLine());
 			for (int s : bst.keys()) {
 				if (bst.get(s).getmarks() == query) {
 					System.out.println(bst.get(s));
