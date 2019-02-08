@@ -38,12 +38,12 @@ class Solution {
 					}
 				}
 			}
-			for (int s : bst.keys()) {
-				for (int d : lst.keys())
-				if (bst.get(s).getmarks() != query && lst.get(s).getmarks() != query) {
-					System.out.println("This marks are not awarded to any student");
-				}
-			}
+			// for (int s : bst.keys()) {
+			// 	for (int d : lst.keys())
+			// 	if (bst.get(s).getmarks() != query && lst.get(s).getmarks() != query) {
+			// 		System.out.println("This marks are not awarded to any student");
+			// 	}
+			// }
 		}
 	}
 }
