@@ -32,18 +32,12 @@ class Solution {
 				if (bst.get(s).getmarks() == Integer.parseInt(query)) {
 					System.out.println(bst.get(s));
 				}
-				if (lst.contains(s)) {
+				if (lst.contains(query)) {
 					if (bst.get(s).getmarks() == Integer.parseInt(query)) {
 						System.out.println(lst.get(s));
 					}
 				}
 			}
-			// for (int s : bst.keys()) {
-			// 	for (int d : lst.keys())
-			// 	if (bst.get(s).getmarks() != query && lst.get(s).getmarks() != query) {
-			// 		System.out.println("This marks are not awarded to any student");
-			// 	}
-			// }
 		}
 	}
 }
