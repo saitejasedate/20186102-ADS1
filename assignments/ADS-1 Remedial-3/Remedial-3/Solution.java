@@ -12,10 +12,10 @@ class Solution {
 			count++;
 		}
 		Insertion.sort(students);
-		for (Student st : students) {
-			System.out.println(st);
-		}
-		System.out.println("-----------------------------");
+		// for (Student st : students) {
+		// 	System.out.println(st);
+		// }
+		// System.out.println("-----------------------------");
 		int numOfqueries = Integer.parseInt(sc.nextLine());
 		// int temp = 0;
 		int start = 0;
