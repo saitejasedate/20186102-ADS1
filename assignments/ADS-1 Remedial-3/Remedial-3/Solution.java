@@ -3,8 +3,6 @@ class Solution {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int numOfrecords = Integer.parseInt(sc.nextLine());
-		BST<Integer, Student> bst = new BST<Integer, Student>();
-		LinearProbingHashST<Integer, Student> lst = new LinearProbingHashST<Integer, Student>();
 		int count = 0;
 		Student[] students = new Student[numOfrecords];
 		while (count < numOfrecords) {
@@ -14,17 +12,34 @@ class Solution {
 			count++;
 		}
 		Insertion.sort(students);
+		for (Student st : students) {
+			System.out.println(st);
+		}
+		System.out.println("-----------------------------");
 		int numOfqueries = Integer.parseInt(sc.nextLine());
-		int c = 0;
+		// int temp = 0;
+		int start = 0;
 		for (int i = 0; i < numOfqueries; i++) {
 			String query = sc.nextLine();
-			for (Student st : students) {
-				if (st.getmarks() == Double.parseDouble(query)) {
-					System.out.println(st);
+			// for (Student st : students) {
+			// 	if (st.getmarks() == Double.parseDouble(query)) {
+			// 		System.out.println(st);
+			// 	}
+			// }
+			int end = 0;
+			if (Double.parseDouble(query) <= students[students.length/2].getmarks()) {
+				for (int j = students.length/2; j >= 0; j--) {
+					if (students[j].getmarks() == Double.parseDouble(query)) {
+						System.out.println(students[j]);
+					}
 				}
-				else {
-					c++;
-				} 
+			}
+			else {
+				for (int j = students.length/2+1; j < students.length; j++) {
+					if (students[j].getmarks() == Double.parseDouble(query)) {
+						System.out.println(students[j]);
+					}
+				}
 			}
 		}
 	}
