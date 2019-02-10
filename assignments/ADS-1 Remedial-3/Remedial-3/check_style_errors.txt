@@ -570,12 +570,13 @@ Starting audit...
 [ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Solution.java:3:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Solution.java:3:33: Parameter args should be final. [FinalParameters]
 [ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Solution.java:12: Line is longer than 80 characters (found 111). [LineLength]
-[ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Solution.java:31: Line is longer than 80 characters (found 99). [LineLength]
-[ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Solution.java:34:40: '+' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Solution.java:34:41: '+' is not followed by whitespace. [WhitespaceAround]
-[ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Solution.java:35: Line is longer than 80 characters (found 114). [LineLength]
+[ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Solution.java:25: Line is longer than 80 characters (found 96). [LineLength]
+[ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Solution.java:28: Line is longer than 80 characters (found 107). [LineLength]
+[ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Solution.java:31:48: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Solution.java:31:49: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Solution.java:32: Line is longer than 80 characters (found 122). [LineLength]
 Audit done.
-Checkstyle ends with 11 errors.
+Checkstyle ends with 12 errors.
 Starting audit...
 [ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Student.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] F:\MSIT\20186102-ADS1\assignments\ADS-1 Remedial-3\Remedial-3\Student.java:1: Missing a Javadoc comment. [JavadocType]

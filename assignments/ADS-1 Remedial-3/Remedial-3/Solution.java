@@ -14,11 +14,6 @@ class Solution {
 			count++;
 		}
 		Insertion.sort(students);
-		// System.out.println("----------------------------");
-		// for (Student st : students) {
-		// 	System.out.println(st);
-		// }
-		// System.out.println("-----------------------------");
 		int numOfqueries = Integer.parseInt(sc.nextLine());
 		for (int j = 0; j < students.length; j++) {
 			data[j] = students[j].getmarks();
@@ -26,18 +21,21 @@ class Solution {
 		for (int i = 0; i < numOfqueries; i++) {
 			String query = sc.nextLine();
 			int pos = bs.indexOf(data, Double.parseDouble(query));
-			int temp = pos;
-			// System.out.println(temp);
-			while (pos >= 0 && students[pos].getmarks() == Double.parseDouble(query)) {
-				pos--;
-			}
-			int start = pos+1;
-			while (temp < students.length && students[temp].getmarks() == Double.parseDouble(query)) {
-				temp++;
-			}
-			int end = temp - 1;
-			for (int k = start; k <= end; k++) {
-				System.out.println(students[k]);
+			if (pos == -1) {
+				System.out.println("This marks are not awarded to any student");
+			} else {
+				int temp = pos;
+				while (pos >= 0 && students[pos].getmarks() == Double.parseDouble(query)) {
+					pos--;
+				}
+				int start = pos+1;
+				while (temp < students.length && students[temp].getmarks() == Double.parseDouble(query)) {
+					temp++;
+				}
+				int end = temp - 1;
+				for (int k = start; k <= end; k++) {
+					System.out.println(students[k]);
+				}
 			}
 		}
 	}
