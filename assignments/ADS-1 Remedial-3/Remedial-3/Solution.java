@@ -4,7 +4,9 @@ class Solution {
 		Scanner sc = new Scanner(System.in);
 		int numOfrecords = Integer.parseInt(sc.nextLine());
 		int count = 0;
+		BinarySearch bs = new BinarySearch();
 		Student[] students = new Student[numOfrecords];
+		Double[] data = new Double[numOfrecords];
 		while (count < numOfrecords) {
 			String[] str = sc.nextLine().split(",");
 			Student st = new Student(Integer.parseInt(str[0]), str[1], Double.parseDouble(str[2]));
@@ -12,34 +14,30 @@ class Solution {
 			count++;
 		}
 		Insertion.sort(students);
+		// System.out.println("----------------------------");
 		// for (Student st : students) {
 		// 	System.out.println(st);
 		// }
 		// System.out.println("-----------------------------");
 		int numOfqueries = Integer.parseInt(sc.nextLine());
-		// int temp = 0;
-		int start = 0;
+		for (int j = 0; j < students.length; j++) {
+			data[j] = students[j].getmarks();
+		}
 		for (int i = 0; i < numOfqueries; i++) {
 			String query = sc.nextLine();
-			// for (Student st : students) {
-			// 	if (st.getmarks() == Double.parseDouble(query)) {
-			// 		System.out.println(st);
-			// 	}
-			// }
-			int end = 0;
-			if (Double.parseDouble(query) <= students[students.length/2].getmarks()) {
-				for (int j = students.length/2; j >= 0; j--) {
-					if (students[j].getmarks() == Double.parseDouble(query)) {
-						System.out.println(students[j]);
-					}
-				}
+			int pos = bs.indexOf(data, Double.parseDouble(query));
+			int temp = pos;
+			// System.out.println(temp);
+			while (pos >= 0 && students[pos].getmarks() == Double.parseDouble(query)) {
+				pos--;
 			}
-			else {
-				for (int j = students.length/2+1; j < students.length; j++) {
-					if (students[j].getmarks() == Double.parseDouble(query)) {
-						System.out.println(students[j]);
-					}
-				}
+			int start = pos+1;
+			while (temp < students.length && students[temp].getmarks() == Double.parseDouble(query)) {
+				temp++;
+			}
+			int end = temp - 1;
+			for (int k = start; k <= end; k++) {
+				System.out.println(students[k]);
 			}
 		}
 	}
